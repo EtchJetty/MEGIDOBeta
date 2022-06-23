@@ -34,9 +34,14 @@ Just [download this repo as a zip file](https://github.com/EtchJetty/MEGIDOBeta/
 > 
 > idk. i think there is a lot of potential here or in a similar concept -- its one of the, damn i wish homestuck had become ubiquitous enough to recieve games and spinoffs in the same way that other properties do,
 > ![John(?) Egbert giving a boon.](docs/m8.png?raw=true "MEGIDO")
+> 
 > kinda things
+> 
 > ![Pop Scratch retrieving Damara's meteor.](docs/rulermegido.gif?raw=true "MEGIDO")
+> 
 > i just think
+> 
 > that if you are wanting for a setting similar to hell.............
+> 
 > infinite scratch manor escape roguelike
 
