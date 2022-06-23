@@ -1,0 +1,11 @@
+{
+  Animations = {
+     "_sequence" = true
+    73 = {
+      Name = "AthenaOverlay"
+      InheritFrom = "HadesOverlay"
+      FilePath = "Portraits_Jade_01"
+      Scale = 0.3
+    }
+  }
+}

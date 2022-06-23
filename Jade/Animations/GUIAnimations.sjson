@@ -1,0 +1,22 @@
+{
+  Animations = {
+	 "_sequence" = true
+    710 = {
+      Name = "BoonInfoSymbolAthenaIcon"
+      InheritFrom = "BoonInfoSymbolBase"
+      FilePath = "Jade"
+    }
+    746 = {
+      Name = "BoonSymbolAthenaIcon"
+      InheritFrom = "BoonSymbolBase"
+      FilePath = "Jade"
+    }
+    791 = {
+      Name = "BoonSymbolAthenaIsometric"
+      InheritFrom = "BoonSymbolBaseIsometric"
+      FilePath = "JadeIconSpin\JadeIconSpin0001"
+      EndFrame = 1
+      StartFrame = 1
+    }
+}
+}
