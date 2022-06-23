@@ -13,22 +13,31 @@ Just [download this repo as a zip file](https://github.com/EtchJetty/MEGIDOBeta/
 
 > basically yall know the game HADES?
 > ![Pop Scratch and Damara Megido.](docs/m1.png?raw=true "MEGIDO")
+> 
 > well
 > lemme introduce you to the concept for MEGIDO
 > ![Rose Lalonde giving a boon.](docs/m2.png?raw=true "MEGIDO")
+> 
 > (lower effort one)
 > ![Damara Megido on the Boons menu.](docs/m3.png?raw=true "MEGIDO")
+> 
 > but you get the concept, right?
 > ![Eridan Ampora giving a boon.](docs/m4.png?raw=true "MEGIDO")
+> 
 > the homestuck kids.... they're literally GODS
 > ![Dave Strider giving a boon.](docs/m5.png?raw=true "MEGIDO")
+> 
 > couldn't they be invoked just as much as those from olympus?
 > ![Vriska Serket giving a boon.](docs/m6.png?raw=true "MEGIDO")
+> 
 > ![Damara Megido preparing to fight the Midnight Crew.](docs/m7.png?raw=true "MEGIDO")
+> 
 > idk. i think there is a lot of potential here or in a similar concept -- its one of the, damn i wish homestuck had become ubiquitous enough to recieve games and spinoffs in the same way that other properties do,
 > ![John(?) Egbert giving a boon.](docs/m8.png?raw=true "MEGIDO")
 > kinda things
+> 
 > ![Pop Scratch retrieving Damara's meteor.](docs/rulermegido.gif?raw=true "MEGIDO")
+> 
 > i just think
 > that if you are wanting for a setting similar to hell.............
 > infinite scratch manor escape roguelike
