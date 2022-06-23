@@ -1,7 +1,7 @@
 # MEGIDO Beta
 A characterswap mod for HADES. In extremely early alpha. 
 
-![A screenshot of Zagreus from Hades, staring at a door with the Space Aspect from Homestuck on it, implying he can walk through and collect the reward.](docs/zagreus_space.png?raw=true "Zagreus and the Space Aspect Foreshadowing")
+![A screenshot of Zagreus from Hades, staring at a door with the Space Aspect from Homestuck on it, implying he can walk through and collect the reward.](docs/zagreus_space.png?raw=true "Foreshadowing dot png")
 
 Requires the [Mod Importer]("https://www.nexusmods.com/hades/mods/26") and [ModUtil]("https://www.nexusmods.com/hades/mods/27") to work. 
 
