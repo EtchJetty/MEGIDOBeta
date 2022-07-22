@@ -120,7 +120,7 @@ local function applyFormattingDeep(topTable)
 			godName = string.sub(topTable["Cue"], 5, -6)
 			if homestuckLookup[godName] ~= nil then
 				topTable["Text"] = "{#" .. homestuckLookup[godName] .. "}" .. topTable["Text"]
-				topTable["Text"] = string.gsub(topTable["Text"], "{#PreviousFormat}", "{#PreviousFormat}{#" .. godName .. "}")
+				topTable["Text"] = string.gsub(topTable["Text"], "{#PreviousFormat}", "{#PreviousFormat}{#" .. homestuckLookup[godName] .. "}")
 			end
 		end
 
