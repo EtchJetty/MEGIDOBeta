@@ -1,9 +1,11 @@
 ModUtil.Mod.Register( "MEGIDOBeta" )
 
+-- Load Charater Textures
+
 ModUtil.WrapBaseFunction(
     "SetupMap",
     function(baseFunc)
-        DebugPrint({Text = "@" .. "MEGIDOBeta" .. " Trying to load package " .. "RoseArt" .. ".pkg"})
+        DebugPrint({Text = "@MEGIDOBeta Trying to load package RoseArt.pkg"})
         LoadPackages({Name = {"RoseArt"}})
         return baseFunc()
     end
@@ -12,12 +14,13 @@ ModUtil.WrapBaseFunction(
 ModUtil.WrapBaseFunction(
     "SetupMap",
     function(baseFunc)
-        DebugPrint({Text = "@" .. "MEGIDOBeta" .. " Trying to load package " .. "JadeSprites" .. ".pkg"})
+        DebugPrint({Text = "@MEGIDOBeta Trying to load package JadeSprites.pkg"})
         LoadPackages({Name = {"JadeSprites"}})
         return baseFunc()
     end
 )
 
+-- Add new Text formats for Charaters
 
 ModUtil.Table.Merge( TextFormats, {
 	June = {
@@ -73,7 +76,7 @@ ModUtil.Table.Merge( TextFormats, {
 } )
 
 
-
+-- Apply formatting to all Characters
 -- Run this AFTER replacing all the text but BEFORE replacing the audio
 
 local function applyFormattingDeep(topTable)

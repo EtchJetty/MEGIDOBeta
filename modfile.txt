@@ -1,19 +1,20 @@
 -: Mod Name: MEGIDOBeta
     Author - EtchJetty
+    Co-Author - FlaringK
     Artist - toastie
 :-
 
 
-Import "LoadTextFormats.lua"
+Import "Homestuckify.lua"
 
+:: Replace God Names 
 To "Game/Text/en/HelpText.en.sjson"
 SJSON "HelpText.en.sjson"
-
 To "Game/Text/en/MacroText.sjson"
 SJSON "MacroText.sjson"
 
 
-:: Animations
+:: Rose Animations
 To "Game/Animations/PortraitAnimations.sjson"
 SJSON "Rose/Animations/PortraitAnimations.sjson"
 To "Game/Animations/ObstacleAnimations.sjson"
@@ -35,11 +36,7 @@ Replace "Packages/RoseArt.pkg_manifest"
 To Win/Packages/720p/RoseArt.pkg_manifest
 Replace "Packages/RoseArt.pkg_manifest"
 
-
-:: temporarily disabled, jadefiles
-:: Import "loadjade.lua"
-
-:: Animations
+:: Jade Animations
 To "Game/Animations/PortraitAnimations.sjson"
 SJSON "Jade/Animations/PortraitAnimations.sjson"
 To "Game/Animations/ObstacleAnimations.sjson"
