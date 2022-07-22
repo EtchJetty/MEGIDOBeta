@@ -180,5 +180,92 @@
       DisplayName = "Knight of Time"
       Description = "The son of the god of the dead shall someday earn various Boons of Dave."
     }
+
+    /* Achievements Invite */
+    1899 = {
+      Id = "ZeusAboutOlympianReunionQuest01"
+      DisplayName = "Invited Jade"
+    }
+    1900 = {
+      Id = "PoseidonAboutOlympianReunionQuest01"
+      DisplayName = "Invited Vriska"
+    }
+    1901 = {
+      Id = "AthenaAboutOlympianReunionQuest01"
+      DisplayName = "Invited Rose"
+    }
+    1902 = {
+      Id = "AphroditeAboutOlympianReunionQuest01"
+      DisplayName = "Invited Roxy"
+    }
+    1903 = {
+      Id = "AresAboutOlympianReunionQuest01"
+      DisplayName = "Invited Jane"
+    }
+    1904 = {
+      Id = "ArtemisAboutOlympianReunionQuest01"
+      DisplayName = "Invited Dirk"
+    }
+    1905 = {
+      Id = "DionysusAboutOlympianReunionQuest01"
+      DisplayName = "Invited Jake"
+    }
+    1906 = {
+      Id = "DemeterAboutOlympianReunionQuest01"
+      DisplayName = "Invited Dave"
+    }
+    1907 = {
+      Id = "HermesAboutOlympianReunionQuest01"
+      DisplayName = "Invited June"
+    }
+
+    /* Achievement Disciple */
+    3015 = {
+      Id = "ClearRequiredTraitsZeus"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Jade{!Icons.RunClearStar}"
+    }
+    3016 = {
+      Id = "ClearRequiredTraitsPoseidon"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Vriska{!Icons.RunClearStar}"
+    }
+    3017 = {
+      Id = "ClearRequiredTraitsAthena"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Rose{!Icons.RunClearStar}"
+    }
+    3018 = {
+      Id = "ClearRequiredTraitsAres"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Jane{!Icons.RunClearStar}"
+    }
+    3019 = {
+      Id = "ClearRequiredTraitsArtemis"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Dirk{!Icons.RunClearStar}"
+    }
+    3020 = {
+      Id = "ClearRequiredTraitsAphrodite"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Roxy{!Icons.RunClearStar}"
+    }
+    3021 = {
+      Id = "ClearRequiredTraitsDionysus"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Jake{!Icons.RunClearStar}"
+    }
+    3022 = {
+      Id = "ClearRequiredTraitsHermes"
+      DisplayName = "{!Icons.RunClearStar}Disciple of June{!Icons.RunClearStar}"
+    }
+    3023 = {
+      Id = "ClearRequiredTraitsDemeter"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Dave{!Icons.RunClearStar}"
+    }
+    3024 = {
+      Id = "ClearRequiredTraitsChaos"
+      DisplayName = "{!Icons.RunClearStar}Scion of Eridan{!Icons.RunClearStar}"
+    }
+
+    /* ENVIRONMENT */
+    /* Locations */
+    2280 = {
+      Id = "Location_Home"
+      DisplayName = "SCRATCH MANOR"
+    }
   }
 }

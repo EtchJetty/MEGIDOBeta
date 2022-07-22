@@ -84,7 +84,7 @@ local function applyFormattingDeep(topTable)
 	--Format Lookup
 	homestuckLookup = {
 		Aphrodite = "Roxy",
-		Arse = "Jane",
+		Ares = "Jane",
 		Artemis = "Dirk",
 		Athena = "Rose",
 		Chaos = "Eridan",
