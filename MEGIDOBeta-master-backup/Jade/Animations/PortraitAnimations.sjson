@@ -1,24 +1,22 @@
 {
   Animations = {
      "_sequence" = true
-    217 = {
-      Name = "Portrait_Zeus_Default_01"
+    214 = {
+      Name = "Portrait_Athena_Default_01"
       InheritFrom = "Portrait_God_01"
       FilePath = "Portraits_Jade_01"
       EndFrame = 1
       StartFrame = 1
-      Scale = 0.45
     }
-    218 = {
-      Name = "Portrait_Zeus_Default_01_Exit"
+    216 = {
+      Name = "Portrait_Athena_Default_01_Exit"
       InheritFrom = "Portrait_Base_01_Exit"
       FilePath = "Portraits_Jade_01"
       EndFrame = 1
       StartFrame = 1
-      Scale = 0.45
     }
-    277 = {
-      Name = "Codex_Portrait_Zeus"
+    262 = {
+      Name = "Codex_Portrait_Athena"
       InheritFrom = "Codex_Portrait_Base_01"
       FilePath = "CodexPortrait_Jade"
       EndFrame = 1

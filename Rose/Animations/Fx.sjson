@@ -1,14 +1,14 @@
 {
   Animations = {
        "_sequence" = true
-    4216 = {
-      Name = "BoonDropZeusIcon"
+    4183 = {
+      Name = "BoonDropAthenaIcon"
       InheritFrom = "BoonDropIcon"
-      FilePath = "JadeIconSpin\JadeIconSpin"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\LightIconSpin\LightIconSpin"
       StartFrame = 1
       EndFrame = 3
       NumFrames = 3
-      Scale = 0.4
+      Scale = 0.2
     }
   }
 }

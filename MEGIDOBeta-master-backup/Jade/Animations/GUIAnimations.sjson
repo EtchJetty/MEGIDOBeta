@@ -1,18 +1,18 @@
 {
   Animations = {
 	 "_sequence" = true
-    716 = {
-      Name = "BoonInfoSymbolZeusIcon"
+    710 = {
+      Name = "BoonInfoSymbolAthenaIcon"
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "Jade"
     }
-    770 = {
-      Name = "BoonSymbolZeusIcon"
+    746 = {
+      Name = "BoonSymbolAthenaIcon"
       InheritFrom = "BoonSymbolBase"
       FilePath = "Jade"
     }
-    795 = {
-      Name = "BoonSymbolZeusIsometric"
+    791 = {
+      Name = "BoonSymbolAthenaIsometric"
       InheritFrom = "BoonSymbolBaseIsometric"
       FilePath = "JadeIconSpin\JadeIconSpin0001"
       EndFrame = 1

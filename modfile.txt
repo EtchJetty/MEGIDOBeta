@@ -3,7 +3,41 @@
     Artist - toastie
 :-
 
-Import "loadjade.lua"
+
+Import "LoadTextFormats.lua"
+
+To "Game/Text/en/HelpText.en.sjson"
+SJSON "HelpText.en.sjson"
+
+To "Game/Text/en/MacroText.sjson"
+SJSON "MacroText.sjson"
+
+
+:: Animations
+To "Game/Animations/PortraitAnimations.sjson"
+SJSON "Rose/Animations/PortraitAnimations.sjson"
+To "Game/Animations/ObstacleAnimations.sjson"
+SJSON "Rose/Animations/ObstacleAnimations.sjson"
+To "Game/Animations/Fx.sjson"
+SJSON "Rose/Animations/Fx.sjson"
+To "Game/Animations/GUIAnimations.sjson"
+SJSON "Rose/Animations/GUIAnimations.sjson"
+
+To "Win/Packages/RoseArt.pkg"
+Replace "Packages/RoseArt.pkg"
+
+To Win/Packages/720p/RoseArt.pkg
+Replace "Packages/RoseArt.pkg"
+
+To Win/Packages/RoseArt.pkg_manifest
+Replace "Packages/RoseArt.pkg_manifest"
+
+To Win/Packages/720p/RoseArt.pkg_manifest
+Replace "Packages/RoseArt.pkg_manifest"
+
+
+:: temporarily disabled, jadefiles
+:: Import "loadjade.lua"
 
 :: Animations
 To "Game/Animations/PortraitAnimations.sjson"

@@ -1,8 +1,8 @@
 {
   Animations = {
        "_sequence" = true
-    4216 = {
-      Name = "BoonDropZeusIcon"
+    4183 = {
+      Name = "BoonDropAthenaIcon"
       InheritFrom = "BoonDropIcon"
       FilePath = "JadeIconSpin\JadeIconSpin"
       StartFrame = 1

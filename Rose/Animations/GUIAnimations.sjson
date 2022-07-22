@@ -1,0 +1,22 @@
+{
+  Animations = {
+	 "_sequence" = true
+    710 = {
+      Name = "BoonInfoSymbolAthenaIcon"
+      InheritFrom = "BoonInfoSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Light2"
+    }
+    746 = {
+      Name = "BoonSymbolAthenaIcon"
+      InheritFrom = "BoonSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Light2"
+    }
+    791 = {
+      Name = "BoonSymbolAthenaIsometric"
+      InheritFrom = "BoonSymbolBaseIsometric"
+      FilePath = "GUI\Icons\RoomReward\Light"
+      EndFrame = 1
+      StartFrame = 1
+    }
+}
+}

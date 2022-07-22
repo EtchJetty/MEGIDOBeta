@@ -1,0 +1,184 @@
+{
+  Texts = {
+       "_sequence" = true
+
+    /* Dialogue God Names and Titles */
+    2199 = {
+      Id = "NPC_Zeus_01"
+      DisplayName = "Jade"
+      Description = "Witch of Space"
+    }
+    2200 = {
+      Id = "NPC_Poseidon_01"
+      DisplayName = "Vriska"
+      Description = "Thief of Light"
+    }
+    2201 = {
+      Id = "NPC_Athena_01"
+      DisplayName = "Rose"
+      Description = "Seer of Light"
+    }
+    2202 = {
+      Id = "NPC_Ares_01"
+      DisplayName = "Jane"
+      Description = "Maid of Life"
+    }
+    2203 = {
+      Id = "NPC_Dionysus_01"
+      DisplayName = "Jake"
+      Description = "Page of Hope"
+    }
+    2204 = {
+      Id = "NPC_Aphrodite_01"
+      DisplayName = "Roxy"
+      Description = "Rogue of Void"
+    }
+    2205 = {
+      Id = "NPC_Artemis_01"
+      DisplayName = "Dirk"
+      Description = "Prince of Heart"
+    }
+    2206 = {
+      Id = "NPC_Hermes_01"
+      DisplayName = "June"
+      Description = "Heir of Breath"
+    }
+    2207 = {
+      Id = "NPC_Demeter_01"
+      DisplayName = "Dave"
+      Description = "Knight of Time"
+    }
+
+    /* Boon God Names and Titles */
+    174 = {
+      Id = "ZeusUpgrade"
+      DisplayName = "Jade"
+      Description = "Witch of Space"
+    }
+    242 = {
+      Id = "PoseidonUpgrade"
+      DisplayName = "Vriska"
+      Description = "Thief of Light"
+    }
+    208 = {
+      Id = "AthenaUpgrade"
+      DisplayName = "Rose"
+      Description = "Seer of Light"
+    }
+    276 = {
+      Id = "AresUpgrade"
+      DisplayName = "Jane"
+      Description = "Maid of Life"
+    }
+    370 = {
+      Id = "DionysusUpgrade"
+      DisplayName = "Jake"
+      Description = "Page of Hope"
+    }
+    306 = {
+      Id = "AphroditeUpgrade"
+      DisplayName = "Roxy"
+      Description = "Rogue of Void"
+    }
+    338 = {
+      Id = "ArtemisUpgrade"
+      DisplayName = "Dirk"
+      Description = "Prince of Heart"
+    }
+    450 = {
+      Id = "HermesUpgrade"
+      DisplayName = "June"
+      Description = "Heir of Breath"
+    }
+    412 = {
+      Id = "DemeterUpgrade"
+      DisplayName = "Dave"
+      Description = "Knight of Time"
+    }
+
+    /* Achievements First meet */
+    1784 = {
+      Id = "AthenaFirstPickUp"
+      DisplayName = "Met Rose Lalonde"
+    }
+    1785 = {
+      Id = "ZeusFirstPickUp"
+      DisplayName = "Met Jade Harley"
+    }
+    1786 = {
+      Id = "PoseidonFirstPickUp"
+      DisplayName = "Met Vriska Serket"
+    }
+    1787 = {
+      Id = "DionysusFirstPickUp"
+      DisplayName = "Met Jake Harley"
+    }
+    1788 = {
+      Id = "AresFirstPickUp"
+      DisplayName = "Met Jane Harley"
+    }
+    1789 = {
+      Id = "ArtemisFirstPickUp"
+      DisplayName = "Met Dirk Strider"
+    }
+    1790 = {
+      Id = "AphroditeFirstPickUp"
+      DisplayName = "Met Roxy Lalonde"
+    }
+    1791 = {
+      Id = "HermesFirstPickUp"
+      DisplayName = "Met June Egbert"
+    }
+    1792 = {
+      Id = "DemeterFirstPickUp"
+      DisplayName = "Met Dave Strider"
+    }
+
+    /* Achievements Get Boon */
+    1811 = {
+      Id = "AthenaUpgrades"
+      DisplayName = "Seer of Light"
+      Description = "The son of the god of the dead shall someday earn various Boons of Rose."
+    }
+    1812 = {
+      Id = "ZeusUpgrades"
+      DisplayName = "Witch of Space"
+      Description = "The son of the god of the dead shall someday earn various Boons of Jade."
+    }
+    1813 = {
+      Id = "PoseidonUpgrades"
+      DisplayName = "Theif of Light"
+      Description = "The son of the god of the dead shall someday earn various Boons of Vriska."
+    }
+    1814 = {
+      Id = "AphroditeUpgrades"
+      DisplayName = "Rogue of Void"
+      Description = "The son of the god of the dead shall someday earn various Boons of Roxy."
+    }
+    1815 = {
+      Id = "AresUpgrades"
+      DisplayName = "Maid of Life"
+      Description = "The son of the god of the dead shall someday earn various Boons of Jane."
+    }
+    1816 = {
+      Id = "ArtemisUpgrades"
+      DisplayName = "Prince of Heart"
+      Description = "The son of the god of the dead shall someday earn various Boons of Dirk."
+    }
+    1817 = {
+      Id = "DionysusUpgrades"
+      DisplayName = "Page of Hope"
+      Description = "The son of the god of the dead shall someday earn various Boons of Jake."
+    }
+    1818 = {
+      Id = "HermesUpgrades"
+      DisplayName = "Heir of Breath"
+      Description = "The son of the god of the dead shall someday earn various Boons of June."
+    }
+    1819 = {
+      Id = "DemeterUpgrades"
+      DisplayName = "Knight of Time"
+      Description = "The son of the god of the dead shall someday earn various Boons of Dave."
+    }
+  }
+}
