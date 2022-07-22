@@ -5,10 +5,6 @@
       Name = "BoonDropAthenaIcon"
       InheritFrom = "BoonDropIcon"
       FilePath = "GUI\Screens\BoonSelectSymbols\Spin\LightIconSpin\LightIconSpin"
-      StartFrame = 1
-      EndFrame = 3
-      NumFrames = 3
-      Scale = 0.2
     }
   }
 }
