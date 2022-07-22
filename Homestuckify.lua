@@ -22,59 +22,47 @@ ModUtil.WrapBaseFunction(
 
 -- Add new Text formats for Charaters
 
-ModUtil.Table.Merge( TextFormats, {
-	June = {
-		Font = "UbuntuMonoBold",
-		FontSize = 28,
-		Color = { 7, 21, 205, 255 }
-	},
-	Rose = {
-		Font = "UbuntuMonoBold",
-		FontSize = 28,
-		Color = { 181, 54, 218, 255 }
-	},
-	Dave = {
-		Font = "UbuntuMonoBold",
-		FontSize = 28,
-		Color = { 224, 7, 7, 255 }
-	},
-	Jade = {
-		Font = "UbuntuMonoBold",
-		FontSize = 28,
-		Color = { 74, 201, 37, 255 }
-	},
-	Jane = {
-		Font = "UbuntuMonoBold",
-		FontSize = 28,
-		Color = { 0, 213, 242, 255 }
-	},
-	Jake = {
-		Font = "UbuntuMonoBold",
-		FontSize = 28,
-		Color = { 31, 148, 0, 255 }
-	},
-	Roxy = {
-		Font = "UbuntuMonoBold",
-		FontSize = 28,
-		Color = { 241, 65, 239, 255 }
-	},
-	Dirk = {
-		Font = "UbuntuMonoBold",
-		FontSize = 28,
-		Color = { 242, 164, 0, 255 }
-	},
-	Vriska = {
-		Font = "UbuntuMonoBold",
-		FontSize = 28,
-		Color = { 0, 86, 130, 255 }
-	},
-	Eridan = {
-		Font = "UbuntuMonoBold",
-		FontSize = 28,
-		Color = { 106, 0, 106, 255 }
-	}
-} )
+local function addTextFormatting()
 
+	homestuckColors = {
+		June = { 7, 21, 205, 255 },
+		Rose = { 181, 54, 218, 255 },
+		Dave = { 224, 7, 7, 255 },
+		Jade = { 74, 201, 37, 255 },
+		Jane = { 0, 213, 242, 255 },
+		Jake = { 31, 148, 0, 255 },
+		Roxy = { 241, 65, 239, 255 },
+		Dirk = { 242, 164, 0, 255 },
+		Vriska = { 0, 86, 130, 255 },
+		Eridan = { 106, 0, 106, 255 }
+	}
+
+	-- Base text, change font and shit here
+	baseFormatTable = {
+		Font = "UbuntuMonoBold",
+		FontSize = 28,
+		Color = { 0, 0, 0, 255 },
+		ShadowColor = Color.Black, 
+		ShadowOffset = {2, 2}, 
+		ShadowAlpha = 0.3
+	}
+
+	-- Generate formats and merge to TextFormats table
+	generatedFormatList = {}
+	for homestuckKid,color in pairs(homestuckColors) do
+		newFormat = {}
+
+		for k,v in pairs(baseFormatTable) do
+			newFormat[k] = v 
+		end
+		newFormat["Color"] = color
+
+		generatedFormatList[homestuckKid] = newFormat
+	end
+
+	ModUtil.Table.Merge( TextFormats, generatedFormatList )
+
+end
 
 -- Apply formatting to all Characters
 -- Run this AFTER replacing all the text but BEFORE replacing the audio
@@ -129,5 +117,7 @@ local function applyFormattingDeep(topTable)
 end
 
 ModUtil.DebugCall( function()
+	addTextFormatting()
 	applyFormattingDeep(LootData)
+	applyFormattingDeep(RoomSetData.Tartarus)
 end )		
