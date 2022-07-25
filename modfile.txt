@@ -1,7 +1,11 @@
 -: Mod Name: MEGIDOBeta
-    Author - EtchJetty
-    Co-Author - FlaringK
-    Artist - toastie
+    PROJECT LEAD - EtchJetty
+    CHARATER ARTIST - Toasttiiee
+    3D ARTIST - RoseRoxy
+    3D ARTIST - UberTheMeh
+    3D ARTIST - Floober
+    CODING - FlaringK
+    CONCEPT & DESIGN - Nihilistic Janitor
 :-
 
 
@@ -12,6 +16,8 @@ To "Game/Text/en/HelpText.en.sjson"
 SJSON "HelpText.en.sjson"
 To "Game/Text/en/MacroText.sjson"
 SJSON "MacroText.sjson"
+To "Game/Text/en/CodexText.en.sjson"
+SJSON "CodexText.sjson"
 
 
 :: Rose Animations

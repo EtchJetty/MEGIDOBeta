@@ -1,6 +1,6 @@
 ModUtil.Mod.Register( "MEGIDOBeta" )
 
--- Load Charater Textures
+--!! Load Charater Textures
 
 ModUtil.WrapBaseFunction(
     "SetupMap",
@@ -20,7 +20,7 @@ ModUtil.WrapBaseFunction(
     end
 )
 
--- Add new Text formats for Charaters
+--!! Add new Text formats for Charaters
 
 local function addTextFormatting()
 
@@ -40,15 +40,25 @@ local function addTextFormatting()
 	-- Base text, change font and shit here
 	baseFormatTable = {
 		Font = "UbuntuMonoBold",
-		FontSize = 28,
+		FontSize = 27,
 		Color = { 0, 0, 0, 255 },
 		ShadowColor = Color.Black, 
 		ShadowOffset = {2, 2}, 
-		ShadowAlpha = 0.3
+		ShadowAlpha = 0.3,
+		--OutlineColor = {0, 0, 0, 1.0},
+		--OutlineThickness = 3.0,
+	}
+
+	-- Extra formats
+	generatedFormatList = {
+		CodexTitleFormat = {
+			Font = "AlegreyaSansExtraBold",
+			FontSize = 26,
+			Color = Color.CodexText,
+		},
 	}
 
 	-- Generate formats and merge to TextFormats table
-	generatedFormatList = {}
 	for homestuckKid,color in pairs(homestuckColors) do
 		newFormat = {}
 
@@ -64,7 +74,7 @@ local function addTextFormatting()
 
 end
 
--- Apply formatting to all Characters
+--!! Apply formatting to all Characters
 -- Run this AFTER replacing all the text but BEFORE replacing the audio
 
 local function applyFormattingDeep(topTable)
@@ -105,11 +115,19 @@ local function applyFormattingDeep(topTable)
 
 		-- Check if dialog line
 		if topTable["Cue"] ~= nil and topTable["Text"] ~= nil then
+
+			-- If VO is a god, give formatting
 			godName = string.sub(topTable["Cue"], 5, -6)
 			if homestuckLookup[godName] ~= nil then
 				topTable["Text"] = "{#" .. homestuckLookup[godName] .. "}" .. topTable["Text"]
 				topTable["Text"] = string.gsub(topTable["Text"], "{#PreviousFormat}", "{#PreviousFormat}{#" .. homestuckLookup[godName] .. "}")
 			end
+
+			-- Replace all refs of Hades Gods to Homestuck Gods
+			for hadesGod,homeGod in pairs(homestuckLookup) do
+				topTable["Text"] = string.gsub(topTable["Text"], hadesGod, homeGod)
+			end
+
 		end
 
 	end
@@ -119,5 +137,39 @@ end
 ModUtil.DebugCall( function()
 	addTextFormatting()
 	applyFormattingDeep(LootData)
+	applyFormattingDeep(NPCData.PresetEventArgs)
+	applyFormattingDeep(DeathLoopData) -- * This is really inefficent find the specific table later
 	applyFormattingDeep(RoomSetData.Tartarus)
 end )		
+
+
+
+--!! Add Credits codex menu
+
+table.insert(CodexOrdering.Order, "megido")
+CodexOrdering.megido = {
+	Order = {
+		"Credits",
+	}
+}
+
+Codex.megido = {
+	UnlockType = CodexUnlockTypes.Mystery,
+	TitleText = "MEGIDO",
+
+	Entries = {
+		Credits = {
+			Entries = {
+				{
+					Text = "megidoCredits"
+				},
+				{
+					Text = "megidoCredits",
+					UnlockType = CodexUnlockTypes.Mystery,
+					UnlockThreshold = 1,
+				}
+			}
+		}
+	}
+
+}
