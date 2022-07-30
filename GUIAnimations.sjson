@@ -1,0 +1,198 @@
+{
+  Animations = {
+    "_sequence" = true
+
+    1046 = {
+      Name = "BoonSymbolGlow_Aphrodite"
+      Color = { Red=0.012 Green=0.204 Blue=0.463 }
+    }
+    1047 = {
+      Name = "BoonSymbolFlare_Aphrodite"
+      Color = { Red=0.012 Green=0.204 Blue=0.463 }
+    }
+    1048 = {
+      Name = "BoonSymbolAphrodite"
+      Color = { Red=0.000 Green=0.075 Blue=0.294 }
+    }
+    1049 = {
+      Name = "BoonBackingB_Aphrodite"
+      Color = { Red=0.945 Green=0.255 Blue=0.937 }
+    }
+    1050 = {
+      Name = "BoonBackingC_Aphrodite"
+      Color = { Red=0.945 Green=0.255 Blue=0.937 }
+    }
+
+
+    1052 = {
+      Name = "BoonSymbolGlow_Ares"
+      Color = { Red=0.800 Green=0.765 Blue=0.706 }
+    }
+    1053 = {
+      Name = "BoonSymbolFlare_Ares"
+      Color = { Red=0.800 Green=0.765 Blue=0.706 }
+    }
+    1054 = {
+      Name = "BoonSymbolAres"
+      Color = { Red=0.463 Green=0.765 Blue=0.306 }
+    }
+    1055 = {
+      Name = "BoonBackingB_Ares"
+      Color = { Red=0.945 Green=0.255 Blue=0.937 }
+    }
+
+
+    1058 = {
+      Name = "BoonSymbolGlow_Artemis"
+      Color = { Red=0.333 Green=0.078 Blue=0.165 }
+    }
+    1059 = {
+      Name = "BoonSymbolFlare_Artemis"
+      Color = { Red=0.333 Green=0.078 Blue=0.165 }
+    }
+    1060 = {
+      Name = "BoonSymbolArtemis"
+      Color = { Red=0.741 Green=0.094 Blue=0.392 }
+    }
+    1061 = {
+      Name = "BoonBackingB_Artemis"
+      Color = { Red=0.945 Green=0.255 Blue=0.937 }
+    }
+
+
+
+
+    1064 = {
+      Name = "BoonSymbolGlow_Athena"
+      Color = { Red=0.941 Green=0.518 Blue=0.047 }
+    }
+    1065 = {
+      Name = "BoonSymbolFlare_Athena"
+      Color = { Red=0.941 Green=0.518 Blue=0.047 }
+    }
+    1066 = {
+      Name = "BoonSymbolAthena"
+      Color = { Red=0.969 Green=0.980 Blue=0.306 }
+    }
+    1067 = {
+      Name = "BoonBackingB_Athena"
+      Color = { Red=0.945 Green=0.255 Blue=0.937 }
+    }
+
+
+    1070 = {
+      Name = "BoonSymbolGlow_Demeter"
+      Color = { Red=0.718 Green=0.051 Blue=0.055 }
+    }
+    1071 = {
+      Name = "BoonSymbolFlare_Demeter"
+      Color = { Red=0.718 Green=0.051 Blue=0.055 }
+    }
+    1072 = {
+      Name = "BoonSymbolDemeter"
+      Color = { Red=1.000 Green=0.137 Blue=0.024 }
+    }
+    1073 = {
+      Name = "BoonBackingB_Demeter"
+      Color = { Red=0.945 Green=0.255 Blue=0.937 }
+    }
+
+
+    1076 = {
+      Name = "BoonSymbolGlow_Dionysus"
+      Color = { Red=0.992 Green=0.992 Blue=0.992 }
+    }
+    1077 = {
+      Name = "BoonSymbolFlare_Dionysus"
+      Color = { Red=0.992 Green=0.992 Blue=0.992 }
+    }
+    1078 = {
+      Name = "BoonSymbolDionysus"
+      Color = { Red=1.000 Green=0.878 Blue=0.580 }
+    }
+    1079 = {
+      Name = "BoonBackingB_Dionysus"
+      Color = { Red=0.945 Green=0.255 Blue=0.937 }
+    }
+
+
+    1082 = {
+      Name = "BoonSymbolGlow_Poseidon"
+      Color = { Red=0.000 Green=0.337 Blue=0.510 }
+    }
+    1083 = {
+      Name = "BoonSymbolFlare_Poseidon"
+      Color = { Red=0.000 Green=0.337 Blue=0.510 }
+    }
+    1084 = {
+      Name = "BoonSymbolPoseidon"
+      Color = { Red=0.000 Green=0.337 Blue=0.510 }
+    }
+    1085 = {
+      Name = "BoonBackingB_Poseidon"
+      Color = { Red=0.945 Green=0.255 Blue=0.937 }
+    }
+
+
+    1088 = {
+      Name = "BoonSymbolGlow_Zeus"
+      Color = { Red=0.000 Green=0.000 Blue=0.000 }
+    }
+    1089 = {
+      Name = "BoonSymbolFlare_Zeus"
+      Color = { Red=0.000 Green=0.000 Blue=0.000 }
+    }
+    1090 = {
+      Name = "BoonSymbolZeus"
+      Color = { Red=0.290 Green=0.788 Blue=0.145 }
+    }
+    1091 = {
+      Name = "BoonBackingB_Zeus"
+      Color = { Red=0.290 Green=0.788 Blue=0.145 }
+    }
+
+
+    1094 = {
+      Name = "BoonSymbolGlow_Hermes"
+      Color = { Red=0.263 Green=0.475 Blue=0.902 }
+    }
+    1095 = {
+      Name = "BoonSymbolFlare_Hermes"
+      Color = { Red=0.263 Green=0.475 Blue=0.902 }
+    }
+    1096 = {
+      Name = "BoonSymbolHermes"
+      Color = { Red=0.063 Green=0.875 Blue=1.000 }
+    }
+    1097 = {
+      Name = "BoonBackingB_Hermes"
+      Color = { Red=0.027 Green=0.082 Blue=0.804 }
+    }
+    1098 = {
+      Name = "BoonBackingC_Hermes"
+      Color = { Red=0.027 Green=0.082 Blue=0.804 }
+    }
+
+
+    1100 = {
+      Name = "BoonSymbolGlow_Chaos"
+      Color = { Red=0.322 Green=0.047 Blue=0.380 }
+    }
+    1101 = {
+      Name = "BoonSymbolFlare_Chaos"
+      Color = { Red=0.322 Green=0.047 Blue=0.380 }
+    }
+    1102 = {
+      Name = "BoonSymbolChaos"
+      Color = { Red=0.608 Green=0.302 Blue=0.678 }
+    }
+    1103 = {
+      Name = "BoonBackingB_Chaos"
+      Color = { Red=0.416 Green=0.000 Blue=0.416 }
+    }
+    1104 = {
+      Name = "BoonBackingC_Chaos"
+      Color = { Red=0.416 Green=0.000 Blue=0.416 }
+    }
+  }
+}
