@@ -20,8 +20,8 @@
     }
     2202 = {
       Id = "NPC_Ares_01"
-      DisplayName = "Jane"
-      Description = "Maid of Life"
+      DisplayName = "Dirk"
+      Description = "Prince of Heart"
     }
     2203 = {
       Id = "NPC_Dionysus_01"
@@ -35,8 +35,8 @@
     }
     2205 = {
       Id = "NPC_Artemis_01"
-      DisplayName = "Dirk"
-      Description = "Prince of Heart"
+      DisplayName = "Jane"
+      Description = "Maid of Life"
     }
     2206 = {
       Id = "NPC_Hermes_01"
@@ -67,8 +67,8 @@
     }
     276 = {
       Id = "AresUpgrade"
-      DisplayName = "Jane"
-      Description = "Maid of Life"
+      DisplayName = "Dirk"
+      Description = "Prince of Heart"
     }
     370 = {
       Id = "DionysusUpgrade"
@@ -82,8 +82,8 @@
     }
     338 = {
       Id = "ArtemisUpgrade"
-      DisplayName = "Dirk"
-      Description = "Prince of Heart"
+      DisplayName = "Jane"
+      Description = "Maid of Life"
     }
     450 = {
       Id = "HermesUpgrade"
@@ -115,11 +115,11 @@
     }
     1788 = {
       Id = "AresFirstPickUp"
-      DisplayName = "Met Jane Harley"
+      DisplayName = "Met Dirk Strider"
     }
     1789 = {
       Id = "ArtemisFirstPickUp"
-      DisplayName = "Met Dirk Strider"
+      DisplayName = "Met Jane Harley"
     }
     1790 = {
       Id = "AphroditeFirstPickUp"
@@ -157,13 +157,13 @@
     }
     1815 = {
       Id = "AresUpgrades"
-      DisplayName = "Maid of Life"
-      Description = "The son of the god of the dead shall someday earn various Boons of Jane."
+      DisplayName = "Prince of Heart"
+      Description = "The son of the god of the dead shall someday earn various Boons of Dirk."
     }
     1816 = {
       Id = "ArtemisUpgrades"
-      DisplayName = "Prince of Heart"
-      Description = "The son of the god of the dead shall someday earn various Boons of Dirk."
+      DisplayName = "Maid of Life"
+      Description = "The son of the god of the dead shall someday earn various Boons of Jane."
     }
     1817 = {
       Id = "DionysusUpgrades"
@@ -200,11 +200,11 @@
     }
     1903 = {
       Id = "AresAboutOlympianReunionQuest01"
-      DisplayName = "Invited Jane"
+      DisplayName = "Invited Dirk"
     }
     1904 = {
       Id = "ArtemisAboutOlympianReunionQuest01"
-      DisplayName = "Invited Dirk"
+      DisplayName = "Invited Jane"
     }
     1905 = {
       Id = "DionysusAboutOlympianReunionQuest01"
@@ -234,11 +234,11 @@
     }
     3018 = {
       Id = "ClearRequiredTraitsAres"
-      DisplayName = "{!Icons.RunClearStar}Disciple of Jane{!Icons.RunClearStar}"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Dirk{!Icons.RunClearStar}"
     }
     3019 = {
       Id = "ClearRequiredTraitsArtemis"
-      DisplayName = "{!Icons.RunClearStar}Disciple of Dirk{!Icons.RunClearStar}"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Jane{!Icons.RunClearStar}"
     }
     3020 = {
       Id = "ClearRequiredTraitsAphrodite"

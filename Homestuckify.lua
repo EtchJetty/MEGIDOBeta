@@ -57,8 +57,8 @@ homestuckColors = {
 --Format Lookup
 homestuckLookup = {
 	Aphrodite = "Roxy",
-	Ares = "Jane",
-	Artemis = "Dirk",
+	Ares = "Dirk",
+	Artemis = "Jane",
 	Athena = "Rose",
 	Chaos = "Eridan",
 	Demeter = "Dave",

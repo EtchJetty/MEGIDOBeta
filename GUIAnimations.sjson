@@ -23,18 +23,17 @@
       Color = { Red=0.945 Green=0.255 Blue=0.937 }
     }
 
-
     1052 = {
       Name = "BoonSymbolGlow_Ares"
-      Color = { Red=0.800 Green=0.765 Blue=0.706 }
+      Color = { Red=0.333 Green=0.078 Blue=0.165 }
     }
     1053 = {
       Name = "BoonSymbolFlare_Ares"
-      Color = { Red=0.800 Green=0.765 Blue=0.706 }
+      Color = { Red=0.333 Green=0.078 Blue=0.165 }
     }
     1054 = {
       Name = "BoonSymbolAres"
-      Color = { Red=0.463 Green=0.765 Blue=0.306 }
+      Color = { Red=0.741 Green=0.094 Blue=0.392 }
     }
     1055 = {
       Name = "BoonBackingB_Ares"
@@ -44,22 +43,20 @@
 
     1058 = {
       Name = "BoonSymbolGlow_Artemis"
-      Color = { Red=0.333 Green=0.078 Blue=0.165 }
+      Color = { Red=0.800 Green=0.765 Blue=0.706 }
     }
     1059 = {
       Name = "BoonSymbolFlare_Artemis"
-      Color = { Red=0.333 Green=0.078 Blue=0.165 }
+      Color = { Red=0.800 Green=0.765 Blue=0.706 }
     }
     1060 = {
       Name = "BoonSymbolArtemis"
-      Color = { Red=0.741 Green=0.094 Blue=0.392 }
+      Color = { Red=0.463 Green=0.765 Blue=0.306 }
     }
     1061 = {
       Name = "BoonBackingB_Artemis"
       Color = { Red=0.945 Green=0.255 Blue=0.937 }
     }
-
-
 
 
     1064 = {
