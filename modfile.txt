@@ -1,7 +1,11 @@
 -: Mod Name: MEGIDOBeta
-    Author - EtchJetty
-    Co-Author - FlaringK
-    Artist - toastie
+    PROJECT LEAD - EtchJetty
+    CHARATER ARTIST - Toasttiiee
+    3D ARTIST - RoseRoxy
+    3D ARTIST - UberTheMeh
+    3D ARTIST - Floober
+    CODING - FlaringK
+    CONCEPT & DESIGN - Nihilistic Janitor
 :-
 
 
@@ -13,6 +17,15 @@ SJSON "HelpText.en.sjson"
 To "Game/Text/en/MacroText.sjson"
 SJSON "MacroText.sjson"
 
+:: Add credits
+To "Game/Text/en/CodexText.en.sjson"
+SJSON "CodexText.sjson"
+
+:: Modify God Colours (Incomplete)
+To "Game/Animations/Fx.sjson"
+SJSON "fx.sjson"
+To "Game/Animations/GUIAnimations.sjson"
+SJSON "GUIAnimations.sjson"
 
 :: Rose Animations
 To "Game/Animations/PortraitAnimations.sjson"
