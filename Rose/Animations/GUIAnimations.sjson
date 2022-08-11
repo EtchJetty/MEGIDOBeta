@@ -15,6 +15,8 @@
       Name = "BoonSymbolAthenaIsometric"
       InheritFrom = "BoonSymbolBaseIsometric"
       FilePath = "Portraits\Light"
+      StartFrame = 1
+      EndFrame = 1
     }
 }
 }
