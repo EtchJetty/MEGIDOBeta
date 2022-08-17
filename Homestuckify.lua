@@ -85,8 +85,8 @@ local function addTextFormatting()
 
 	-- Base text, change font and shit here
 	baseFormatTable = {
-		Font = "UbuntuMonoBold",
-		FontSize = 27,
+		Font = "FontStuckExtended",
+		FontSize = 32,
 		Color = { 0, 0, 0, 255 },
 		ShadowColor = Color.Black, 
 		ShadowOffset = {0, 0}, 
