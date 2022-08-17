@@ -89,8 +89,10 @@ local function addTextFormatting()
 		FontSize = 27,
 		Color = { 0, 0, 0, 255 },
 		ShadowColor = Color.Black, 
-		ShadowOffset = {2, 2}, 
-		ShadowAlpha = 0.3,
+		ShadowOffset = {0, 0}, 
+		ShadowAlpha = 1.0,
+		--ShadowOffset = {2, 2}, 
+		--ShadowAlpha = 0.3,
 		--OutlineColor = {0, 0, 0, 1.0},
 		--OutlineThickness = 3.0,
 	}

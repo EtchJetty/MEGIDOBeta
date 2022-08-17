@@ -49,6 +49,9 @@ Replace "Packages/RoseArt.pkg_manifest"
 To Win/Packages/720p/RoseArt.pkg_manifest
 Replace "Packages/RoseArt.pkg_manifest"
 
+To Win/Fonts/en/UbuntuMonoBold.xnb
+Replace "Fonts/UbuntuMonoBold.xnb"
+
 :: Jade Animations
 To "Game/Animations/PortraitAnimations.sjson"
 SJSON "Jade/Animations/PortraitAnimations.sjson"
