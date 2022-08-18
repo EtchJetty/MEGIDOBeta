@@ -27,6 +27,21 @@ SJSON "fx.sjson"
 To "Game/Animations/GUIAnimations.sjson"
 SJSON "GUIAnimations.sjson"
 
+:: Add custom fonts
+To Win/Fonts/en/FontStuckExtended.xnb
+Replace "Fonts/FontStuckExtended.xnb"
+:: To Win/Fonts/en/ComicSansMSRegular.xnb
+:: Replace "Fonts/ComicSansMSRegular.xnb"
+:: To Win/Fonts/en/ComicSansMSBold.xnb
+:: Replace "Fonts/ComicSansMSBold.xnb"
+:: To Win/Fonts/en/ComicSansMSItalic.xnb
+:: Replace "Fonts/ComicSansMSItalic.xnb"
+:: To Win/Fonts/en/ComicSansMSBoldItalic.xnb
+:: Replace "Fonts/ComicSansMSBoldItalic.xnb"
+:: To Game/FontSizes.remap
+:: Replace "Fonts/FontSizes.remap"
+
+:: == ANIMATIONS ==
 :: Rose Animations
 To "Game/Animations/PortraitAnimations.sjson"
 SJSON "Rose/Animations/PortraitAnimations.sjson"
@@ -48,12 +63,6 @@ Replace "Packages/RoseArt.pkg_manifest"
 
 To Win/Packages/720p/RoseArt.pkg_manifest
 Replace "Packages/RoseArt.pkg_manifest"
-
-To Win/Fonts/en/FontStuckExtended.xnb
-Replace "Fonts/FontStuckExtended.xnb"
-To Game/FontSizes.remap
-Replace "Fonts/FontSizes.remap"
-
 
 :: Jade Animations
 To "Game/Animations/PortraitAnimations.sjson"

@@ -176,8 +176,6 @@ ModUtil.DebugCall( function()
 	applyFormattingDeep(RoomSetData.Tartarus)
 end )		
 
-
-
 --!! Add Credits codex menu
 
 table.insert(CodexOrdering.Order, "megido")

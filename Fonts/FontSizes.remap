@@ -32,7 +32,6 @@
 	"CrimsonTextRomanCondensed": 30,
 	"CrimsonTextSemibold": 60,
 
-	"FontStuckExtended": 32,
 	"FellType": 20,
 	"FellTypeCondensed": 20,
 	"FellTypeItalic": 20,
@@ -51,5 +50,12 @@
 
 	"UbuntuMono": 20,
 	"UbuntuMonoBold": 20,
-	"zh-CN": 32
+	"zh-CN": 32,
+
+	/* Custom Fonts */
+	"FontStuckExtended": 32,
+	"ComicSansMSRegular": 40,
+	"ComicSansMSBold": 40,
+	"ComicSansMSItalic": 40,
+	"ComicSansMSBoldItalic": 40
 }
