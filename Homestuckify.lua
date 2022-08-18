@@ -86,7 +86,8 @@ local function addTextFormatting()
 	-- Base text, change font and shit here
 	baseFormatTable = {
 		Font = "FontStuckExtended",
-		FontSize = 32,
+		FontSize = 42,
+		LineSpacingBottom = -12,
 		Color = { 0, 0, 0, 255 },
 		ShadowColor = Color.Black, 
 		ShadowOffset = {0, 0}, 
