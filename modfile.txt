@@ -30,16 +30,16 @@ SJSON "GUIAnimations.sjson"
 :: Add custom fonts
 To Win/Fonts/en/FontStuckExtended.xnb
 Replace "Fonts/FontStuckExtended.xnb"
-:: To Win/Fonts/en/ComicSansMSRegular.xnb
-:: Replace "Fonts/ComicSansMSRegular.xnb"
-:: To Win/Fonts/en/ComicSansMSBold.xnb
-:: Replace "Fonts/ComicSansMSBold.xnb"
-:: To Win/Fonts/en/ComicSansMSItalic.xnb
-:: Replace "Fonts/ComicSansMSItalic.xnb"
-:: To Win/Fonts/en/ComicSansMSBoldItalic.xnb
-:: Replace "Fonts/ComicSansMSBoldItalic.xnb"
-:: To Game/FontSizes.remap
-:: Replace "Fonts/FontSizes.remap"
+To Win/Fonts/en/ComicSansMSRegular.xnb
+Replace "Fonts/ComicSansMSRegular.xnb"
+To Win/Fonts/en/ComicSansMSBold.xnb
+Replace "Fonts/ComicSansMSBold.xnb"
+To Win/Fonts/en/ComicSansMSItalic.xnb
+Replace "Fonts/ComicSansMSItalic.xnb"
+To Win/Fonts/en/ComicSansMSBoldItalic.xnb
+Replace "Fonts/ComicSansMSBoldItalic.xnb"
+To Game/FontSizes.remap
+Replace "Fonts/FontSizes.remap"
 
 :: == ANIMATIONS ==
 :: Rose Animations
