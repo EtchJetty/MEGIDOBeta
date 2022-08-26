@@ -1,0 +1,41 @@
+{
+  Animations = {
+	 "_sequence" = true
+    710 = {
+      Name = "BoonInfoSymbolAthenaIcon"
+      InheritFrom = "BoonInfoSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Light3D"
+    }
+    716 = {
+      Name = "BoonInfoSymbolZeusIcon"
+      InheritFrom = "BoonInfoSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Space3D"
+    }
+    746 = {
+      Name = "BoonSymbolAthenaIcon"
+      InheritFrom = "BoonSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Light3D"
+    }
+    770 = {
+      Name = "BoonSymbolZeusIcon"
+      InheritFrom = "BoonSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Space3D"
+    }
+    791 = {
+      Name = "BoonSymbolAthenaIsometric"
+      InheritFrom = "BoonSymbolBaseIsometric"
+      FilePath = "GUI\Icons\RoomReward\LightIso"
+      StartFrame = 1
+      EndFrame = 1
+      Scale = 0.25
+    }
+    795 = {
+      Name = "BoonSymbolZeusIsometric"
+      InheritFrom = "BoonSymbolBaseIsometric"
+      FilePath = "GUI\Icons\RoomReward\SpaceIso"
+      StartFrame = 1
+      EndFrame = 1
+      Scale = 0.25
+    }
+}
+}
