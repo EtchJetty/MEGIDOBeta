@@ -7,6 +7,11 @@
       FilePath = "GUI\Screens\BoonSelectSymbols\Spin\LightIconSpin\LightIconSpin"
       Scale = 0.5
     }
+    4206 = {
+      Name = "BoonDropHermesIcon"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\BreathIconSpin\BreathIconSpin"
+      Scale = 0.5
+    }
     4216 = {
       Name = "BoonDropZeusIcon"
       FilePath = "GUI\Screens\BoonSelectSymbols\Spin\SpaceIconSpin\SpaceIconSpin"
