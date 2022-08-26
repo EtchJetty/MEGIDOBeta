@@ -1,0 +1,16 @@
+{
+  Animations = {
+       "_sequence" = true
+    4183 = {
+      Name = "BoonDropAthenaIcon"
+      InheritFrom = "BoonDropIcon"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\LightIconSpin\LightIconSpin"
+      Scale = 0.5
+    }
+    4216 = {
+      Name = "BoonDropZeusIcon"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\SpaceIconSpin\SpaceIconSpin"
+      Scale = 0.5
+    }
+  }
+}
