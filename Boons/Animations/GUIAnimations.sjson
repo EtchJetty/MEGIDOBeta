@@ -51,30 +51,142 @@
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Vris3D"
     }
+    728 = {
+      Name = "BoonSymbolAphroditeIcon"
+      InheritFrom = "BoonSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Void3D"
+    }
+    734 = {
+      Name = "BoonSymbolAresIcon"
+      InheritFrom = "BoonSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Heart3D"
+    }
+    740 = { 
+      Name = "BoonSymbolArtemisIcon"
+      InheritFrom = "BoonSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Life3D"
+    }
     746 = {
       Name = "BoonSymbolAthenaIcon"
       InheritFrom = "BoonSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Light3D"
+    }
+    752 = {
+      Name = "BoonSymbolDemeterIcon"
+      InheritFrom = "BoonSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Time3D"
+    }
+    758 = {
+      Name = "BoonSymbolDionysusIcon"
+      InheritFrom = "BoonSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Hope3D"
+    }
+    764 = {
+      Name = "BoonSymbolPoseidonIcon"
+      InheritFrom = "BoonSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Vris3D"
     }
     770 = {
       Name = "BoonSymbolZeusIcon"
       InheritFrom = "BoonSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Space3D"
     }
+    776 = {
+      Name = "BoonSymbolHermesIcon"
+      InheritFrom = "BoonSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Breath3D"
+    }
+    782 = {
+      Name = "BoonSymbolChaosIcon"
+      InheritFrom = "BoonSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Rage3D"
+    }
+    787 = {
+      Name = "BoonSymbolAphroditeIsometric"
+      InheritFrom = "BoonSymbolBaseIsometric"
+      FilePath = "GUI\Icons\RoomReward\VoidIso"
+      EndFrame = 1
+      StartFrame = 1
+      Scale = 0.25
+    }
+    789 = {
+      Name = "BoonSymbolAresIsometric"
+      InheritFrom = "BoonSymbolBaseIsometric"
+      FilePath = "GUI\Icons\RoomReward\HeartIso"
+      EndFrame = 1
+      StartFrame = 1
+      Scale = 0.25
+    }
+    790 = {
+      Name = "BoonSymbolArtemisIsometric"
+      InheritFrom = "BoonSymbolBaseIsometric"
+      FilePath = "GUI\Icons\RoomReward\LifeIso"
+      EndFrame = 1
+      StartFrame = 1
+      Scale = 0.25
+    }
     791 = {
       Name = "BoonSymbolAthenaIsometric"
       InheritFrom = "BoonSymbolBaseIsometric"
       FilePath = "GUI\Icons\RoomReward\LightIso"
-      StartFrame = 1
       EndFrame = 1
+      StartFrame = 1
+      Scale = 0.25
+    }
+    792 = {
+      Name = "BoonSymbolDemeterIsometric"
+      InheritFrom = "BoonSymbolBaseIsometric"
+      FilePath = "GUI\Icons\RoomReward\TimeIso"
+      EndFrame = 1
+      StartFrame = 1
+      Scale = 0.25
+    }
+    793 = {
+      Name = "BoonSymbolChaosIsometric"
+      InheritFrom = "BoonSymbolBaseIsometric"
+      FilePath = "GUI\Icons\RoomReward\RageIso"
+      EndFrame = 1
+      StartFrame = 1
+      Scale = 0.25
+    }
+    794 = {
+      Name = "BoonSymbolPoseidonIsometric"
+      InheritFrom = "BoonSymbolBaseIsometric"
+      FilePath = "GUI\Icons\RoomReward\VrisIso"
+      EndFrame = 1
+      StartFrame = 1
       Scale = 0.25
     }
     795 = {
       Name = "BoonSymbolZeusIsometric"
       InheritFrom = "BoonSymbolBaseIsometric"
-      FilePath = "GUI\Icons\RoomReward\SpaceIso"
-      StartFrame = 1
       EndFrame = 1
+      StartFrame = 1
+      FilePath = "GUI\Icons\RoomReward\SpaceIso"
+      Scale = 0.25
+    }
+    796 = {
+      Name = "BoonSymbolHermesIsometric"
+      InheritFrom = "BoonSymbolBaseIsometric"
+      FilePath = "GUI\Icons\RoomReward\BreathIso"
+      EndFrame = 1
+      StartFrame = 1
+      Scale = 0.25
+    }
+    797 = {
+      Name = "RoomRewardChaosPreview"
+      InheritFrom = "BoonSymbolBaseIsometric"
+      FilePath = "GUI\Icons\RoomReward\RageIso"
+      EndFrame = 1
+      StartFrame = 1
+      Scale = 0.25
+    }
+    791 = {
+      Name = "BoonSymbolDionysusIsometric"
+      InheritFrom = "BoonSymbolBaseIsometric"
+      FilePath = "GUI\Icons\RoomReward\HopeIso"
+      EndFrame = 1
+      StartFrame = 1
       Scale = 0.25
     }
 }
