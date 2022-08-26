@@ -17,7 +17,7 @@
       FilePath = "GUI\Icons\RoomReward\SpaceIso"
       StartFrame = 1
       EndFrame = 1
-      Scale = 0.5
+      Scale = 0.1
     }
 }
 }
