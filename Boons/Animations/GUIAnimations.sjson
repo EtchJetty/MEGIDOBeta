@@ -1,7 +1,47 @@
 {
   Animations = {
 	 "_sequence" = true
+    707 = {
+      Name = "BoonInfoSymbolAresIcon"
+      InheritFrom = "BoonInfoSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Heart3D"
+    }
+    708 = {
+      Name = "BoonInfoSymbolAphroditeIcon"
+      InheritFrom = "BoonInfoSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Void3D"
+    }
+    709 = { 
+      Name = "BoonInfoSymbolArtemisIcon"
+      InheritFrom = "BoonInfoSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Life3D"
+    }
     710 = {
+      Name = "BoonInfoSymbolAthenaIcon"
+      InheritFrom = "BoonInfoSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Light3D"
+    }
+    711 = {
+      Name = "BoonInfoSymbolChaosIcon"
+      InheritFrom = "BoonInfoSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Rage3D"
+    }
+    712 = {
+      Name = "BoonInfoSymbolDemeterIcon"
+      InheritFrom = "BoonInfoSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Time3D"
+    }
+    713 = {
+      Name = "BoonInfoSymbolDionysusIcon"
+      InheritFrom = "BoonInfoSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Hope3D"
+    }
+    714 = {
+      Name = "BoonInfoSymbolHermesIcon"
+      InheritFrom = "BoonInfoSymbolBase"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Breath3D"
+    }
+    715 = {
       Name = "BoonInfoSymbolAthenaIcon"
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Light3D"
@@ -9,7 +49,7 @@
     716 = {
       Name = "BoonInfoSymbolZeusIcon"
       InheritFrom = "BoonInfoSymbolBase"
-      FilePath = "GUI\Screens\BoonSelectSymbols\Space3D"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Vris3D"
     }
     746 = {
       Name = "BoonSymbolAthenaIcon"

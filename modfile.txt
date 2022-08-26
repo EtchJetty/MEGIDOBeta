@@ -23,7 +23,7 @@ SJSON "CodexText.sjson"
 
 :: Modify God Colours (Incomplete)
 To "Game/Animations/Fx.sjson"
-SJSON "fx.sjson"
+SJSON "Fx.sjson"
 To "Game/Animations/GUIAnimations.sjson"
 SJSON "GUIAnimations.sjson"
 
@@ -55,16 +55,19 @@ To Win/Packages/720p/BoonArt.pkg_manifest
 Replace "Packages/BoonArt.pkg_manifest"
 
 
+To "Game/Animations/GUIAnimations.sjson"
+SJSON "Boons/Animations/GUIAnimations.sjson"
+
 :: == ANIMATIONS ==
 :: Rose Animations
 To "Game/Animations/PortraitAnimations.sjson"
 SJSON "Rose/Animations/PortraitAnimations.sjson"
 To "Game/Animations/ObstacleAnimations.sjson"
 SJSON "Rose/Animations/ObstacleAnimations.sjson"
-To "Game/Animations/Fx.sjson"
-SJSON "Rose/Animations/Fx.sjson"
-To "Game/Animations/GUIAnimations.sjson"
-SJSON "Rose/Animations/GUIAnimations.sjson"
+:: To "Game/Animations/Fx.sjson"
+:: SJSON "Rose/Animations/Fx.sjson"
+:: To "Game/Animations/GUIAnimations.sjson"
+:: SJSON "Rose/Animations/GUIAnimations.sjson"
 
 To "Win/Packages/RoseArt.pkg"
 Replace "Packages/RoseArt.pkg"
@@ -83,10 +86,10 @@ To "Game/Animations/PortraitAnimations.sjson"
 SJSON "Jade/Animations/PortraitAnimations.sjson"
 To "Game/Animations/ObstacleAnimations.sjson"
 SJSON "Jade/Animations/ObstacleAnimations.sjson"
-To "Game/Animations/Fx.sjson"
-SJSON "Jade/Animations/Fx.sjson"
-To "Game/Animations/GUIAnimations.sjson"
-SJSON "Jade/Animations/GUIAnimations.sjson"
+:: To "Game/Animations/Fx.sjson"
+:: SJSON "Jade/Animations/Fx.sjson"
+:: To "Game/Animations/GUIAnimations.sjson"
+:: SJSON "Jade/Animations/GUIAnimations.sjson"
 
 To "Win/Packages/JadeSprites.pkg"
 Replace "Packages/JadeSprites.pkg"
