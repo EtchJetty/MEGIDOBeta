@@ -5,121 +5,119 @@
       Name = "BoonInfoSymbolAresIcon"
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Heart3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     708 = {
       Name = "BoonInfoSymbolAphroditeIcon"
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Void3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     709 = { 
       Name = "BoonInfoSymbolArtemisIcon"
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Life3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     710 = {
       Name = "BoonInfoSymbolAthenaIcon"
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Light3D"
-      Scale = 0.25
     }
     711 = {
       Name = "BoonInfoSymbolChaosIcon"
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Rage3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     712 = {
       Name = "BoonInfoSymbolDemeterIcon"
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Time3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     713 = {
       Name = "BoonInfoSymbolDionysusIcon"
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Hope3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     714 = {
       Name = "BoonInfoSymbolHermesIcon"
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Breath3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     715 = {
       Name = "BoonInfoSymbolAthenaIcon"
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Light3D"
-      Scale = 0.25
     }
     716 = {
       Name = "BoonInfoSymbolZeusIcon"
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Vris3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     728 = {
       Name = "BoonSymbolAphroditeIcon"
       InheritFrom = "BoonSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Void3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     734 = {
       Name = "BoonSymbolAresIcon"
       InheritFrom = "BoonSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Heart3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     740 = { 
       Name = "BoonSymbolArtemisIcon"
       InheritFrom = "BoonSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Life3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     746 = {
       Name = "BoonSymbolAthenaIcon"
       InheritFrom = "BoonSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Light3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     752 = {
       Name = "BoonSymbolDemeterIcon"
       InheritFrom = "BoonSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Time3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     758 = {
       Name = "BoonSymbolDionysusIcon"
       InheritFrom = "BoonSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Hope3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     764 = {
       Name = "BoonSymbolPoseidonIcon"
       InheritFrom = "BoonSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Vris3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     770 = {
       Name = "BoonSymbolZeusIcon"
       InheritFrom = "BoonSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Space3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     776 = {
       Name = "BoonSymbolHermesIcon"
       InheritFrom = "BoonSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Breath3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     782 = {
       Name = "BoonSymbolChaosIcon"
       InheritFrom = "BoonSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Rage3D"
-      Scale = 0.25
+      Scale = 0.1
     }
     787 = {
       Name = "BoonSymbolAphroditeIsometric"
