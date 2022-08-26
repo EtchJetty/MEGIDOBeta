@@ -4,19 +4,19 @@
     716 = {
       Name = "BoonInfoSymbolZeusIcon"
       InheritFrom = "BoonInfoSymbolBase"
-      FilePath = "Jade"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Space3D"
     }
     770 = {
       Name = "BoonSymbolZeusIcon"
       InheritFrom = "BoonSymbolBase"
-      FilePath = "Jade"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Space3D"
     }
     795 = {
       Name = "BoonSymbolZeusIsometric"
       InheritFrom = "BoonSymbolBaseIsometric"
-      FilePath = "JadeIconSpin\JadeIconSpin0001"
-      EndFrame = 1
+      FilePath = "GUI\Icons\RoomReward\SpaceIso"
       StartFrame = 1
+      EndFrame = 1
     }
 }
 }

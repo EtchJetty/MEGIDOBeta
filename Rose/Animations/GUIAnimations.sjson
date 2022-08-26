@@ -14,7 +14,7 @@
     791 = {
       Name = "BoonSymbolAthenaIsometric"
       InheritFrom = "BoonSymbolBaseIsometric"
-      FilePath = "GUI\Icons\RoomReward\Light"
+      FilePath = "GUI\Icons\RoomReward\LightIso"
       StartFrame = 1
       EndFrame = 1
     }

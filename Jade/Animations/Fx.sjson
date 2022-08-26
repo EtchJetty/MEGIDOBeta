@@ -3,12 +3,8 @@
        "_sequence" = true
     4216 = {
       Name = "BoonDropZeusIcon"
-      InheritFrom = "BoonDropIcon"
-      FilePath = "JadeIconSpin\JadeIconSpin"
-      StartFrame = 1
-      EndFrame = 3
-      NumFrames = 3
-      Scale = 0.4
+      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\SpaceIconSpin\SpaceIconSpin"
+      Scale = 0.5
     }
   }
 }
