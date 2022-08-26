@@ -41,6 +41,20 @@ Replace "Fonts/ComicSansMSBoldItalic.xnb"
 To Game/FontSizes.remap
 Replace "Fonts/FontSizes.remap"
 
+
+To "Win/Packages/BoonArt.pkg"
+Replace "Packages/BoonArt.pkg"
+
+To Win/Packages/720p/BoonArt.pkg
+Replace "Packages/BoonArt.pkg"
+
+To Win/Packages/BoonArt.pkg_manifest
+Replace "Packages/BoonArt.pkg_manifest"
+
+To Win/Packages/720p/BoonArt.pkg_manifest
+Replace "Packages/BoonArt.pkg_manifest"
+
+
 :: == ANIMATIONS ==
 :: Rose Animations
 To "Game/Animations/PortraitAnimations.sjson"
