@@ -5,6 +5,15 @@ ModUtil.Mod.Register( "MEGIDOBeta" )
 ModUtil.WrapBaseFunction(
     "SetupMap",
     function(baseFunc)
+        DebugPrint({Text = "@MEGIDOBeta Trying to load package BoonArt.pkg"})
+        LoadPackages({Name = {"BoonArt"}})
+        return baseFunc()
+    end
+)
+
+ModUtil.WrapBaseFunction(
+    "SetupMap",
+    function(baseFunc)
         DebugPrint({Text = "@MEGIDOBeta Trying to load package RoseArt.pkg"})
         LoadPackages({Name = {"RoseArt"}})
         return baseFunc()
