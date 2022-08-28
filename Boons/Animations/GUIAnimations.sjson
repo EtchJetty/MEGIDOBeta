@@ -133,7 +133,7 @@
       FilePath = "GUI\Icons\RoomReward\HeartIso"
       EndFrame = 1
       StartFrame = 1
-      Scale = 0.25
+      Scale = 0.1
     }
     790 = {
       Name = "BoonSymbolArtemisIsometric"
