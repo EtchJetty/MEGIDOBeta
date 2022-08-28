@@ -199,13 +199,13 @@
       StartFrame = 1
       Scale = 0.25
     }
-    791 = {
+    798 = {
       Name = "BoonSymbolDionysusIsometric"
       InheritFrom = "BoonSymbolBaseIsometric"
       FilePath = "GUI\Icons\RoomReward\HopeIso"
       EndFrame = 1
       StartFrame = 1
-      Scale = 0.25
+      Scale = 0.085
     }
 }
 }
