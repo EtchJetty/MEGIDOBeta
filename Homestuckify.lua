@@ -1,5 +1,10 @@
 ModUtil.Mod.Register( "MEGIDOBeta" )
 
+--!! Settings
+
+enableCustomDialogue = false
+
+
 --!! Load Charater Textures
 
 ModUtil.WrapBaseFunction(
@@ -244,9 +249,13 @@ function DisplayTextLine( screen, source, line, parentLine )
 		if line.Cue then
 			local helpTextId = string.sub( line.Cue, 5 )
 			text = helpTextId
-			if not HasDisplayName({ Text = helpTextId }) then
-				text = line.Text
+
+			if HasDisplayName({ Text = helpTextId }) and enableCustomDialogue then
+				text = GetDisplayName({ Text = text })
+			else 
+				text = line.Text -- Revert to default text
 			end
+
 		end
 	end
 

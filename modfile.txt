@@ -42,7 +42,8 @@ To Game/FontSizes.remap
 Replace "Fonts/FontSizes.remap"
 
 :: Set Custom Dialogue
-
+To Game/Text/en/_LootData.en.sjson
+Replace "CustomDialogue/_LootData.en.sjson"
 
 :: == ANIMATIONS & TEXTURES ==
 :: Custom Boon icons
