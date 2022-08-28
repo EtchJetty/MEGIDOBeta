@@ -41,26 +41,25 @@ Replace "Fonts/ComicSansMSBoldItalic.xnb"
 To Game/FontSizes.remap
 Replace "Fonts/FontSizes.remap"
 
+:: Set Custom Dialogue
 
+
+:: == ANIMATIONS & TEXTURES ==
+:: Custom Boon icons
 To "Win/Packages/BoonArt.pkg"
 Replace "Packages/BoonArt.pkg"
-
 To Win/Packages/720p/BoonArt.pkg
 Replace "Packages/BoonArt.pkg"
-
 To Win/Packages/BoonArt.pkg_manifest
 Replace "Packages/BoonArt.pkg_manifest"
-
 To Win/Packages/720p/BoonArt.pkg_manifest
 Replace "Packages/BoonArt.pkg_manifest"
-
 
 To "Game/Animations/GUIAnimations.sjson"
 SJSON "Boons/Animations/GUIAnimations.sjson"
 To "Game/Animations/Fx.sjson"
 SJSON "Boons/Animations/Fx.sjson"
 
-:: == ANIMATIONS ==
 :: Rose Animations
 To "Game/Animations/PortraitAnimations.sjson"
 SJSON "Rose/Animations/PortraitAnimations.sjson"

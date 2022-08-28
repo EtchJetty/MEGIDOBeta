@@ -74,7 +74,7 @@ homestuckLookup = {
 	Dionysus = "Jake",
 	Hermes = "June",
 	Poseidon = "Vriska",
-	Zeus = "Jade"
+	Zeus = "Jade",
 }
 
 homestuckGodKidPairs = { -- This doesn't include Jade, Eridan and Vriska since they have unique conditions
@@ -132,58 +132,7 @@ local function addTextFormatting()
 
 end
 
---!! Apply formatting to all Characters
--- Run this AFTER replacing all the text but BEFORE replacing the audio
-
-local function applyFormattingDeep(topTable)
-
-	-- Check if there are deeper tables
-	local hasDeeperTable = false
-	for k,v in pairs(topTable) do
-		if type(v) == "table" then
-			hasDeeperTable = true
-			break
-		end
-	end
-
-	if hasDeeperTable == true then
-
-		-- Recursive function
-		for k,v in pairs(topTable) do
-			if type(v) == "table" then
-				applyFormattingDeep(v)
-			end
-		end
-
-	else
-
-		-- Check if dialog line
-		if topTable["Cue"] ~= nil and topTable["Text"] ~= nil then
-
-			-- If VO is a god, give formatting
-			godName = string.sub(topTable["Cue"], 5, -6)
-			if homestuckLookup[godName] ~= nil then
-				topTable["Text"] = "{#" .. homestuckLookup[godName] .. "}" .. topTable["Text"]
-				topTable["Text"] = string.gsub(topTable["Text"], "{#PreviousFormat}", "{#PreviousFormat}{#" .. homestuckLookup[godName] .. "}")
-			end
-
-			-- Replace all refs of Hades Gods to Homestuck Gods
-			for hadesGod,homeGod in pairs(homestuckLookup) do
-				topTable["Text"] = string.gsub(topTable["Text"], hadesGod, homeGod)
-			end
-
-		end
-
-	end
-
-end
-
-ModUtil.DebugCall( function()
-	addTextFormatting()
-	applyFormattingDeep(LootData)
-	applyFormattingDeep(DeathLoopData) -- * This is really inefficent find the specific table later
-	applyFormattingDeep(RoomSetData.Tartarus)
-end )		
+addTextFormatting()
 
 --!! Add Credits codex menu
 
@@ -283,3 +232,40 @@ ModUtil.DebugCall( function()
 	print(LootData.ZeusUpgrade.LightingColor[1])
 end)
 
+--!! Enable custom dialogue and change formatting
+
+local baseDisplayTextLine = DisplayTextLine
+function DisplayTextLine( screen, source, line, parentLine )
+
+	-- Enable English Translations
+	local text = line.Text
+	if GetLanguage({}) == "en" then
+		-- If the cue is defined, look up the translation without the '/VO/' prefix
+		if line.Cue then
+			local helpTextId = string.sub( line.Cue, 5 )
+			text = helpTextId
+			if not HasDisplayName({ Text = helpTextId }) then
+				text = line.Text
+			end
+		end
+	end
+
+	-- Apply Formatting
+	godName = string.sub(line.Cue, 5, -6)
+	if homestuckLookup[godName] ~= nil then
+		text = "{#" .. homestuckLookup[godName] .. "}" .. text
+		text = string.gsub(text, "{#PreviousFormat}", "{#PreviousFormat}{#" .. homestuckLookup[godName] .. "}")
+	end
+
+	-- Replace God Names
+	for hadesGod,homeGod in pairs(homestuckLookup) do
+		text = string.gsub(text, hadesGod, homeGod)
+	end
+
+	-- Test
+	text = string.gsub(text, "Zagreus", "Damara")
+
+	line.Text = text
+
+	baseDisplayTextLine( screen, source, line, parentLine )
+end
