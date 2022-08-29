@@ -205,7 +205,7 @@
       FilePath = "GUI\Icons\RoomReward\VrisIso"
       EndFrame = 1
       StartFrame = 1
-      Scale = 0.1
+      Scale = 0.085
     }
     795 = {
       Name = "BoonSymbolZeusIsometric"
