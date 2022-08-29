@@ -7713,7 +7713,7 @@
       */
       Id = "Athena_0121"
       Speaker = "Athena"
-      DisplayName = "If you've a moment, Zagreus? One of my relatives has claimed that I usurp your time. So I invited her to contact you."
+      DisplayName = "If you've a moment, Damara? One of my comrades-in-godhood took umbrage with my methodology, so I invited her to contact you directly."
     }
     {
       /*
@@ -7724,7 +7724,7 @@
       */
       Id = "Artemis_0121"
       Speaker = "Artemis"
-      DisplayName = "Um, hello, Zagreus... Athena here is grandstanding or trying to prove a point, or something. I don't know. Anyway, nice talking to you."
+      DisplayName = "Damara, I disavow this plan. If she was able to get her and her friends over to my session, even though it took three years, there's no reason we couldn't go over and break you out ourselves!"
     }
     {
       /*
