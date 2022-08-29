@@ -240,6 +240,15 @@
       Scale = 0.085
     }
 
+    818 = {
+      Name = "HermesUpgradePreview"
+      InheritFrom = "BoonSymbolBaseIsometric"
+      FilePath = "GUI\Icons\RoomReward\BreathIso"
+      EndFrame = 1
+      StartFrame = 1
+      Scale = 0.085
+    }
+
     /* Other Iso icons (Have to reset scale) */
 
 }
