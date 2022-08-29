@@ -8283,7 +8283,7 @@
       */
       Id = "Athena_0002"
       Speaker = "Athena"
-      DisplayName = "Saludos, noble primo. Vamos a sacarte de ese horrible lugar. Me encargaré de que todos en el Olimpo colaboren, empezando por mí."
+      DisplayName = "Hello, Damara. Time to get you out of that miserable place already, hm? All of us on Earth C are ready to help you live your life, begining with me."
     }
     {
       /*
@@ -8364,7 +8364,7 @@
       */
       Id = "Athena_0011"
       Speaker = "Athena"
-      DisplayName = "Anímate, primo, puesto que me has encontrado incluso en las asfixiantes tinieblas del Inframundo. Que mi poder te sirva de ayuda."
+      DisplayName = "It'll be alright, Damara. Even in the suffocating darkness, with my help you'll always be able to See the Light."
     }
     {
       /*
