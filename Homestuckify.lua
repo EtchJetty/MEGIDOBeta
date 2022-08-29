@@ -2,7 +2,7 @@ ModUtil.Mod.Register( "MEGIDOBeta" )
 
 --!! Settings
 
-enableCustomDialogue = false
+enableCustomDialogue = true
 
 
 --!! Load Charater Textures
@@ -242,39 +242,41 @@ end)
 local baseDisplayTextLine = DisplayTextLine
 function DisplayTextLine( screen, source, line, parentLine )
 
-	-- Enable English Translations
-	local text = line.Text
-	if GetLanguage({}) == "en" then
-		-- If the cue is defined, look up the translation without the '/VO/' prefix
-		if line.Cue then
-			local helpTextId = string.sub( line.Cue, 5 )
-			text = helpTextId
+	if line.Text ~= nil and line.Cue ~= nil then
+		-- Enable English Translations
+		local text = line.Text
+		if GetLanguage({}) == "en" then
+			-- If the cue is defined, look up the translation without the '/VO/' prefix
+			if line.Cue then
+				local helpTextId = string.sub( line.Cue, 5 )
+				text = helpTextId
 
-			if HasDisplayName({ Text = helpTextId }) and enableCustomDialogue then
-				text = GetDisplayName({ Text = text })
-			else 
-				text = line.Text -- Revert to default text
+				if HasDisplayName({ Text = helpTextId }) and enableCustomDialogue then
+					text = GetDisplayName({ Text = text })
+				else 
+					text = line.Text -- Revert to default text
+				end
+
 			end
-
 		end
+
+		-- Apply Formatting
+		godName = string.sub(line.Cue, 5, -6)
+		if homestuckLookup[godName] ~= nil then
+			text = "{#" .. homestuckLookup[godName] .. "}" .. text
+			text = string.gsub(text, "{#PreviousFormat}", "{#PreviousFormat}{#" .. homestuckLookup[godName] .. "}")
+		end
+
+		-- Replace God Names
+		for hadesGod,homeGod in pairs(homestuckLookup) do
+			text = string.gsub(text, hadesGod, homeGod)
+		end
+
+		-- Test
+		text = string.gsub(text, "Zagreus", "Damara")
+
+		line.Text = text
 	end
-
-	-- Apply Formatting
-	godName = string.sub(line.Cue, 5, -6)
-	if homestuckLookup[godName] ~= nil then
-		text = "{#" .. homestuckLookup[godName] .. "}" .. text
-		text = string.gsub(text, "{#PreviousFormat}", "{#PreviousFormat}{#" .. homestuckLookup[godName] .. "}")
-	end
-
-	-- Replace God Names
-	for hadesGod,homeGod in pairs(homestuckLookup) do
-		text = string.gsub(text, hadesGod, homeGod)
-	end
-
-	-- Test
-	text = string.gsub(text, "Zagreus", "Damara")
-
-	line.Text = text
 
 	baseDisplayTextLine( screen, source, line, parentLine )
 end
