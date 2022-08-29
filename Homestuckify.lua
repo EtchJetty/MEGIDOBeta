@@ -242,7 +242,7 @@ end)
 local baseDisplayTextLine = DisplayTextLine
 function DisplayTextLine( screen, source, line, parentLine )
 
-	if line.Text ~= nil then
+	if line.Text ~= nil and line.Cue ~= nil then
 		-- Enable English Translations
 		local text = line.Text
 		if GetLanguage({}) == "en" then
