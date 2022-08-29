@@ -2,7 +2,7 @@ ModUtil.Mod.Register( "MEGIDOBeta" )
 
 --!! Settings
 
-enableCustomDialogue = false
+enableCustomDialogue = true
 
 
 --!! Load Charater Textures
