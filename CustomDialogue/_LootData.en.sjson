@@ -7639,7 +7639,7 @@
       */
       Id = "Athena_0223"
       Speaker = "Athena"
-      DisplayName = "Noble cousin, my lord father has taken keen interest in your journey and your plight, and now seeks to aid you with the thunder of heaven itself. And you've my support, as well, of course."
+      DisplayName = "Damara, have you met Jade? She's one of my oldest friends - and you've got an enemy in common, of course. We're willing to both offer our support."
     }
     {
       /*
@@ -7649,7 +7649,7 @@
       */
       Id = "Zeus_0195"
       Speaker = "Zeus"
-      DisplayName = "I thank you for the generous introduction, fair Athena, and I always rest assured when you are close at hand. I trust with our combined might, our good Zagreus is virtually certain to succeed!"
+      DisplayName = "hehe, rose is being a flatterer. she's a good person and a great help - and the two of us combined is going to wreck shop!!!!!"
     }
     {
       /*
@@ -8276,7 +8276,7 @@
       */
       Id = "Athena_0002"
       Speaker = "Athena"
-      DisplayName = "Hello, Damara. Time to get you out of that miserable place already, hm? All of us on Earth C are ready to help you live your life, begining with me."
+      DisplayName = "Hello, Damara. Time to get you out of that miserable place already, hm? All of us on Earth C are ready to help you live your life, beginning here with me."
     }
     {
       /*
