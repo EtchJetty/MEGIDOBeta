@@ -4,6 +4,14 @@ let text = document.getElementById("input").value
 document.getElementById("output").value = ""
 
 let ani = text.split("}").map(x => x + "}")
+ani.pop()
+
+let ManualAssign = {
+  Lightning: "Zeus"
+}
+
+let head = "{\n  Animations = {\n    \"_sequence\" = true\n    \/* if a table has the name of the god in it's Name, it has already been converted */"
+let tail = "\n  }\n}"
 
 let hsLookup = {
   Aphrodite: [ // Roxy
@@ -76,20 +84,29 @@ ani.forEach((e, i)=> {
   for (const [key, value] of Object.entries(hsLookup)) {
     god = e.includes(key) ? key : god
   }
-  if (god) {
-    //console.log(e)
-    let number = e.match(/\d+/)[0]
-    e = convertToJSON(e)
-    console.log(e)
-    let jsonFormat = JSON.parse(e)
-    
+  if (!god) {
+    for (const [key, value] of Object.entries(ManualAssign)) {
+      god = e.includes(key) && !god ? value : god
+    }
+  }
+  
+  let number = i
+  e = convertToJSON(e)
+  console.log(e)
+  let jsonFormat = JSON.parse(e)
+  
+  if (god) {   
     hsLookup[god].forEach((rgbSet, i) => {
       rgbSet.forEach((colour, j) => {
           jsonFormat[rgbPrefix[i] + rgb[j]] = ("" + (colour / 255)).substring(0,4)
         })
     })
-    
+  }
+  
+  if (Object.keys(jsonFormat).length > 1) {
     let output = convertToSJSON(JSON.stringify(jsonFormat))
-    document.getElementById("output").value += "\n" + number + " = " + output
+  	document.getElementById("output").value += "\n" + number + " = " + output
   }
 })
+
+document.getElementById("output").value = head + document.getElementById("output").value + tail

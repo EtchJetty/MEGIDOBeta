@@ -69,11 +69,11 @@
     }
     743 = {
       Name = "BoonSymbolAthena"
-      Color = { Red=0.969 Green=0.980 Blue=0.306 }
+      Color = { Red=0.941 Green=0.518 Blue=0.047 }
     }
     744 = {
       Name = "BoonBackingB_Athena"
-      Color = { Red=0.945 Green=0.255 Blue=0.937 }
+      Color = { Red=0.941 Green=0.518 Blue=0.047 }
     }
 
 

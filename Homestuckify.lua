@@ -68,30 +68,6 @@ homestuckColors = {
 	RageAp = { 16, 223, 255, 255 },
 }
 
---Format Lookup
-homestuckLookup = {
-	Aphrodite = "Roxy",
-	Ares = "Dirk",
-	Artemis = "Jane",
-	Athena = "Rose",
-	Chaos = "Eridan",
-	Demeter = "Dave",
-	Dionysus = "Jake",
-	Hermes = "June",
-	Poseidon = "Vriska",
-	Zeus = "Jade",
-}
-
-homestuckGodKidPairs = { -- This doesn't include Jade, Eridan and Vriska since they have unique conditions
-	June = "Breath",
-	Rose = "Light",
-	Dave = "Time",
-	Jane = "Life",
-	Jake = "Hope",
-	Roxy = "Void",
-	Dirk = "Heart",
-}
-
 
 --!! Add new Text formats for Charaters
 
@@ -260,11 +236,27 @@ function DisplayTextLine( screen, source, line, parentLine )
 			end
 		end
 
+		--Format Lookup
+		homestuckLookup = {
+			Aphrodite = "Roxy",
+			Ares = "Dirk",
+			Artemis = "Jane",
+			Athena = "Rose",
+			Chaos = "Eridan",
+			Demeter = "Dave",
+			Dionysus = "Jake",
+			Hermes = "June",
+			Poseidon = "Vriska",
+			Zeus = "Jade",
+		}
+
 		-- Apply Formatting
 		godName = string.sub(line.Cue, 5, -6)
 		if homestuckLookup[godName] ~= nil then
 			text = "{#" .. homestuckLookup[godName] .. "}" .. text
 			text = string.gsub(text, "{#PreviousFormat}", "{#PreviousFormat}{#" .. homestuckLookup[godName] .. "}")
+		else
+			print(godName)
 		end
 
 		-- Replace God Names
