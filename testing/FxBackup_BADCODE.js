@@ -92,11 +92,20 @@ ani.forEach((e, i)=> {
   
   let number = i
   e = convertToJSON(e)
-  console.log(e)
   let jsonFormat = JSON.parse(e)
+  //console.log(jsonFormat.Name)
   
   if (god) {   
-    hsLookup[god].forEach((rgbSet, i) => {
+    let colors = hsLookup[god]
+    
+    if (jsonFormat["Name"]) {
+      if (jsonFormat["Name"].includes("Boon")) {
+        colors = [colors[1], colors[1], colors[1]]
+        console.log("Vriska")
+      }
+    }
+
+    colors.forEach((rgbSet, i) => {
       rgbSet.forEach((colour, j) => {
           jsonFormat[rgbPrefix[i] + rgb[j]] = ("" + (colour / 255)).substring(0,4)
         })
