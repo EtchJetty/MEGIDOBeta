@@ -6,9 +6,28 @@ document.getElementById("output").value = ""
 let ani = text.split("}").map(x => x + "}")
 ani.pop()
 
-let ManualAssign = {
+let ManualGodAssign = {
   Lightning: "Zeus"
 }
+
+let ManualValueAssign = {
+  BoonDissipateGlow: 2,
+  BoonDissipateVertical: 2,
+  BoonDissipateB: 2,
+  BoonDissipateA: 2,
+  
+  BoonDropGOD: 0,
+  "BoonDropA-GOD": 2,
+  "BoonDropB-GOD": 2,
+  "BoonDropC-GOD": 0,
+  "BoonDropGODIcon": 1,
+
+  "BoonDropA-Zeus": 0,
+  "BoonDropB-Zeus": 0,
+  "BoonDropC-Zeus": 2,
+}
+
+let red = [255, 0, 0]
 
 let head = "{\n  Animations = {\n    \"_sequence\" = true\n    \/* if a table has the name of the god in it's Name, it has already been converted */"
 let tail = "\n  }\n}"
@@ -85,7 +104,7 @@ ani.forEach((e, i)=> {
     god = e.includes(key) ? key : god
   }
   if (!god) {
-    for (const [key, value] of Object.entries(ManualAssign)) {
+    for (const [key, value] of Object.entries(ManualGodAssign)) {
       god = e.includes(key) && !god ? value : god
     }
   }
@@ -97,11 +116,14 @@ ani.forEach((e, i)=> {
   
   if (god) {   
     let colors = hsLookup[god]
-    
-    if (jsonFormat["Name"]) {
-      if (jsonFormat["Name"].includes("Boon")) {
-        colors = [colors[1], colors[1], colors[1]]
-        console.log("Vriska")
+
+    let Basecolors = colors
+
+    for (const [key, value] of Object.entries(ManualValueAssign)) {
+      if (jsonFormat["Name"].includes(key.replace("GOD", god))) {
+        let newColors = god == "Zeus" ? [Basecolors[1], Basecolors[2].fill(255), Basecolors[0]] : Basecolors
+        colors = value == 4 ? [red,red,red] : [newColors[value], newColors[value], newColors[value]]
+        console.log("Vriska " + key)
       }
     }
 
