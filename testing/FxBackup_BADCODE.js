@@ -23,6 +23,10 @@ let ManualValueAssign = {
   "BoonDropGODIcon": 1,
 }
 
+let ManualValueIgnore = [
+  "BoonDropGODIcon"
+]
+
 let red = [255, 0, 0]
 
 let head = "{\n  Animations = {\n    \"_sequence\" = true\n    \/* if a table has the name of the god in it's Name, it has already been converted */"
@@ -123,11 +127,14 @@ ani.forEach((e, i)=> {
       }
     }
 
-    colors.forEach((rgbSet, i) => {
-      rgbSet.forEach((colour, j) => {
-          jsonFormat[rgbPrefix[i] + rgb[j]] = ("" + (colour / 255)).substring(0,4)
-        })
-    })
+    if (!ManualValueIgnore.map(e => e.replace("GOD", god)).includes(jsonFormat["Name"])) {
+      colors.forEach((rgbSet, i) => {
+        rgbSet.forEach((colour, j) => {
+            jsonFormat[rgbPrefix[i] + rgb[j]] = ("" + (colour / 255)).substring(0,4)
+          })
+      })
+    }
+
   }
   
   if (Object.keys(jsonFormat).length > 1) {
