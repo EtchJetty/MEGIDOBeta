@@ -121,7 +121,12 @@ ani.forEach((e, i)=> {
 
     for (const [key, value] of Object.entries(ManualValueAssign)) {
       if (jsonFormat["Name"].includes(key.replace("GOD", god))) {
-        let newColors = god == "Zeus" ? [Basecolors[0], Basecolors[2].fill(255), Basecolors[1]] : Basecolors
+
+        let newColors = 
+          god == "Zeus" ? [Basecolors[0], Basecolors[2].fill(255), Basecolors[1]] 
+          : god == "Dionysus" ? [Basecolors[0], Basecolors[2], Basecolors[1]] 
+          : Basecolors
+
         colors = value == 4 ? [red,red,red] : [newColors[value], newColors[value], newColors[value]]
         console.log("Vriska " + key)
       }
