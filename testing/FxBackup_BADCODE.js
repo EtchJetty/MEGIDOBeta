@@ -21,10 +21,6 @@ let ManualValueAssign = {
   "BoonDropB-GOD": 2,
   "BoonDropC-GOD": 0,
   "BoonDropGODIcon": 1,
-
-  "BoonDropA-Zeus": 0,
-  "BoonDropB-Zeus": 0,
-  "BoonDropC-Zeus": 2,
 }
 
 let red = [255, 0, 0]
@@ -121,7 +117,7 @@ ani.forEach((e, i)=> {
 
     for (const [key, value] of Object.entries(ManualValueAssign)) {
       if (jsonFormat["Name"].includes(key.replace("GOD", god))) {
-        let newColors = god == "Zeus" ? [Basecolors[1], Basecolors[2].fill(255), Basecolors[0]] : Basecolors
+        let newColors = god == "Zeus" ? [Basecolors[0], Basecolors[2].fill(255), Basecolors[1]] : Basecolors
         colors = value == 4 ? [red,red,red] : [newColors[value], newColors[value], newColors[value]]
         console.log("Vriska " + key)
       }
