@@ -169,7 +169,7 @@
       StartFrame = 1
       Scale = 0.99
     }
-    274 = {
+    275 = {
       Name = "Codex_Portrait_Thanatos"
       InheritFrom = "Codex_Portrait_Base_01"
       FilePath = "Portraits\Codex\CodexPortrait_Death"
