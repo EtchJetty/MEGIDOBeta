@@ -63,8 +63,8 @@ SJSON "Boons/Animations/GUIAnimations.sjson"
 To "Game/Animations/Fx.sjson"
 SJSON "Boons/Animations/Fx.sjson"
 
-:: To "Game/Animations/PortraitAnimations.sjson"
-:: SJSON "Portraits/Animations/PortraitAnimations.sjson"
+To "Game/Animations/PortraitAnimations.sjson"
+SJSON "Portraits/Animations/PortraitAnimations.sjson"
 
 :: Rose Animations
 :: To "Game/Animations/PortraitAnimations.sjson"

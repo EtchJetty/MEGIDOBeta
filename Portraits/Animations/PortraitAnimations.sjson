@@ -28,7 +28,7 @@
         FilePath = "Portraits\Portraits_Callie_Confident01"
         EndFrame = 1
         StartFrame = 1
-        }
+    }
     198 = {
       Name = "Portrait_Dusa_Empathetic_01"
       InheritFrom = "Portrait_Base_01"
