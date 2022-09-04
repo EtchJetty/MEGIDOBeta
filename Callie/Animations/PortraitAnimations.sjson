@@ -43,7 +43,7 @@
       EndFrame = 1
       StartFrame = 1
     }
-    267 = {
+    268 = {
       Name = "Codex_Portrait_Medusa"
       InheritFrom = "Codex_Portrait_Base_01"
       FilePath = "Portraits\Codex\CodexPortrait_Callie"
