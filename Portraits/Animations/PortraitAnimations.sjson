@@ -153,20 +153,6 @@
       StartFrame = 1
       Scale = 0.45
     }
-    256 = {
-      Name = "Codex_Portrait_Base_01"
-	  Type = "Constant"
-      FilePath = "Portraits\Codex\CodexPortrait_Death"
-      EndAlpha = 1.0
-      EndBlue = 1.0
-      EndGreen = 1.0
-      EndRed = 1.0
-      Duration = 0.1
-      EndFrame = 1
-      HoldLastFrame = true
-      NumFrames = 1
-      StartFrame = 1
-    }
     262 = {
       Name = "Codex_Portrait_Athena"
       InheritFrom = "Codex_Portrait_Base_01"
