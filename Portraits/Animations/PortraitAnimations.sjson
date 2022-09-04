@@ -23,7 +23,7 @@
       StartFrame = 1
     }
     197 = {
-        Name = "Portrait_Dusa_Default_01"
+        Name = "Portrait_Dusa_Confident_01_Exit"
         InheritFrom = "Portrait_Base_01_Exit"
         FilePath = "Portraits\Portraits_Callie_Confident01"
         EndFrame = 1
