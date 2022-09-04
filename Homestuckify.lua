@@ -19,17 +19,8 @@ ModUtil.WrapBaseFunction(
 ModUtil.WrapBaseFunction(
     "SetupMap",
     function(baseFunc)
-        DebugPrint({Text = "@MEGIDOBeta Trying to load package RoseArt.pkg"})
-        LoadPackages({Name = {"RoseArt"}})
-        return baseFunc()
-    end
-)
-
-ModUtil.WrapBaseFunction(
-    "SetupMap",
-    function(baseFunc)
-        DebugPrint({Text = "@MEGIDOBeta Trying to load package JadeSprites.pkg"})
-        LoadPackages({Name = {"JadeSprites"}})
+        DebugPrint({Text = "@MEGIDOBeta Trying to load package Portraits.pkg"})
+        LoadPackages({Name = {"Portraits"}})
         return baseFunc()
     end
 )
@@ -42,16 +33,6 @@ ModUtil.WrapBaseFunction(
         return baseFunc()
     end
 )
-
-ModUtil.WrapBaseFunction(
-    "SetupMap",
-    function(baseFunc)
-        DebugPrint({Text = "@MEGIDOBeta Trying to load package Callie.pkg"})
-        LoadPackages({Name = {"Callie"}})
-        return baseFunc()
-    end
-)
-
 
 --!! Set Colours
 
@@ -236,7 +217,7 @@ end)
 
 local findAndReplace = {
 	Zagreus = "Damara",
-	Zag = "Dara",
+	Zag = "Dam",
 
 	Tartarus = "LOTAK",
 	Asphodel = "LOHAC",
