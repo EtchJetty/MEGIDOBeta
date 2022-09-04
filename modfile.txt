@@ -63,15 +63,18 @@ SJSON "Boons/Animations/GUIAnimations.sjson"
 To "Game/Animations/Fx.sjson"
 SJSON "Boons/Animations/Fx.sjson"
 
+:: To "Game/Animations/PortraitAnimations.sjson"
+:: SJSON "Portraits/Animations/PortraitAnimations.sjson"
+
 :: Rose Animations
-To "Game/Animations/PortraitAnimations.sjson"
-SJSON "Rose/Animations/PortraitAnimations.sjson"
+:: To "Game/Animations/PortraitAnimations.sjson"
+:: SJSON "Rose/Animations/PortraitAnimations.sjson"
 To "Game/Animations/ObstacleAnimations.sjson"
 SJSON "Rose/Animations/ObstacleAnimations.sjson"
 
 :: Callie Animations
-To "Game/Animations/PortraitAnimations.sjson"
-SJSON "Callie/Animations/PortraitAnimations.sjson"
+:: To "Game/Animations/PortraitAnimations.sjson"
+:: SJSON "Callie/Animations/PortraitAnimations.sjson"
 
 To "Win/Packages/Portraits.pkg"
 Replace "Packages/Portraits.pkg"
@@ -104,7 +107,7 @@ To Win/Packages/720p/LOTAK.pkg_manifest
 Replace "Packages/LOTAK.pkg_manifest"
 
 :: Jade Animations
-To "Game/Animations/PortraitAnimations.sjson"
-SJSON "Jade/Animations/PortraitAnimations.sjson"
+:: To "Game/Animations/PortraitAnimations.sjson"
+:: SJSON "Jade/Animations/PortraitAnimations.sjson"
 To "Game/Animations/ObstacleAnimations.sjson"
 SJSON "Jade/Animations/ObstacleAnimations.sjson"

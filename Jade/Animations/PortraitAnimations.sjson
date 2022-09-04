@@ -23,6 +23,7 @@
       FilePath = "Portraits\Codex\CodexPortrait_Jade"
       EndFrame = 1
       StartFrame = 1
+      Scale = 0.99
     }
   }
 }
