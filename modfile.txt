@@ -80,6 +80,40 @@ Replace "Packages/RoseArt.pkg_manifest"
 To Win/Packages/720p/RoseArt.pkg_manifest
 Replace "Packages/RoseArt.pkg_manifest"
 
+:: Callie Animations
+To "Game/Animations/PortraitAnimations.sjson"
+SJSON "Callie/Animations/PortraitAnimations.sjson"
+
+To "Win/Packages/Callie.pkg"
+Replace "Packages/Callie.pkg"
+
+To Win/Packages/720p/Callie.pkg
+Replace "Packages/Callie.pkg"
+
+To Win/Packages/Callie.pkg_manifest
+Replace "Packages/Callie.pkg_manifest"
+
+To Win/Packages/720p/Callie.pkg_manifest
+Replace "Packages/Callie.pkg_manifest"
+
+:: Jack Animations
+:: To "Game/Animations/PortraitAnimations.sjson"
+:: SJSON "LOTAK/Animations/PortraitAnimations.sjson"
+:: To "Game/Animations/ObstacleAnimations.sjson"
+:: SJSON "LOTAK/Animations/ObstacleAnimations.sjson"
+
+To "Win/Packages/LOTAK.pkg"
+Replace "Packages/LOTAK.pkg"
+
+To Win/Packages/720p/LOTAK.pkg
+Replace "Packages/LOTAK.pkg"
+
+To Win/Packages/LOTAK.pkg_manifest
+Replace "Packages/LOTAK.pkg_manifest"
+
+To Win/Packages/720p/LOTAK.pkg_manifest
+Replace "Packages/LOTAK.pkg_manifest"
+
 :: Jade Animations
 To "Game/Animations/PortraitAnimations.sjson"
 SJSON "Jade/Animations/PortraitAnimations.sjson"

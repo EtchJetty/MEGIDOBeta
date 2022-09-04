@@ -1,0 +1,54 @@
+{
+  Animations = {
+     "_sequence" = true
+    194 = {
+      Name = "Portrait_Dusa_Default_01"
+      InheritFrom = "Portrait_Base_01"
+      FilePath = "Portraits\Portraits_Callie_01"
+      EndFrame = 1
+      StartFrame = 1
+    }
+    195 = {
+      Name = "Portrait_Dusa_Default_01_Exit"
+      InheritFrom = "Portrait_Base_01_Exit"
+      FilePath = "Portraits\Portraits_Callie_01"
+      EndFrame = 1
+      StartFrame = 1
+    }
+    196 = {
+      Name = "Portrait_Dusa_Confident_01"
+      InheritFrom = "Portrait_Base_01"
+      FilePath = "Portraits\Portraits_Callie_Confident01"
+      EndFrame = 1
+      StartFrame = 1
+    }
+    197 = {
+        Name = "Portrait_Dusa_Default_01"
+        InheritFrom = "Portrait_Base_01_Exit"
+        FilePath = "Portraits\Portraits_Callie_Confident01"
+        EndFrame = 1
+        StartFrame = 1
+        }
+    198 = {
+      Name = "Portrait_Dusa_Empathetic_01"
+      InheritFrom = "Portrait_Base_01"
+      FilePath = "Portraits\Portraits_Callie_Empathetic01"
+      EndFrame = 1
+      StartFrame = 1
+    }
+    199 = {
+      Name = "Portrait_Dusa_Empathetic_01_Exit"
+      InheritFrom = "Portrait_Base_01_Exit"
+      FilePath = "Portraits\Portraits_Callie_Empathetic01"
+      EndFrame = 1
+      StartFrame = 1
+    }
+    -- 267 = {
+    --   Name = "Codex_Portrait_Medusa"
+    --   InheritFrom = "Codex_Portrait_Base_01"
+    --   FilePath = "Portraits\Codex\CodexPortrait_Medusa"
+    --   EndFrame = 1
+    --   StartFrame = 1
+    -- }
+  }
+}

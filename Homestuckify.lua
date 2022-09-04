@@ -34,6 +34,25 @@ ModUtil.WrapBaseFunction(
     end
 )
 
+ModUtil.WrapBaseFunction(
+    "SetupMap",
+    function(baseFunc)
+        DebugPrint({Text = "@MEGIDOBeta Trying to load package LOTAK.pkg"})
+        LoadPackages({Name = {"LOTAK"}})
+        return baseFunc()
+    end
+)
+
+ModUtil.WrapBaseFunction(
+    "SetupMap",
+    function(baseFunc)
+        DebugPrint({Text = "@MEGIDOBeta Trying to load package Callie.pkg"})
+        LoadPackages({Name = {"Callie"}})
+        return baseFunc()
+    end
+)
+
+
 --!! Set Colours
 
 homestuckColors = {
