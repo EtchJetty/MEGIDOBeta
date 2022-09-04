@@ -5,6 +5,8 @@
       Name = "Portrait_Dusa_Default_01"
       InheritFrom = "Portrait_Base_01"
       FilePath = "Portraits\Portraits_Callie_01"
+      OffsetX = -90.0
+      OffsetY = 90.0
       EndFrame = 1
       StartFrame = 1
     }
@@ -12,6 +14,8 @@
       Name = "Portrait_Dusa_Default_01_Exit"
       InheritFrom = "Portrait_Base_01_Exit"
       FilePath = "Portraits\Portraits_Callie_01"
+      OffsetX = -90.0
+      OffsetY = 90.0
       EndFrame = 1
       StartFrame = 1
     }
@@ -19,6 +23,8 @@
       Name = "Portrait_Dusa_Confident_01"
       InheritFrom = "Portrait_Base_01"
       FilePath = "Portraits\Portraits_Callie_Confident01"
+      OffsetX = -90.0
+      OffsetY = 90.0
       EndFrame = 1
       StartFrame = 1
     }
@@ -26,6 +32,8 @@
         Name = "Portrait_Dusa_Confident_01_Exit"
         InheritFrom = "Portrait_Base_01_Exit"
         FilePath = "Portraits\Portraits_Callie_Confident01"
+        OffsetX = -90.0
+        OffsetY = 90.0
         EndFrame = 1
         StartFrame = 1
     }
@@ -33,6 +41,8 @@
       Name = "Portrait_Dusa_Empathetic_01"
       InheritFrom = "Portrait_Base_01"
       FilePath = "Portraits\Portraits_Callie_Empathetic01"
+      OffsetX = -90.0
+      OffsetY = 90.0
       EndFrame = 1
       StartFrame = 1
     }
@@ -40,6 +50,8 @@
       Name = "Portrait_Dusa_Empathetic_01_Exit"
       InheritFrom = "Portrait_Base_01_Exit"
       FilePath = "Portraits\Portraits_Callie_Empathetic01"
+      OffsetX = -90.0
+      OffsetY = 90.0
       EndFrame = 1
       StartFrame = 1
     }
