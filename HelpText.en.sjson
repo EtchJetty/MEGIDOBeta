@@ -297,7 +297,7 @@
     }
     2288 = {
       Id = "Location_Elysium"
-      DisplayName = "no FROST and FROGS"
+      DisplayName = "(no) FROST and FROGS"
     }
     2289 = {
       Id = "Location_Elysium_Short"
