@@ -77,7 +77,7 @@ local function addTextFormatting()
 	baseFormatTable = {
 		Font = "FontStuckExtended",
 		FontSize = 42,
-		LineSpacingBottom = -12,
+		LineSpacingBottom = -15,
 		Color = { 0, 0, 0, 255 },
 		ShadowColor = Color.Black, 
 		ShadowOffset = {0, 0}, 
@@ -215,6 +215,16 @@ end)
 
 --!! Enable custom dialogue and change formatting
 
+local findAndReplace = {
+	Zagreus = "Damara",
+	Zag = "Dara",
+
+	Tartarus = "LOTAK",
+	Asphodel = "LOHAC",
+	Elysium = "LOFAF",
+	Styx = "LOCAH",
+}
+
 local baseDisplayTextLine = DisplayTextLine
 function DisplayTextLine( screen, source, line, parentLine )
 
@@ -264,8 +274,10 @@ function DisplayTextLine( screen, source, line, parentLine )
 			text = string.gsub(text, hadesGod, homeGod)
 		end
 
-		-- Test
-		text = string.gsub(text, "Zagreus", "Damara")
+		-- Replace Words
+		for find,replace in pairs(findAndReplace) do
+			text = string.gsub(text, find, replace)
+		end
 
 		line.Text = text
 	end

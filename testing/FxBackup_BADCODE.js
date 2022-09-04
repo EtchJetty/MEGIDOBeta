@@ -6,9 +6,28 @@ document.getElementById("output").value = ""
 let ani = text.split("}").map(x => x + "}")
 ani.pop()
 
-let ManualAssign = {
+let ManualGodAssign = {
   Lightning: "Zeus"
 }
+
+let ManualValueAssign = {
+  BoonDissipateGlow: 2,
+  BoonDissipateVertical: 2,
+  BoonDissipateB: 2,
+  BoonDissipateA: 2,
+  
+  BoonDropGOD: 0,
+  "BoonDropA-GOD": 2,
+  "BoonDropB-GOD": 2,
+  "BoonDropC-GOD": 0,
+  "BoonDropGODIcon": 1,
+}
+
+let ManualValueIgnore = [
+  "BoonDropGODIcon"
+]
+
+let red = [255, 0, 0]
 
 let head = "{\n  Animations = {\n    \"_sequence\" = true\n    \/* if a table has the name of the god in it's Name, it has already been converted */"
 let tail = "\n  }\n}"
@@ -85,22 +104,42 @@ ani.forEach((e, i)=> {
     god = e.includes(key) ? key : god
   }
   if (!god) {
-    for (const [key, value] of Object.entries(ManualAssign)) {
+    for (const [key, value] of Object.entries(ManualGodAssign)) {
       god = e.includes(key) && !god ? value : god
     }
   }
   
   let number = i
   e = convertToJSON(e)
-  console.log(e)
   let jsonFormat = JSON.parse(e)
+  //console.log(jsonFormat.Name)
   
   if (god) {   
-    hsLookup[god].forEach((rgbSet, i) => {
-      rgbSet.forEach((colour, j) => {
-          jsonFormat[rgbPrefix[i] + rgb[j]] = ("" + (colour / 255)).substring(0,4)
-        })
-    })
+    let colors = hsLookup[god]
+
+    let Basecolors = colors
+
+    for (const [key, value] of Object.entries(ManualValueAssign)) {
+      if (jsonFormat["Name"].includes(key.replace("GOD", god))) {
+
+        let newColors = 
+          god == "Zeus" ? [Basecolors[0], Basecolors[2].fill(255), Basecolors[1]] 
+          : god == "Dionysus" ? [Basecolors[0], Basecolors[2], Basecolors[1]] 
+          : Basecolors
+
+        colors = value == 4 ? [red,red,red] : [newColors[value], newColors[value], newColors[value]]
+        console.log("Vriska " + key)
+      }
+    }
+
+    if (!ManualValueIgnore.map(e => e.replace("GOD", god)).includes(jsonFormat["Name"])) {
+      colors.forEach((rgbSet, i) => {
+        rgbSet.forEach((colour, j) => {
+            jsonFormat[rgbPrefix[i] + rgb[j]] = ("" + (colour / 255)).substring(0,4)
+          })
+      })
+    }
+
   }
   
   if (Object.keys(jsonFormat).length > 1) {
