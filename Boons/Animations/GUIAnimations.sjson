@@ -25,6 +25,7 @@
       Name = "BoonInfoSymbolAthenaIcon"
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Light3D"
+      Scale = 1
     }
     711 = {
       Name = "BoonInfoSymbolChaosIcon"
