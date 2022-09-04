@@ -47,6 +47,7 @@ homestuckColors = {
 	Dirk = { 242, 164, 0, 255 },
 	Vriska = { 0, 86, 130, 255 },
 	Eridan = { 106, 0, 106, 255 },
+	Callie = { 146, 146, 146, 255 },
 
 	SpaceBg = { 0, 0, 0, 255 },
 	SpaceAp = { 255, 255, 255, 255 },
@@ -218,6 +219,7 @@ end)
 local findAndReplace = {
 	Zagreus = "Damara",
 	Zag = "Dam",
+	Thanatos = "Death",
 
 	Tartarus = "LOTAK",
 	Asphodel = "LOHAC",
@@ -257,7 +259,7 @@ function DisplayTextLine( screen, source, line, parentLine )
 			Dionysus = "Jake",
 			Hermes = "June",
 			Poseidon = "Vriska",
-			Zeus = "Jade",
+			Dusa = "Callie",
 		}
 
 		-- Apply Formatting
