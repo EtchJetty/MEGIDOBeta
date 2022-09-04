@@ -1,6 +1,7 @@
 -: Mod Name: MEGIDOBeta
     PROJECT LEAD - EtchJetty
-    CHARATER ARTIST - Toasttiiee
+    CHARACTER ARTIST - @toasttiiee
+    CHARACTER ARTIST - Zack The Nerd
     3D ARTIST - RoseRoxy
     3D ARTIST - UberTheMeh
     3D ARTIST - Floober
@@ -68,33 +69,21 @@ SJSON "Rose/Animations/PortraitAnimations.sjson"
 To "Game/Animations/ObstacleAnimations.sjson"
 SJSON "Rose/Animations/ObstacleAnimations.sjson"
 
-To "Win/Packages/RoseArt.pkg"
-Replace "Packages/RoseArt.pkg"
-
-To Win/Packages/720p/RoseArt.pkg
-Replace "Packages/RoseArt.pkg"
-
-To Win/Packages/RoseArt.pkg_manifest
-Replace "Packages/RoseArt.pkg_manifest"
-
-To Win/Packages/720p/RoseArt.pkg_manifest
-Replace "Packages/RoseArt.pkg_manifest"
-
 :: Callie Animations
 To "Game/Animations/PortraitAnimations.sjson"
 SJSON "Callie/Animations/PortraitAnimations.sjson"
 
-To "Win/Packages/Callie.pkg"
-Replace "Packages/Callie.pkg"
+To "Win/Packages/Portraits.pkg"
+Replace "Packages/Portraits.pkg"
 
-To Win/Packages/720p/Callie.pkg
-Replace "Packages/Callie.pkg"
+To Win/Packages/720p/Portraits.pkg
+Replace "Packages/Portraits.pkg"
 
-To Win/Packages/Callie.pkg_manifest
-Replace "Packages/Callie.pkg_manifest"
+To Win/Packages/Portraits.pkg_manifest
+Replace "Packages/Portraits.pkg_manifest"
 
-To Win/Packages/720p/Callie.pkg_manifest
-Replace "Packages/Callie.pkg_manifest"
+To Win/Packages/720p/Portraits.pkg_manifest
+Replace "Packages/Portraits.pkg_manifest"
 
 :: Jack Animations
 :: To "Game/Animations/PortraitAnimations.sjson"
@@ -119,15 +108,3 @@ To "Game/Animations/PortraitAnimations.sjson"
 SJSON "Jade/Animations/PortraitAnimations.sjson"
 To "Game/Animations/ObstacleAnimations.sjson"
 SJSON "Jade/Animations/ObstacleAnimations.sjson"
-
-To "Win/Packages/JadeSprites.pkg"
-Replace "Packages/JadeSprites.pkg"
-
-To Win/Packages/720p/JadeSprites.pkg
-Replace "Packages/JadeSprites.pkg"
-
-To Win/Packages/JadeSprites.pkg_manifest
-Replace "Packages/JadeSprites.pkg_manifest"
-
-To Win/Packages/720p/JadeSprites.pkg_manifest
-Replace "Packages/JadeSprites.pkg_manifest"
