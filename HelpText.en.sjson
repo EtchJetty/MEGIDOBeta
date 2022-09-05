@@ -5,8 +5,8 @@
     /* Dialogue God Names and Titles */
     2168 = {
       Id = "NPC_Dusa_01"
-      DisplayName = "Dusa"
-      Description = "Duty-Bound Gorgon"
+      DisplayName = "Callie"
+      Description = "Duty-Bound Cherub"
     }
     2195 = {
       Id = "NPC_Thanatos_01"
