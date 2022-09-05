@@ -3,6 +3,21 @@
     "_sequence" = true
 
     /* Dialogue God Names and Titles */
+    2168 = {
+      Id = "NPC_Dusa_01"
+      DisplayName = "Dusa"
+      Description = "Duty-Bound Gorgon"
+    }
+    2195 = {
+      Id = "NPC_Thanatos_01"
+      DisplayName = "Death"
+      Description = "Death Incarnate"
+    }
+    2196 = {
+      Id = "Thanatos"
+      DisplayName = "Death"
+      Description = "Death Incarnate, who shepherds many mortal souls to the Underworld."
+    }
     2199 = {
       Id = "NPC_Zeus_01"
       DisplayName = "Jade"
@@ -48,7 +63,7 @@
       DisplayName = "Dave"
       Description = "Knight of Time"
     }
-
+    
     /* Boon God Names and Titles */
     174 = {
       Id = "ZeusUpgrade"
@@ -147,7 +162,7 @@
     }
     1813 = {
       Id = "PoseidonUpgrades"
-      DisplayName = "Theif of Light"
+      DisplayName = "Thief of Light"
       Description = "The son of the god of the dead shall someday earn various Boons of Vriska."
     }
     1814 = {
@@ -350,6 +365,31 @@
     2301 = {
       Id = "Surface_Alt"
       DisplayName = "Earth C"
+    }
+
+    79 = {
+      Id = "AthenaUpgrade_FlavorText01"
+      DisplayName = "behold, the peerless defenses of the rose-eyed goddess."
+    }
+    80 = {
+      Id = "AthenaUpgrade_FlavorText02"
+      DisplayName = "divine knowledge and subtle unconquerability."
+    }
+    81 = {
+      Id = "AthenaUpgrade_FlavorText03"
+      DisplayName = "blessings of the seer of light, who knows all that will be."
+    }
+    82 = {
+      Id = "ZeusUpgrade_FlavorText01"
+      DisplayName = "the witch of space, savior of the planets and the new universe."
+    }
+    83 = {
+      Id = "ZeusUpgrade_FlavorText02"
+      DisplayName = "conqueror of wolves, who created the promised planet alongside her knight."
+    }
+    84 = {
+      Id = "ZeusUpgrade_FlavorText03"
+      DisplayName = "wielder the power of the green sun and uniter of her friends."
     }
   }
 }
