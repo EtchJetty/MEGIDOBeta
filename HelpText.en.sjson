@@ -2,69 +2,32 @@
   Texts = {
     "_sequence" = true
 
-    /* Dialogue God Names and Titles */
-    2168 = {
-      Id = "NPC_Dusa_01"
-      DisplayName = "Callie"
-      Description = "Duty-Bound Cherub"
+    79 = {
+      Id = "AthenaUpgrade_FlavorText01"
+      DisplayName = "behold, the peerless defenses of the rose-eyed goddess."
     }
-    2195 = {
-      Id = "NPC_Thanatos_01"
-      DisplayName = "Death"
-      Description = "Death Incarnate"
+    80 = {
+      Id = "AthenaUpgrade_FlavorText02"
+      DisplayName = "divine knowledge and subtle unconquerability."
     }
-    2196 = {
-      Id = "Thanatos"
-      DisplayName = "Death"
-      Description = "Death Incarnate, who shepherds many mortal souls to the Underworld."
+    81 = {
+      Id = "AthenaUpgrade_FlavorText03"
+      DisplayName = "blessings of the seer of light, who knows all that will be."
     }
-    2199 = {
-      Id = "NPC_Zeus_01"
-      DisplayName = "Jade"
-      Description = "Witch of Space"
+    82 = {
+      Id = "ZeusUpgrade_FlavorText01"
+      DisplayName = "the witch of space, savior of the planets and the new universe."
     }
-    2200 = {
-      Id = "NPC_Poseidon_01"
-      DisplayName = "Vriska"
-      Description = "Thief of Light"
+    83 = {
+      Id = "ZeusUpgrade_FlavorText02"
+      DisplayName = "conqueror of wolves, who created the promised planet alongside her knight."
     }
-    2201 = {
-      Id = "NPC_Athena_01"
-      DisplayName = "Rose"
-      Description = "Seer of Light"
+    84 = {
+      Id = "ZeusUpgrade_FlavorText03"
+      DisplayName = "wielder the power of the green sun and uniter of her friends."
     }
-    2202 = {
-      Id = "NPC_Ares_01"
-      DisplayName = "Dirk"
-      Description = "Prince of Heart"
-    }
-    2203 = {
-      Id = "NPC_Dionysus_01"
-      DisplayName = "Jake"
-      Description = "Page of Hope"
-    }
-    2204 = {
-      Id = "NPC_Aphrodite_01"
-      DisplayName = "Roxy"
-      Description = "Rogue of Void"
-    }
-    2205 = {
-      Id = "NPC_Artemis_01"
-      DisplayName = "Jane"
-      Description = "Maid of Life"
-    }
-    2206 = {
-      Id = "NPC_Hermes_01"
-      DisplayName = "June"
-      Description = "Heir of Breath"
-    }
-    2207 = {
-      Id = "NPC_Demeter_01"
-      DisplayName = "Dave"
-      Description = "Knight of Time"
-    }
-    
     /* Boon God Names and Titles */
+    
     174 = {
       Id = "ZeusUpgrade"
       DisplayName = "Jade"
@@ -111,6 +74,7 @@
       Description = "Knight of Time"
     }
 
+    
     /* Achievements First meet */
     1784 = {
       Id = "AthenaFirstPickUp"
@@ -234,46 +198,66 @@
       DisplayName = "Invited June"
     }
 
-    /* Achievement Disciple */
-    3015 = {
-      Id = "ClearRequiredTraitsZeus"
-      DisplayName = "{!Icons.RunClearStar}Disciple of Jade{!Icons.RunClearStar}"
+    /* Dialogue God Names and Titles */
+    2168 = {
+      Id = "NPC_Dusa_01"
+      DisplayName = "Callie"
+      Description = "Duty-Bound Cherub"
     }
-    3016 = {
-      Id = "ClearRequiredTraitsPoseidon"
-      DisplayName = "{!Icons.RunClearStar}Disciple of Vriska{!Icons.RunClearStar}"
+    2195 = {
+      Id = "NPC_Thanatos_01"
+      DisplayName = "Death"
+      Description = "Death Incarnate"
     }
-    3017 = {
-      Id = "ClearRequiredTraitsAthena"
-      DisplayName = "{!Icons.RunClearStar}Disciple of Rose{!Icons.RunClearStar}"
+    2196 = {
+      Id = "Thanatos"
+      DisplayName = "Death"
+      Description = "Death Incarnate, who shepherds many mortal souls to the Underworld."
     }
-    3018 = {
-      Id = "ClearRequiredTraitsAres"
-      DisplayName = "{!Icons.RunClearStar}Disciple of Dirk{!Icons.RunClearStar}"
+    2199 = {
+      Id = "NPC_Zeus_01"
+      DisplayName = "Jade"
+      Description = "Witch of Space"
     }
-    3019 = {
-      Id = "ClearRequiredTraitsArtemis"
-      DisplayName = "{!Icons.RunClearStar}Disciple of Jane{!Icons.RunClearStar}"
+    2200 = {
+      Id = "NPC_Poseidon_01"
+      DisplayName = "Vriska"
+      Description = "Thief of Light"
     }
-    3020 = {
-      Id = "ClearRequiredTraitsAphrodite"
-      DisplayName = "{!Icons.RunClearStar}Disciple of Roxy{!Icons.RunClearStar}"
+    2201 = {
+      Id = "NPC_Athena_01"
+      DisplayName = "Rose"
+      Description = "Seer of Light"
     }
-    3021 = {
-      Id = "ClearRequiredTraitsDionysus"
-      DisplayName = "{!Icons.RunClearStar}Disciple of Jake{!Icons.RunClearStar}"
+    2202 = {
+      Id = "NPC_Ares_01"
+      DisplayName = "Dirk"
+      Description = "Prince of Heart"
     }
-    3022 = {
-      Id = "ClearRequiredTraitsHermes"
-      DisplayName = "{!Icons.RunClearStar}Disciple of June{!Icons.RunClearStar}"
+    2203 = {
+      Id = "NPC_Dionysus_01"
+      DisplayName = "Jake"
+      Description = "Page of Hope"
     }
-    3023 = {
-      Id = "ClearRequiredTraitsDemeter"
-      DisplayName = "{!Icons.RunClearStar}Disciple of Dave{!Icons.RunClearStar}"
+    2204 = {
+      Id = "NPC_Aphrodite_01"
+      DisplayName = "Roxy"
+      Description = "Rogue of Void"
     }
-    3024 = {
-      Id = "ClearRequiredTraitsChaos"
-      DisplayName = "{!Icons.RunClearStar}Scion of Eridan{!Icons.RunClearStar}"
+    2205 = {
+      Id = "NPC_Artemis_01"
+      DisplayName = "Jane"
+      Description = "Maid of Life"
+    }
+    2206 = {
+      Id = "NPC_Hermes_01"
+      DisplayName = "June"
+      Description = "Heir of Breath"
+    }
+    2207 = {
+      Id = "NPC_Demeter_01"
+      DisplayName = "Dave"
+      Description = "Knight of Time"
     }
 
     /* ENVIRONMENT */
@@ -367,29 +351,46 @@
       DisplayName = "Earth C"
     }
 
-    79 = {
-      Id = "AthenaUpgrade_FlavorText01"
-      DisplayName = "behold, the peerless defenses of the rose-eyed goddess."
+    /* Achievement Disciple */
+    3015 = {
+      Id = "ClearRequiredTraitsZeus"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Jade{!Icons.RunClearStar}"
     }
-    80 = {
-      Id = "AthenaUpgrade_FlavorText02"
-      DisplayName = "divine knowledge and subtle unconquerability."
+    3016 = {
+      Id = "ClearRequiredTraitsPoseidon"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Vriska{!Icons.RunClearStar}"
     }
-    81 = {
-      Id = "AthenaUpgrade_FlavorText03"
-      DisplayName = "blessings of the seer of light, who knows all that will be."
+    3017 = {
+      Id = "ClearRequiredTraitsAthena"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Rose{!Icons.RunClearStar}"
     }
-    82 = {
-      Id = "ZeusUpgrade_FlavorText01"
-      DisplayName = "the witch of space, savior of the planets and the new universe."
+    3018 = {
+      Id = "ClearRequiredTraitsAres"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Dirk{!Icons.RunClearStar}"
     }
-    83 = {
-      Id = "ZeusUpgrade_FlavorText02"
-      DisplayName = "conqueror of wolves, who created the promised planet alongside her knight."
+    3019 = {
+      Id = "ClearRequiredTraitsArtemis"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Jane{!Icons.RunClearStar}"
     }
-    84 = {
-      Id = "ZeusUpgrade_FlavorText03"
-      DisplayName = "wielder the power of the green sun and uniter of her friends."
+    3020 = {
+      Id = "ClearRequiredTraitsAphrodite"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Roxy{!Icons.RunClearStar}"
+    }
+    3021 = {
+      Id = "ClearRequiredTraitsDionysus"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Jake{!Icons.RunClearStar}"
+    }
+    3022 = {
+      Id = "ClearRequiredTraitsHermes"
+      DisplayName = "{!Icons.RunClearStar}Disciple of June{!Icons.RunClearStar}"
+    }
+    3023 = {
+      Id = "ClearRequiredTraitsDemeter"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Dave{!Icons.RunClearStar}"
+    }
+    3024 = {
+      Id = "ClearRequiredTraitsChaos"
+      DisplayName = "{!Icons.RunClearStar}Scion of Eridan{!Icons.RunClearStar}"
     }
   }
 }
