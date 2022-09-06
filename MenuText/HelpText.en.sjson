@@ -207,12 +207,12 @@
     2195 = {
       Id = "NPC_Thanatos_01"
       DisplayName = "Death"
-      Description = "Death Incarnate"
+      Description = "Thorough Psychopomp"
     }
     2196 = {
       Id = "Thanatos"
       DisplayName = "Death"
-      Description = "Death Incarnate, who shepherds many mortal souls to the Underworld."
+      Description = "Thorough Psychopomp, pretty bad at board games."
     }
     2199 = {
       Id = "NPC_Zeus_01"

@@ -14,19 +14,19 @@ Import "Homestuckify.lua"
 
 :: Replace God Names 
 To "Game/Text/en/HelpText.en.sjson"
-SJSON "HelpText.en.sjson"
+SJSON "MenuText/HelpText.en.sjson"
 To "Game/Text/en/MacroText.sjson"
-SJSON "MacroText.sjson"
+SJSON "MenuText/MacroText.sjson"
 
 :: Add credits
 To "Game/Text/en/CodexText.en.sjson"
-SJSON "CodexText.sjson"
+SJSON "MenuText/CodexCredits.sjson"
 
 :: Modify God Colours (Incomplete)
 To "Game/Animations/Fx.sjson"
-SJSON "Fx_EverythingConverted.sjson"
+SJSON "Boons/Effects/Fx_EverythingConverted.sjson"
 To "Game/Animations/GUIAnimations.sjson"
-SJSON "GUIAnimations.sjson"
+SJSON "Boons/Effects/GUIAnimations.sjson"
 
 :: Add custom fonts
 To Win/Fonts/en/FontStuckExtended.xnb
@@ -63,13 +63,16 @@ SJSON "Boons/Animations/GUIAnimations.sjson"
 To "Game/Animations/Fx.sjson"
 SJSON "Boons/Animations/Fx.sjson"
 
-To "Game/Animations/PortraitAnimations.sjson"
-SJSON "Portraits/Animations/PortraitAnimations.sjson"
+To "Win/Packages/LOTAK.pkg"
+Replace "Packages/LOTAK.pkg"
+To Win/Packages/720p/LOTAK.pkg
+Replace "Packages/LOTAK.pkg"
+To Win/Packages/LOTAK.pkg_manifest
+Replace "Packages/LOTAK.pkg_manifest"
+To Win/Packages/720p/LOTAK.pkg_manifest
+Replace "Packages/LOTAK.pkg_manifest"
 
-:: Rose Animations
-To "Game/Animations/ObstacleAnimations.sjson"
-SJSON "Rose/Animations/ObstacleAnimations.sjson"
-
+:: God Portraits Animations
 To "Win/Packages/Portraits.pkg"
 Replace "Packages/Portraits.pkg"
 To Win/Packages/720p/Portraits.pkg
@@ -79,24 +82,7 @@ Replace "Packages/Portraits.pkg_manifest"
 To Win/Packages/720p/Portraits.pkg_manifest
 Replace "Packages/Portraits.pkg_manifest"
 
-:: Jack Animations
-:: To "Game/Animations/PortraitAnimations.sjson"
-:: SJSON "LOTAK/Animations/PortraitAnimations.sjson"
-:: To "Game/Animations/ObstacleAnimations.sjson"
-:: SJSON "LOTAK/Animations/ObstacleAnimations.sjson"
-
-To "Win/Packages/LOTAK.pkg"
-Replace "Packages/LOTAK.pkg"
-
-To Win/Packages/720p/LOTAK.pkg
-Replace "Packages/LOTAK.pkg"
-
-To Win/Packages/LOTAK.pkg_manifest
-Replace "Packages/LOTAK.pkg_manifest"
-
-To Win/Packages/720p/LOTAK.pkg_manifest
-Replace "Packages/LOTAK.pkg_manifest"
-
-:: Jade Animations
 To "Game/Animations/ObstacleAnimations.sjson"
-SJSON "Jade/Animations/ObstacleAnimations.sjson"
+SJSON "Portraits/Animations/ObstacleAnimations.sjson"
+To "Game/Animations/PortraitAnimations.sjson"
+SJSON "Portraits/Animations/PortraitAnimations.sjson"

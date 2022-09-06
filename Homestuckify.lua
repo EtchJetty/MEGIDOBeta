@@ -210,8 +210,6 @@ ModUtil.DebugCall( function()
 
 	ModUtil.Table.Merge( LootData.ZeusUpgrade, createTextOnlyColorSubLootData("Jade") )
 	ModUtil.Table.Merge( LootData.PoseidonUpgrade, createTextOnlyColorSubLootData("Vriska") )
-
-	print(LootData.ZeusUpgrade.LightingColor[1])
 end)
 
 --!! Enable custom dialogue and change formatting

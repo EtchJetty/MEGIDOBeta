@@ -62,7 +62,7 @@
       EndFrame = 1
       StartFrame = 1
       OffsetX = -90.0
-      OffsetY = -90.0
+      OffsetY = 90.0
     }
     203 = {
       Name = "Portrait_Thanatos_Default_01_Exit"
@@ -71,7 +71,7 @@
       EndFrame = 1
       StartFrame = 1
       OffsetX = -90.0
-      OffsetY = -90.0
+      OffsetY = 90.0
     }
     204 = {
       Name = "Portrait_Thanatos_Pleased_01"
