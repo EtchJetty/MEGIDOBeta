@@ -199,7 +199,7 @@
     }
 
     /* Dialogue God Names and Titles */
-    2168 = {
+    2167 = {
       Id = "NPC_Dusa_01"
       DisplayName = "Callie"
       Description = "Duty-Bound Cherub"

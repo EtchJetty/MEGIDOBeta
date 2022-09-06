@@ -72,13 +72,10 @@ SJSON "Rose/Animations/ObstacleAnimations.sjson"
 
 To "Win/Packages/Portraits.pkg"
 Replace "Packages/Portraits.pkg"
-
 To Win/Packages/720p/Portraits.pkg
 Replace "Packages/Portraits.pkg"
-
 To Win/Packages/Portraits.pkg_manifest
 Replace "Packages/Portraits.pkg_manifest"
-
 To Win/Packages/720p/Portraits.pkg_manifest
 Replace "Packages/Portraits.pkg_manifest"
 
