@@ -19,8 +19,8 @@ ModUtil.WrapBaseFunction(
 ModUtil.WrapBaseFunction(
     "SetupMap",
     function(baseFunc)
-        DebugPrint({Text = "@MEGIDOBeta Trying to load package RoseArt.pkg"})
-        LoadPackages({Name = {"RoseArt"}})
+        DebugPrint({Text = "@MEGIDOBeta Trying to load package Portraits.pkg"})
+        LoadPackages({Name = {"Portraits"}})
         return baseFunc()
     end
 )
@@ -28,8 +28,8 @@ ModUtil.WrapBaseFunction(
 ModUtil.WrapBaseFunction(
     "SetupMap",
     function(baseFunc)
-        DebugPrint({Text = "@MEGIDOBeta Trying to load package JadeSprites.pkg"})
-        LoadPackages({Name = {"JadeSprites"}})
+        DebugPrint({Text = "@MEGIDOBeta Trying to load package LOTAK.pkg"})
+        LoadPackages({Name = {"LOTAK"}})
         return baseFunc()
     end
 )
@@ -47,6 +47,7 @@ homestuckColors = {
 	Dirk = { 242, 164, 0, 255 },
 	Vriska = { 0, 86, 130, 255 },
 	Eridan = { 106, 0, 106, 255 },
+	Callie = { 146, 146, 146, 255 },
 
 	SpaceBg = { 0, 0, 0, 255 },
 	SpaceAp = { 255, 255, 255, 255 },
@@ -68,30 +69,6 @@ homestuckColors = {
 	RageAp = { 16, 223, 255, 255 },
 }
 
---Format Lookup
-homestuckLookup = {
-	Aphrodite = "Roxy",
-	Ares = "Dirk",
-	Artemis = "Jane",
-	Athena = "Rose",
-	Chaos = "Eridan",
-	Demeter = "Dave",
-	Dionysus = "Jake",
-	Hermes = "June",
-	Poseidon = "Vriska",
-	Zeus = "Jade",
-}
-
-homestuckGodKidPairs = { -- This doesn't include Jade, Eridan and Vriska since they have unique conditions
-	June = "Breath",
-	Rose = "Light",
-	Dave = "Time",
-	Jane = "Life",
-	Jake = "Hope",
-	Roxy = "Void",
-	Dirk = "Heart",
-}
-
 
 --!! Add new Text formats for Charaters
 
@@ -101,7 +78,7 @@ local function addTextFormatting()
 	baseFormatTable = {
 		Font = "FontStuckExtended",
 		FontSize = 42,
-		LineSpacingBottom = -12,
+		LineSpacingBottom = -15,
 		Color = { 0, 0, 0, 255 },
 		ShadowColor = Color.Black, 
 		ShadowOffset = {0, 0}, 
@@ -233,11 +210,23 @@ ModUtil.DebugCall( function()
 
 	ModUtil.Table.Merge( LootData.ZeusUpgrade, createTextOnlyColorSubLootData("Jade") )
 	ModUtil.Table.Merge( LootData.PoseidonUpgrade, createTextOnlyColorSubLootData("Vriska") )
-
-	print(LootData.ZeusUpgrade.LightingColor[1])
 end)
 
 --!! Enable custom dialogue and change formatting
+
+local findAndReplace = {
+	Zagreus = "Damara",
+	Zag = "Dam",
+	Z = "D",
+	Prince = "Maiden",
+
+	Thanatos = "Death",
+
+	Tartarus = "LOTAK",
+	Asphodel = "LOHAC",
+	Elysium = "LOFAF",
+	Styx = "LOCAH",
+}
 
 local baseDisplayTextLine = DisplayTextLine
 function DisplayTextLine( screen, source, line, parentLine )
@@ -260,11 +249,29 @@ function DisplayTextLine( screen, source, line, parentLine )
 			end
 		end
 
+		--Format Lookup
+		homestuckLookup = {
+			Aphrodite = "Roxy",
+			Ares = "Dirk",
+			Artemis = "Jane",
+			Athena = "Rose",
+			Chaos = "Eridan",
+			Demeter = "Dave",
+			Dionysus = "Jake",
+			Hermes = "June",
+			Poseidon = "Vriska",
+			Zeus = "Jade",
+			
+			Dusa = "Callie",
+		}
+
 		-- Apply Formatting
 		godName = string.sub(line.Cue, 5, -6)
 		if homestuckLookup[godName] ~= nil then
 			text = "{#" .. homestuckLookup[godName] .. "}" .. text
 			text = string.gsub(text, "{#PreviousFormat}", "{#PreviousFormat}{#" .. homestuckLookup[godName] .. "}")
+		else
+			print(godName)
 		end
 
 		-- Replace God Names
@@ -272,8 +279,10 @@ function DisplayTextLine( screen, source, line, parentLine )
 			text = string.gsub(text, hadesGod, homeGod)
 		end
 
-		-- Test
-		text = string.gsub(text, "Zagreus", "Damara")
+		-- Replace Words
+		for find,replace in pairs(findAndReplace) do
+			text = string.gsub(text, "([^%a])" .. find .. "([^%a])", "%1" .. replace .. "%2")
+		end
 
 		line.Text = text
 	end

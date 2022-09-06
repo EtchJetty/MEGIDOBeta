@@ -17,5 +17,26 @@
       FilePath = "GUI\Screens\BoonSelectSymbols\Spin\SpaceIconSpin\SpaceIconSpin"
       Scale = 0.5
     }
+    4196 = {
+      Name = "BoonDropDemeterIcon"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\TimeIconSpin\TimeIconSpin"
+      Scale = 0.5
+    }
+    4178 = {
+      Name = "BoonDropArtemisIcon"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\LifeIconSpin\LifeIconSpin"
+      Scale = 0.5
+    }
+    4173 = {
+      Name = "BoonDropAresIcon"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\HeartIconSpin\HeartIconSpin"
+      Scale = 0.5
+    }
+    4168 = {
+      Name = "BoonDropAphroditeIcon"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\VoidIconSpin\VoidIconSpin"
+      Scale = 0.5
+    }
+
   }
 }

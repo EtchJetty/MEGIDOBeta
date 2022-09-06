@@ -1,0 +1,17 @@
+{
+  Animations = {
+     "_sequence" = true
+    73 = {
+      Name = "AthenaOverlay"
+      InheritFrom = "HadesOverlay"
+      FilePath = "Portraits\Portraits_Rose_01"
+      Scale = 0.45
+    }
+    74 = {
+      Name = "ZeusOverlay"
+      InheritFrom = "HadesOverlay"
+      FilePath = "Portraits\Portraits_Jade_01"
+      Scale = 0.3
+    }
+  }
+}

@@ -25,6 +25,7 @@
       Name = "BoonInfoSymbolAthenaIcon"
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Light3D"
+      Scale = 1
     }
     711 = {
       Name = "BoonInfoSymbolChaosIcon"
@@ -54,6 +55,7 @@
       Name = "BoonInfoSymbolAthenaIcon"
       InheritFrom = "BoonInfoSymbolBase"
       FilePath = "GUI\Screens\BoonSelectSymbols\Light3D"
+      Scale = 1.0
     }
     716 = {
       Name = "BoonInfoSymbolZeusIcon"
@@ -128,7 +130,7 @@
     /* Base */
     786 = {
       Name = "BoonSymbolBaseIsometric"
-      FilePath = "GUI\Icons\RoomReward\SpaceIso"
+      FilePath = "GUI\Icons\RoomReward\SpaceIsoSmall"
       Type = "Constant"
       Sound = "/Leftovers/SFX/DoorStateChangeRewardAppearance"
       AddColor = true
@@ -205,12 +207,12 @@
       FilePath = "GUI\Icons\RoomReward\VrisIso"
       EndFrame = 1
       StartFrame = 1
-      Scale = 0.1
+      Scale = 0.085
     }
     795 = {
       Name = "BoonSymbolZeusIsometric"
       InheritFrom = "BoonSymbolBaseIsometric"
-      FilePath = "GUI\Icons\RoomReward\SpaceIso"
+      FilePath = "GUI\Icons\RoomReward\SpaceIsoSmall"
       EndFrame = 1
       StartFrame = 1
       Scale = 0.25
@@ -248,8 +250,5 @@
       StartFrame = 1
       Scale = 0.085
     }
-
-    /* Other Iso icons (Have to reset scale) */
-
-}
+  }
 }
