@@ -276,7 +276,7 @@ function DisplayTextLine( screen, source, line, parentLine )
 
 		-- Replace Words
 		for find,replace in pairs(findAndReplace) do
-			text = string.gsub(text, find, replace)
+			text = string.gsub(text, "([^%a])" .. find .. "([^%a])", "%1" .. replace .. "%2")
 		end
 
 		line.Text = text
