@@ -350,6 +350,10 @@
       Id = "Surface_Alt"
       DisplayName = "Earth C"
     }
+    2867 = {
+      Id = "ProfileScreen_InProgressSave_Location"
+      DisplayName = "land of: \n {#NameHighlightFormat}"
+    }
 
     /* Achievement Disciple */
     3015 = {
@@ -392,5 +396,7 @@
       Id = "ClearRequiredTraitsChaos"
       DisplayName = "{!Icons.RunClearStar}Scion of Eridan{!Icons.RunClearStar}"
     }
+
+
   }
 }

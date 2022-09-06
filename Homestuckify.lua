@@ -217,6 +217,9 @@ end)
 local findAndReplace = {
 	Zagreus = "Damara",
 	Zag = "Dam",
+	Z = "D",
+	Prince = "Maiden",
+
 	Thanatos = "Death",
 
 	Tartarus = "LOTAK",
@@ -257,6 +260,8 @@ function DisplayTextLine( screen, source, line, parentLine )
 			Dionysus = "Jake",
 			Hermes = "June",
 			Poseidon = "Vriska",
+			Zues = "Jade",
+			
 			Dusa = "Callie",
 		}
 
