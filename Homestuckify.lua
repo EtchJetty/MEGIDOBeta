@@ -260,7 +260,7 @@ function DisplayTextLine( screen, source, line, parentLine )
 			Dionysus = "Jake",
 			Hermes = "June",
 			Poseidon = "Vriska",
-			Zues = "Jade",
+			Zeus = "Jade",
 			
 			Dusa = "Callie",
 		}
