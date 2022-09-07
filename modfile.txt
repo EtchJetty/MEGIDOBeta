@@ -22,9 +22,9 @@ SJSON "MenuText/MacroText.sjson"
 To "Game/Text/en/CodexText.en.sjson"
 SJSON "MenuText/CodexCredits.sjson"
 
-:: Modify God Colours (Incomplete)
+:: Modify God Colours
 To "Game/Animations/Fx.sjson"
-SJSON "Boons/Effects/Fx_EverythingConverted.sjson"
+SJSON "Boons/Effects/Fx_BoonColors.sjson"
 To "Game/Animations/GUIAnimations.sjson"
 SJSON "Boons/Effects/GUIAnimations.sjson"
 
@@ -61,7 +61,7 @@ Replace "Packages/BoonArt.pkg_manifest"
 To "Game/Animations/GUIAnimations.sjson"
 SJSON "Boons/Animations/GUIAnimations.sjson"
 To "Game/Animations/Fx.sjson"
-SJSON "Boons/Animations/Fx.sjson"
+SJSON "Boons/Animations/Fx_BoonSpin.sjson"
 
 To "Win/Packages/LOTAK.pkg"
 Replace "Packages/LOTAK.pkg"

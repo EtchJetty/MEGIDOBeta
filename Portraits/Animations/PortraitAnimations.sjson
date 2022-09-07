@@ -1,6 +1,8 @@
 {
   Animations = {
      "_sequence" = true
+
+     /* Callie */
     194 = {
       Name = "Portrait_Dusa_Default_01"
       InheritFrom = "Portrait_Base_01"
@@ -55,6 +57,8 @@
       EndFrame = 1
       StartFrame = 1
     }
+
+    /* Death */
     202 = {
       Name = "Portrait_Thanatos_Default_01"
       InheritFrom = "Portrait_Base_01"
@@ -91,6 +95,8 @@
       OffsetX = -90.0
       OffsetY = -90.0
     }
+
+    /* Rose */
     214 = {
       Name = "Portrait_Athena_Default_01"
       InheritFrom = "Portrait_God_01"
@@ -149,6 +155,8 @@
       EndFrame = 1
       StartFrame = 1
     }
+
+    /* Jade */
     217 = {
       Name = "Portrait_Zeus_Default_01"
       InheritFrom = "Portrait_God_01"
@@ -165,6 +173,43 @@
       StartFrame = 1
       Scale = 0.45
     }
+
+    /* Scratch */
+    143 = {
+      Name = "Portrait_Hades_Default_01"
+      InheritFrom = "Portrait_Base_01"
+      ChildAnimation = "null"
+      FilePath = "Portraits\Portraits_Scratch_01"
+      EndFrame = 1
+      StartFrame = 1
+      OffsetY = 30
+      OffsetX = -60
+    }
+    144 = {
+      Name = "Portrait_Hades_Default_01_Exit"
+      InheritFrom = "Portrait_Base_01_Exit"
+      FilePath = "Portraits\Portraits_Scratch_01"
+      EndFrame = 1
+      StartFrame = 1
+      OffsetY = 30
+      OffsetX = -60
+    }
+    149 = {
+      Name = "Portrait_Hades_Averted_01"
+      InheritFrom = "Portrait_Base_01"
+      FilePath = "Portraits\Portraits_Scratch_Averted01"
+      EndFrame = 1
+      StartFrame = 1
+    }
+    150 = {
+      Name = "Portrait_Hades_Averted_01_Exit"
+      InheritFrom = "Portrait_Base_01_Exit"
+      FilePath = "Portraits\Portraits_Scratch_Averted01"
+      EndFrame = 1
+      StartFrame = 1
+    }
+
+    /* CODEX */
     262 = {
       Name = "Codex_Portrait_Athena"
       InheritFrom = "Codex_Portrait_Base_01"

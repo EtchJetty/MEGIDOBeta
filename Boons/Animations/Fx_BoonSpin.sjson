@@ -30,7 +30,7 @@
     4173 = {
       Name = "BoonDropAresIcon"
       FilePath = "GUI\Screens\BoonSelectSymbols\Spin\HeartIconSpin\HeartIconSpin"
-      Scale = 0.5
+      Scale = 0.4
     }
     4168 = {
       Name = "BoonDropAphroditeIcon"

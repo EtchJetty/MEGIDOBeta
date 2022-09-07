@@ -199,6 +199,15 @@
     }
 
     /* Dialogue God Names and Titles */
+    2142 = {
+      Id = "Hades_Full"
+      DisplayName = "Scratch, Excellent Host"
+    }
+    2154 = {
+      Id = "NPC_Hades_01"
+      DisplayName = "Scratch"
+      Description = "Excellent Host"
+    }
     2167 = {
       Id = "NPC_Dusa_01"
       DisplayName = "Callie"
@@ -214,6 +223,9 @@
       DisplayName = "Death"
       Description = "Thorough Psychopomp, pretty bad at board games."
     }
+    
+
+
     2199 = {
       Id = "NPC_Zeus_01"
       DisplayName = "Jade"
