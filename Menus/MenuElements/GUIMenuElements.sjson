@@ -42,5 +42,26 @@
       Scale = 0.95
       OffsetX = 100
     }
+    560 = {
+      Name = "DialogueSpeechBubbleOut"
+      FilePath = "GUI\Screens\HomestuckBox_Out\HomestuckBox_Out"
+      Type = "Book"
+      EndFrame = 12
+      NumFrames = 12
+      HoldLastFrame = true
+      PlaySpeed = 60.0
+      StartFrame = 1
+      Material = "Unlit"
+      Slides = [
+        {
+          DurationFrames = 1
+          Sound = "/SFX/Menu Sounds/DialoguePanelOut"
+          Frame = 3
+        }]
+      
+      Scale = 0.95
+      OffsetX = 100
+    }
+
   }
 }
