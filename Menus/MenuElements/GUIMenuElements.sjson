@@ -1,0 +1,46 @@
+{
+  Animations = {
+    "_sequence" = true
+
+    391 = {
+      Name = "DialogueContinueArrow"
+      FilePath = "GUI\Screens\DialogueContinueArrow"
+      Type = "Constant"
+      Duration = 1.0
+      EaseIn = 0.9
+      EaseOut = 1.0
+      EndFrame = 1
+      Loop = true
+      NumFrames = 1
+      StartFrame = 1
+      
+      Material = "Unlit"
+      PingPongShiftOverDuration = true
+
+      EndOffsetY = 6.0
+      OffsetY = 20.0
+      OffsetX = 110.0
+    }
+
+    559 = {
+      Name = "DialogueSpeechBubble"
+      FilePath = "GUI\Screens\HomestuckBox_In\HomestuckBox_In"
+      Type = "Book"
+      EndFrame = 18
+      HoldLastFrame = true
+      NumFrames = 18
+      PlaySpeed = 60.0
+      StartFrame = 1
+      Material = "Unlit"
+      Slides = [
+        {
+          DurationFrames = 1
+          Sound = "/SFX/Menu Sounds/DialoguePanelOut"
+          Frame = 3
+        }]
+      
+      Scale = 0.95
+      OffsetX = 100
+    }
+  }
+}

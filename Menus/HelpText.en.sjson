@@ -1,0 +1,414 @@
+{
+  Texts = {
+    "_sequence" = true
+
+    79 = {
+      Id = "AthenaUpgrade_FlavorText01"
+      DisplayName = "behold, the peerless defenses of the rose-eyed goddess."
+    }
+    80 = {
+      Id = "AthenaUpgrade_FlavorText02"
+      DisplayName = "divine knowledge and subtle unconquerability."
+    }
+    81 = {
+      Id = "AthenaUpgrade_FlavorText03"
+      DisplayName = "blessings of the seer of light, who knows all that will be."
+    }
+    82 = {
+      Id = "ZeusUpgrade_FlavorText01"
+      DisplayName = "the witch of space, savior of the planets and the new universe."
+    }
+    83 = {
+      Id = "ZeusUpgrade_FlavorText02"
+      DisplayName = "conqueror of wolves, who created the promised planet alongside her knight."
+    }
+    84 = {
+      Id = "ZeusUpgrade_FlavorText03"
+      DisplayName = "wielder the power of the green sun and uniter of her friends."
+    }
+    /* Boon God Names and Titles */
+    
+    174 = {
+      Id = "ZeusUpgrade"
+      DisplayName = "Jade"
+      Description = "Witch of Space"
+    }
+    242 = {
+      Id = "PoseidonUpgrade"
+      DisplayName = "Vriska"
+      Description = "Thief of Light"
+    }
+    208 = {
+      Id = "AthenaUpgrade"
+      DisplayName = "Rose"
+      Description = "Seer of Light"
+    }
+    276 = {
+      Id = "AresUpgrade"
+      DisplayName = "Dirk"
+      Description = "Prince of Heart"
+    }
+    370 = {
+      Id = "DionysusUpgrade"
+      DisplayName = "Jake"
+      Description = "Page of Hope"
+    }
+    306 = {
+      Id = "AphroditeUpgrade"
+      DisplayName = "Roxy"
+      Description = "Rogue of Void"
+    }
+    338 = {
+      Id = "ArtemisUpgrade"
+      DisplayName = "Jane"
+      Description = "Maid of Life"
+    }
+    450 = {
+      Id = "HermesUpgrade"
+      DisplayName = "June"
+      Description = "Heir of Breath"
+    }
+    412 = {
+      Id = "DemeterUpgrade"
+      DisplayName = "Dave"
+      Description = "Knight of Time"
+    }
+
+    
+    /* Achievements First meet */
+    1784 = {
+      Id = "AthenaFirstPickUp"
+      DisplayName = "Met Rose Lalonde"
+    }
+    1785 = {
+      Id = "ZeusFirstPickUp"
+      DisplayName = "Met Jade Harley"
+    }
+    1786 = {
+      Id = "PoseidonFirstPickUp"
+      DisplayName = "Met Vriska Serket"
+    }
+    1787 = {
+      Id = "DionysusFirstPickUp"
+      DisplayName = "Met Jake Harley"
+    }
+    1788 = {
+      Id = "AresFirstPickUp"
+      DisplayName = "Met Dirk Strider"
+    }
+    1789 = {
+      Id = "ArtemisFirstPickUp"
+      DisplayName = "Met Jane Harley"
+    }
+    1790 = {
+      Id = "AphroditeFirstPickUp"
+      DisplayName = "Met Roxy Lalonde"
+    }
+    1791 = {
+      Id = "HermesFirstPickUp"
+      DisplayName = "Met June Egbert"
+    }
+    1792 = {
+      Id = "DemeterFirstPickUp"
+      DisplayName = "Met Dave Strider"
+    }
+
+    /* Achievements Get Boon */
+    1811 = {
+      Id = "AthenaUpgrades"
+      DisplayName = "Seer of Light"
+      Description = "The son of the god of the dead shall someday earn various Boons of Rose."
+    }
+    1812 = {
+      Id = "ZeusUpgrades"
+      DisplayName = "Witch of Space"
+      Description = "The son of the god of the dead shall someday earn various Boons of Jade."
+    }
+    1813 = {
+      Id = "PoseidonUpgrades"
+      DisplayName = "Thief of Light"
+      Description = "The son of the god of the dead shall someday earn various Boons of Vriska."
+    }
+    1814 = {
+      Id = "AphroditeUpgrades"
+      DisplayName = "Rogue of Void"
+      Description = "The son of the god of the dead shall someday earn various Boons of Roxy."
+    }
+    1815 = {
+      Id = "AresUpgrades"
+      DisplayName = "Prince of Heart"
+      Description = "The son of the god of the dead shall someday earn various Boons of Dirk."
+    }
+    1816 = {
+      Id = "ArtemisUpgrades"
+      DisplayName = "Maid of Life"
+      Description = "The son of the god of the dead shall someday earn various Boons of Jane."
+    }
+    1817 = {
+      Id = "DionysusUpgrades"
+      DisplayName = "Page of Hope"
+      Description = "The son of the god of the dead shall someday earn various Boons of Jake."
+    }
+    1818 = {
+      Id = "HermesUpgrades"
+      DisplayName = "Heir of Breath"
+      Description = "The son of the god of the dead shall someday earn various Boons of June."
+    }
+    1819 = {
+      Id = "DemeterUpgrades"
+      DisplayName = "Knight of Time"
+      Description = "The son of the god of the dead shall someday earn various Boons of Dave."
+    }
+
+    /* Achievements Invite */
+    1899 = {
+      Id = "ZeusAboutOlympianReunionQuest01"
+      DisplayName = "Invited Jade"
+    }
+    1900 = {
+      Id = "PoseidonAboutOlympianReunionQuest01"
+      DisplayName = "Invited Vriska"
+    }
+    1901 = {
+      Id = "AthenaAboutOlympianReunionQuest01"
+      DisplayName = "Invited Rose"
+    }
+    1902 = {
+      Id = "AphroditeAboutOlympianReunionQuest01"
+      DisplayName = "Invited Roxy"
+    }
+    1903 = {
+      Id = "AresAboutOlympianReunionQuest01"
+      DisplayName = "Invited Dirk"
+    }
+    1904 = {
+      Id = "ArtemisAboutOlympianReunionQuest01"
+      DisplayName = "Invited Jane"
+    }
+    1905 = {
+      Id = "DionysusAboutOlympianReunionQuest01"
+      DisplayName = "Invited Jake"
+    }
+    1906 = {
+      Id = "DemeterAboutOlympianReunionQuest01"
+      DisplayName = "Invited Dave"
+    }
+    1907 = {
+      Id = "HermesAboutOlympianReunionQuest01"
+      DisplayName = "Invited June"
+    }
+
+    /* Dialogue God Names and Titles */
+    2142 = {
+      Id = "Hades_Full"
+      DisplayName = "Lord English, Angel of Double Death"
+    }
+    2154 = {
+      Id = "NPC_Hades_01"
+      DisplayName = "Scratch"
+      Description = "Excellent Host"
+    }
+    2167 = {
+      Id = "NPC_Dusa_01"
+      DisplayName = "Callie"
+      Description = "Duty-Bound Cherub"
+    }
+    2195 = {
+      Id = "NPC_Thanatos_01"
+      DisplayName = "Death"
+      Description = "Thorough Psychopomp"
+    }
+    2196 = {
+      Id = "Thanatos"
+      DisplayName = "Death"
+      Description = "Thorough Psychopomp, pretty bad at board games."
+    }
+    
+
+
+    2199 = {
+      Id = "NPC_Zeus_01"
+      DisplayName = "Jade"
+      Description = "Witch of Space"
+    }
+    2200 = {
+      Id = "NPC_Poseidon_01"
+      DisplayName = "Vriska"
+      Description = "Thief of Light"
+    }
+    2201 = {
+      Id = "NPC_Athena_01"
+      DisplayName = "Rose"
+      Description = "Seer of Light"
+    }
+    2202 = {
+      Id = "NPC_Ares_01"
+      DisplayName = "Dirk"
+      Description = "Prince of Heart"
+    }
+    2203 = {
+      Id = "NPC_Dionysus_01"
+      DisplayName = "Jake"
+      Description = "Page of Hope"
+    }
+    2204 = {
+      Id = "NPC_Aphrodite_01"
+      DisplayName = "Roxy"
+      Description = "Rogue of Void"
+    }
+    2205 = {
+      Id = "NPC_Artemis_01"
+      DisplayName = "Jane"
+      Description = "Maid of Life"
+    }
+    2206 = {
+      Id = "NPC_Hermes_01"
+      DisplayName = "June"
+      Description = "Heir of Breath"
+    }
+    2207 = {
+      Id = "NPC_Demeter_01"
+      DisplayName = "Dave"
+      Description = "Knight of Time"
+    }
+
+    /* ENVIRONMENT */
+    /* Locations */
+    2280 = {
+      Id = "Location_Home"
+      DisplayName = "SCRATCH MANOR"
+    }
+    2281 = {
+      Id = "DeathArea"
+      DisplayName = "Scratch Manor"
+    }
+    2282 = {
+      Id = "Location_Tartarus"
+      DisplayName = "TOMBS and KRYPTON"
+    }
+    2283 = {
+      Id = "Location_Tartarus_Short"
+      DisplayName = "LOTAK"
+    }
+    2284 = {
+      Id = "Tartarus"
+      DisplayName = "Land of Tombs and Krypton"
+    }
+    2285 = {
+      Id = "Location_Asphodel"
+      DisplayName = "HEAT and CLOCKWORK"
+    }
+    2286 = {
+      Id = "Location_Asphodel_Short"
+      DisplayName = "LOHAC"
+    }
+    2287 = {
+      Id = "Asphodel"
+      DisplayName = "Land of Heat and Clockwork"
+    }
+    2288 = {
+      Id = "Location_Elysium"
+      DisplayName = "(no) FROST and FROGS"
+    }
+    2289 = {
+      Id = "Location_Elysium_Short"
+      DisplayName = "LOFAF"
+    }
+    2290 = {
+      Id = "Elysium"
+      DisplayName = "Land of Frost and Frogs"
+    }
+    2291 = {
+      Id = "Location_Styx"
+      DisplayName = "CRYPTS and HELIUM"
+    }
+    2292 = {
+      Id = "Location_Styx_Short"
+      DisplayName = "LOCAH"
+    }
+    2293 = {
+      Id = "Styx"
+      DisplayName = "Land of Crypts and Helium"
+    }
+    2294 = {
+      Id = "Location_Secret"
+      DisplayName = "PARADOX SPACE"
+    }
+    2295 = {
+      Id = "Secrets"
+      DisplayName = "Paradox Space"
+    }
+    2296 = {
+      Id = "Location_Challenge"
+      DisplayName = "THE GREEN(?) SUN"
+    }
+    2297 = {
+      Id = "Challenge"
+      DisplayName = "The Green? Sun"
+    }
+    2298 = {
+      Id = "Location_Surface"
+      DisplayName = "UNIVERSE C"
+    }
+    2299 = {
+      Id = "Surface"
+      DisplayName = "Universe C"
+    }
+    2300 = {
+      Id = "Location_Surface_Alt"
+      DisplayName = "EARTH C"
+    }
+    2301 = {
+      Id = "Surface_Alt"
+      DisplayName = "Earth C"
+    }
+    2867 = {
+      Id = "ProfileScreen_InProgressSave_Location"
+      DisplayName = "land of: \n {#NameHighlightFormat}"
+    }
+
+    /* Achievement Disciple */
+    3015 = {
+      Id = "ClearRequiredTraitsZeus"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Jade{!Icons.RunClearStar}"
+    }
+    3016 = {
+      Id = "ClearRequiredTraitsPoseidon"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Vriska{!Icons.RunClearStar}"
+    }
+    3017 = {
+      Id = "ClearRequiredTraitsAthena"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Rose{!Icons.RunClearStar}"
+    }
+    3018 = {
+      Id = "ClearRequiredTraitsAres"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Dirk{!Icons.RunClearStar}"
+    }
+    3019 = {
+      Id = "ClearRequiredTraitsArtemis"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Jane{!Icons.RunClearStar}"
+    }
+    3020 = {
+      Id = "ClearRequiredTraitsAphrodite"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Roxy{!Icons.RunClearStar}"
+    }
+    3021 = {
+      Id = "ClearRequiredTraitsDionysus"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Jake{!Icons.RunClearStar}"
+    }
+    3022 = {
+      Id = "ClearRequiredTraitsHermes"
+      DisplayName = "{!Icons.RunClearStar}Disciple of June{!Icons.RunClearStar}"
+    }
+    3023 = {
+      Id = "ClearRequiredTraitsDemeter"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Dave{!Icons.RunClearStar}"
+    }
+    3024 = {
+      Id = "ClearRequiredTraitsChaos"
+      DisplayName = "{!Icons.RunClearStar}Scion of Eridan{!Icons.RunClearStar}"
+    }
+
+
+  }
+}

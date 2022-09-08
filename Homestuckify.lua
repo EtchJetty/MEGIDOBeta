@@ -5,7 +5,7 @@ ModUtil.Mod.Register( "MEGIDOBeta" )
 enableCustomDialogue = true
 
 
---!! Load Charater Textures
+--!! Load Packages
 
 ModUtil.WrapBaseFunction(
     "SetupMap",
@@ -33,6 +33,16 @@ ModUtil.WrapBaseFunction(
         return baseFunc()
     end
 )
+
+ModUtil.WrapBaseFunction(
+    "SetupMap",
+    function(baseFunc)
+        DebugPrint({Text = "@MEGIDOBeta Trying to load package MenuElements.pkg"})
+        LoadPackages({Name = {"MenuElements"}})
+        return baseFunc()
+    end
+)
+
 
 --!! Set Colours
 
@@ -214,6 +224,16 @@ end)
 
 --!! Enable custom dialogue and change formatting
 
+-- Set Character Title and Name positions
+LocalizationData.Narrative.SpeakerDisplayName = MergeTables({ 
+	OffsetX = 110,
+	OffsetY = -60,
+}, LocalizationData.Narrative.SpeakerDisplayName )
+LocalizationData.Narrative.SpeakerDescription = MergeTables({ 
+	OffsetX = 110,
+	OffsetY = -25,
+}, LocalizationData.Narrative.SpeakerDescription )
+
 local findAndReplace = {
 	Zagreus = "Damara",
 	Zag = "Dam",
@@ -286,6 +306,9 @@ function DisplayTextLine( screen, source, line, parentLine )
 
 		line.Text = text
 	end
+
+	line.TextOffsetX = -290
+	line.TextOffsetY = 35
 
 	baseDisplayTextLine( screen, source, line, parentLine )
 end

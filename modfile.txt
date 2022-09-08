@@ -14,13 +14,13 @@ Import "Homestuckify.lua"
 
 :: Replace God Names 
 To "Game/Text/en/HelpText.en.sjson"
-SJSON "MenuText/HelpText.en.sjson"
+SJSON "Menus/HelpText.en.sjson"
 To "Game/Text/en/MacroText.sjson"
-SJSON "MenuText/MacroText.sjson"
+SJSON "Menus/MacroText.sjson"
 
 :: Add credits
 To "Game/Text/en/CodexText.en.sjson"
-SJSON "MenuText/CodexCredits.sjson"
+SJSON "Menus/CodexCredits.sjson"
 
 :: Modify God Colours
 To "Game/Animations/Fx.sjson"
@@ -47,7 +47,7 @@ To Game/Text/en/_LootData.en.sjson
 Replace "CustomDialogue/_LootData.en.sjson"
 
 :: == ANIMATIONS & TEXTURES ==
-
+:: == PACKAGES ==
 :: Custom Boon icons
 To "Win/Packages/BoonArt.pkg"
 Replace "Packages/BoonArt.pkg"
@@ -63,6 +63,7 @@ SJSON "Boons/Animations/GUIAnimations.sjson"
 To "Game/Animations/Fx.sjson"
 SJSON "Boons/Animations/Fx_BoonSpin.sjson"
 
+:: Enviroments
 To "Win/Packages/LOTAK.pkg"
 Replace "Packages/LOTAK.pkg"
 To Win/Packages/720p/LOTAK.pkg
@@ -86,3 +87,16 @@ To "Game/Animations/ObstacleAnimations.sjson"
 SJSON "Portraits/Animations/ObstacleAnimations.sjson"
 To "Game/Animations/PortraitAnimations.sjson"
 SJSON "Portraits/Animations/PortraitAnimations.sjson"
+
+:: Custom Menu Elements (Textbox)
+To "Win/Packages/MenuElements.pkg"
+Replace "Packages/MenuElements.pkg"
+To Win/Packages/720p/MenuElements.pkg
+Replace "Packages/MenuElements.pkg"
+To Win/Packages/MenuElements.pkg_manifest
+Replace "Packages/MenuElements.pkg_manifest"
+To Win/Packages/720p/MenuElements.pkg_manifest
+Replace "Packages/MenuElements.pkg_manifest"
+
+To "Game/Animations/GUIAnimations.sjson"
+SJSON "Menus/MenuElements/GUIMenuElements.sjson"
