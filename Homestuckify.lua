@@ -3,7 +3,7 @@ ModUtil.Mod.Register( "MEGIDOBeta" )
 --!! Settings
 
 enableCustomDialogue = true
-
+addChumHandle = true
 
 --!! Load Packages
 
@@ -86,17 +86,22 @@ local function addTextFormatting()
 
 	-- Base text, change font and shit here
 	baseFormatTable = {
-		Font = "FontStuckExtended",
-		FontSize = 42,
-		LineSpacingBottom = -15,
+		Font = "CourierNewBold",
+		FontSize = 28,
+
+		--Font = "FontStuckExtended",
+		--FontSize = 42,
+		--LineSpacingBottom = -15,
 		Color = { 0, 0, 0, 255 },
 		ShadowColor = Color.Black, 
-		ShadowOffset = {0, 0}, 
-		ShadowAlpha = 1.0,
-		--ShadowOffset = {2, 2}, 
-		--ShadowAlpha = 0.3,
-		--OutlineColor = {0, 0, 0, 1.0},
-		--OutlineThickness = 3.0,
+		--ShadowOffset = {0, 0}, 
+		--ShadowAlpha = 1.0,
+		ShadowOffset = {3, 3}, 
+		ShadowAlpha = 1,
+		--ShadowBlur = 0,
+		--OutlineColor = { 0, 0, 0, 0.6 },
+		--OutlineThickness = 4,
+		--OutlineThickness = 4,
 	}
 
 	-- Extra formats
@@ -305,10 +310,12 @@ function DisplayTextLine( screen, source, line, parentLine )
 		end
 
 		line.Text = text
-	end
 
-	line.TextOffsetX = -290
-	line.TextOffsetY = 35
+		-- Set text position
+		line.TextOffsetX = -280
+		line.TextOffsetY = 35
+	end
+	
 
 	baseDisplayTextLine( screen, source, line, parentLine )
 end

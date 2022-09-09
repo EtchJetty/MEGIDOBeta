@@ -57,5 +57,7 @@
 	"ComicSansMSRegular": 40,
 	"ComicSansMSBold": 40,
 	"ComicSansMSItalic": 40,
-	"ComicSansMSBoldItalic": 40
+	"ComicSansMSBoldItalic": 40,
+	"CourierNewBold": 40,
+	"CourierNewBoldItalic": 40
 }

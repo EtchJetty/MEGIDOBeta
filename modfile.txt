@@ -39,6 +39,10 @@ To Win/Fonts/en/ComicSansMSItalic.xnb
 Replace "Fonts/ComicSansMSItalic.xnb"
 To Win/Fonts/en/ComicSansMSBoldItalic.xnb
 Replace "Fonts/ComicSansMSBoldItalic.xnb"
+To Win/Fonts/en/CourierNewBold.xnb
+Replace "Fonts/CourierNewBold.xnb"
+To Win/Fonts/en/CourierNewBoldItalic.xnb
+Replace "Fonts/CourierNewBoldItalic.xnb"
 To Game/FontSizes.remap
 Replace "Fonts/FontSizes.remap"
 
