@@ -7,6 +7,20 @@
       FilePath = "GUI\Screens\BoonSelectSymbols\Spin\LightIconSpin\LightIconSpin"
       Scale = 0.5
     }
+    4191 = {
+      Name = "BoonDropChaosIcon"
+      InheritFrom = "BoonDropIcon"
+      CreateAnimation = null
+      ClearCreateAnimations = true
+      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\RageIconSpin\RageIconSpin"
+      Scale = 0.4
+    }
+    4201 = {
+      Name = "BoonDropDionysusIcon"
+      InheritFrom = "BoonDropIcon"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\HopeIconSpin\HopeIconSpin"
+      Scale = 0.4
+    }
     4206 = {
       Name = "BoonDropHermesIcon"
       FilePath = "GUI\Screens\BoonSelectSymbols\Spin\BreathIconSpin\BreathIconSpin"
