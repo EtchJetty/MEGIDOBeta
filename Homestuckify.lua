@@ -88,20 +88,14 @@ local function addTextFormatting()
 	baseFormatTable = {
 		Font = "CourierNewBold",
 		FontSize = 28,
+		Color = Color.Black,
 
-		--Font = "FontStuckExtended",
-		--FontSize = 42,
-		--LineSpacingBottom = -15,
-		Color = { 0, 0, 0, 255 },
 		ShadowColor = Color.Black, 
-		--ShadowOffset = {0, 0}, 
-		--ShadowAlpha = 1.0,
-		ShadowOffset = {3, 3}, 
-		ShadowAlpha = 1,
-		--ShadowBlur = 0,
-		--OutlineColor = { 0, 0, 0, 0.6 },
-		--OutlineThickness = 4,
-		--OutlineThickness = 4,
+		ShadowOffset = {-2, -2}, 
+		ShadowBlur = 0,
+
+		--OutlineColor = Color.Black,
+		--OutlineThickness = 3.0, 
 	}
 
 	-- Extra formats
@@ -120,7 +114,16 @@ local function addTextFormatting()
 		for k,v in pairs(baseFormatTable) do
 			newFormat[k] = v 
 		end
-		newFormat["Color"] = color
+		
+		local darkColor = {}
+		for i,v in ipairs(color) do
+			darkColor[i] = v / 2
+			if darkColor[i] < 0 then darkColor[i] = 0 end
+		end
+		darkColor[4] = 255
+
+		newFormat["Color"] = darkColor
+		newFormat["ShadowColor"] = color
 
 		generatedFormatList[homestuckKid] = newFormat
 	end
@@ -312,8 +315,8 @@ function DisplayTextLine( screen, source, line, parentLine )
 		line.Text = text
 
 		-- Set text position
-		line.TextOffsetX = -280
-		line.TextOffsetY = 35
+		line.TextOffsetX = -275
+		line.TextOffsetY = 40
 	end
 	
 
