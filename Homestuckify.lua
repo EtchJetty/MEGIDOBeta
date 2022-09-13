@@ -197,7 +197,7 @@ newGodDmgVoiceColors = {
 
 ModUtil.Table.Merge( Color, newGodDmgVoiceColors )
 
--- Load Loottable
+-- Load Loottable Colours
 
 function createColorSubLootData (Col1, Col2, Col3, Col4)
 	return {
