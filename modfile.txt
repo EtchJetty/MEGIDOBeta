@@ -51,6 +51,7 @@ Replace "Fonts/CourierNewBoldItalic.xnb"
 To Game/FontSizes.remap
 Replace "Fonts/FontSizes.remap"
 
+:: == DIALOGUE ==
 :: Set Custom Dialogue
 To Game/Text/en/_LootData.en.sjson
 Replace "CustomDialogue/_LootData.en.sjson"
