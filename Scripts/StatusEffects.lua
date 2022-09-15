@@ -1,35 +1,32 @@
 -- Dave slow effect
-local baseChillApplyPresentation = ChillApplyPresentation
-function ChillApplyPresentation( victim, victimId, chillStacks )
+ModUtil.Path.Context.Env("ChillApplyPresentation", function()
 
-  local baseSetColor = SetColor
-  local SetColor = function(args)
+  ModUtil.Path.Wrap("SetColor", function(base, args)
+
+    -- Get back chillStacks
+    local newChillStacks = args.Color[1] / ( 8/10 )
+
+    -- This is the same as homestuckColors.TimeAp
+    -- Refrencing it directly seems to cause an error
     args.Color = {
-      homestuckColors.TimeAp[1] * chillStacks / 10, 
-      homestuckColors.TimeAp[2] * chillStacks / 10, 
-      homestuckColors.TimeAp[3] * chillStacks / 10,
+      255 * newChillStacks / 10, 
+      36 * newChillStacks / 10, 
+      6 * newChillStacks / 10,
       255
     }
-    print("Vriska")
-    baseSetColor(args)
-  end
+    return base(args)
+  end, "MEGIDOBeta")
 
-  baseChillApplyPresentation( victim, victimId, chillStacks )
-end
+end)
 
-local baseUpdateChillEffectStacks = UpdateChillEffectStacks
-function UpdateChillEffectStacks( unit, unitId, stacks )
+-- Dave slow effect text color
+ModUtil.Path.Context.Env("UpdateChillEffectStacks", function()
 
-  local baseCreateTextBox = CreateTextBox
-  local CreateTextBox = function(args)
-    args.Color = Color.Lerp(homestuckColors.Dave, homestuckColors.TimeBg, (5 - stacks) / 5)
-    if stacks >= 5 then 
-      args.Color = Color.Lerp(homestuckColors.TimeBg, homestuckColors.TimeAp, (10 - stacks) / 5)
-    end
-    
-    print("Vriska")
-    baseCreateTextBox(args)
-  end
+  ModUtil.Path.Wrap("CreateTextBox", function(base, args)
 
-  baseUpdateChillEffectStacks( unit, unitId, stacks )
-end
+    args.Color = { 255, 35, 6, 255 }
+
+    return base(args)
+  end, "MEGIDOBeta")
+
+end)

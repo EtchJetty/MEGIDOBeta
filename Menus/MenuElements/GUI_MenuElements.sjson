@@ -2,6 +2,7 @@
   Animations = {
     "_sequence" = true
 
+    /* Text Box */
     391 = {
       Name = "DialogueContinueArrow"
       FilePath = "GUI\Screens\DialogueContinueArrow"
@@ -61,6 +62,13 @@
       
       Scale = 0.95
       OffsetX = 100
+    }
+
+    /* Status Effects */
+    109 = {
+      Name = "Freeze_Small"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Time3D"
+      Scale = 0.05
     }
 
   }

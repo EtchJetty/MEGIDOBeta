@@ -15,7 +15,7 @@ Import "Scripts/Load.lua"
 Import "Scripts/HomestuckColors.lua"
 Import "Scripts/TextFormatting.lua"
 Import "Scripts/CustomCodex.lua"
-::Import "Scripts/StatusEffects.lua"
+Import "Scripts/StatusEffects.lua"
 
 :: Replace God Names 
 To "Game/Text/en/HelpText.en.sjson"
@@ -108,4 +108,4 @@ To Win/Packages/720p/MenuElements.pkg_manifest
 Replace "Packages/MenuElements.pkg_manifest"
 
 To "Game/Animations/GUIAnimations.sjson"
-SJSON "Menus/MenuElements/GUIMenuElements.sjson"
+SJSON "Menus/MenuElements/GUI_MenuElements.sjson"
