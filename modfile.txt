@@ -15,6 +15,7 @@ Import "Scripts/Load.lua"
 Import "Scripts/HomestuckColors.lua"
 Import "Scripts/TextFormatting.lua"
 Import "Scripts/CustomCodex.lua"
+::Import "Scripts/StatusEffects.lua"
 
 :: Replace God Names 
 To "Game/Text/en/HelpText.en.sjson"

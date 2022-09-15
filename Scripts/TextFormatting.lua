@@ -12,7 +12,6 @@ findAndReplace = {
 	Styx = "LOCAH",
 }
 
---Format Lookup
 homestuckLookup = {
   Aphrodite = "Roxy",
   Ares = "Dirk",
@@ -39,7 +38,8 @@ LocalizationData.Narrative.SpeakerDescription = MergeTables({
 	OffsetY = -25,
 }, LocalizationData.Narrative.SpeakerDescription )
 
--- Create Formatting
+
+--!! Create Formatting
 
 if createCustomTextFormats == true then
 
@@ -90,6 +90,7 @@ if createCustomTextFormats == true then
 	ModUtil.Table.Merge( TextFormats, generatedFormatList )
 
 end
+
 
 --!! Enable custom dialogue and change formatting
 

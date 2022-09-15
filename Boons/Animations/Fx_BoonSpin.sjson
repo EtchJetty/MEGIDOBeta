@@ -26,6 +26,14 @@
       FilePath = "GUI\Screens\BoonSelectSymbols\Spin\BreathIconSpin\BreathIconSpin"
       Scale = 0.5
     }
+    4211 = {
+      Name = "BoonDropPoseidonIcon"
+      InheritFrom = "BoonDropIcon"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\VriskaIconSpin\VriskaIconSpin"
+      Scale = 0.5
+      OffsetX = -2
+      OffsetY = 4
+    }
     4216 = {
       Name = "BoonDropZeusIcon"
       FilePath = "GUI\Screens\BoonSelectSymbols\Spin\SpaceIconSpin\SpaceIconSpin"

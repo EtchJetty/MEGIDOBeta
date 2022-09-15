@@ -7,7 +7,9 @@ let ani = text.split("}").map(x => x + "}")
 ani.pop()
 
 let ManualGodAssign = {
-  Lightning: "Zeus"
+  Lightning: "Zeus",
+  QuickFlashPurple: "Dionysus",
+  
 }
 
 let ManualValueAssign = {
