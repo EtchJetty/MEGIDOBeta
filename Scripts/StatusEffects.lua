@@ -20,13 +20,13 @@ ModUtil.Path.Context.Env("ChillApplyPresentation", function()
 end)
 
 -- Dave slow effect text color
-ModUtil.Path.Context.Env("UpdateChillEffectStacks", function()
+-- Again, refencing homestuckColors.TimeAp directly doesn't seem to work
+local timeColor = { 255, 35, 6, 255 }
 
-  ModUtil.Path.Wrap("CreateTextBox", function(base, args)
+ModUtil.Path.Context.Env( "UpdateChillEffectStacks", function( )
 
-    args.Color = { 255, 35, 6, 255 }
+  ModUtil.Path.Override( "Color.Lerp", function( )
+      return timeColor
+  end, MEGIDOBeta )
 
-    return base(args)
-  end, "MEGIDOBeta")
-
-end)
+end )
