@@ -12,7 +12,7 @@ findAndReplace = {
 	Styx = "LOCAH",
 }
 
-homestuckLookup = {
+local homestuckLookup = {
   Aphrodite = "Jake",
   Ares = "Dirk",
   Artemis = "Jane",
