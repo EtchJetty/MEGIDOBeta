@@ -18,7 +18,7 @@
     4201 = {
       Name = "BoonDropDionysusIcon"
       InheritFrom = "BoonDropIcon"
-      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\HopeIconSpin\HopeIconSpin"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\VoidIconSpin\VoidIconSpin"
       Scale = 0.4
     }
     4206 = {
@@ -56,7 +56,7 @@
     }
     4168 = {
       Name = "BoonDropAphroditeIcon"
-      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\VoidIconSpin\VoidIconSpin"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Spin\HopeIconSpin\HopeIconSpin"
       Scale = 0.5
     }
 

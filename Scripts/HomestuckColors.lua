@@ -38,12 +38,12 @@ newGodDmgVoiceColors = {
 	ZeusDamage = homestuckColors.Jade,
 	AthenaDamageLight = homestuckColors.LightBg,
 	AthenaDamage = homestuckColors.LightAp,
-	AphroditeDamageLight = homestuckColors.VoidBg,
-	AphroditeDamage = homestuckColors.VoidAp,
+	AphroditeDamageLight = homestuckColors.HopeBg,
+	AphroditeDamage = homestuckColors.HopeAp,
 	AresDamageLight = homestuckColors.LifeBg,
 	AresDamage = homestuckColors.LifeAp,
-	DionysusDamageLight = homestuckColors.HopeBg,
-	DionysusDamage = homestuckColors.HopeAp,
+	DionysusDamageLight = homestuckColors.VoidBg,
+	DionysusDamage = homestuckColors.VoidAp,
 	PoseidonDamageLight = homestuckColors.Vriska,
 	PoseidonDamage = homestuckColors.Vriska,
 	DemeterDamageLight = homestuckColors.TimeBg,
@@ -55,9 +55,9 @@ newGodDmgVoiceColors = {
 	PoseidonVoice = homestuckColors.Vriska,
 	AthenaVoice = homestuckColors.Rose,
 	AresVoice = homestuckColors.Jane,
-	AphroditeVoice = homestuckColors.Roxy,
+	AphroditeVoice = homestuckColors.Jake,
 	ArtemisVoice = homestuckColors.Dirk,
-	DionysusVoice = homestuckColors.Jake,
+	DionysusVoice = homestuckColors.Roxy,
 	DemeterVoice = homestuckColors.Dave,
 	ChaosVoice = homestuckColors.Eridan
 }
@@ -88,8 +88,8 @@ ModUtil.DebugCall( function()
 	ModUtil.Table.Merge( LootData.AthenaUpgrade, createAspectColorSubLootData("Rose", "Light") )
 	ModUtil.Table.Merge( LootData.DemeterUpgrade, createAspectColorSubLootData("Dave", "Time") )
 	ModUtil.Table.Merge( LootData.AresUpgrade, createAspectColorSubLootData("Jane", "Life") )
-	ModUtil.Table.Merge( LootData.DionysusUpgrade, createAspectColorSubLootData("Jake", "Hope") )
-	ModUtil.Table.Merge( LootData.AphroditeUpgrade, createAspectColorSubLootData("Roxy", "Void") )
+	ModUtil.Table.Merge( LootData.AphroditeUpgrade, createAspectColorSubLootData("Jake", "Hope") )
+	ModUtil.Table.Merge( LootData.DionysusUpgrade, createAspectColorSubLootData("Roxy", "Void") )
 	ModUtil.Table.Merge( LootData.ArtemisUpgrade, createAspectColorSubLootData("Dirk", "Heart") )
 	ModUtil.Table.Merge( LootData.TrialUpgrade, createAspectColorSubLootData("Eridan", "Rage") )
 

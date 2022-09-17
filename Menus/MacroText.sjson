@@ -5,7 +5,7 @@
     /* Boon Get Text */
     0 = {
       Id = "UpgradeChoiceMenu_Title_AphroditeUpgrade"
-      DisplayName = "Boons of Roxy"
+      DisplayName = "Boons of Jake"
     }
     1 = {
       Id = "UpgradeChoiceMenu_Title_ArtemisUpgrade"
@@ -25,7 +25,7 @@
     }
     5 = {
       Id = "UpgradeChoiceMenu_Title_DionysusUpgrade"
-      DisplayName = "Boons of Jake"
+      DisplayName = "Boons of Roxy"
     }
     6 = {
       Id = "UpgradeChoiceMenu_Title_HermesUpgrade"
@@ -51,7 +51,7 @@
     /* Displeased Text */
     221 = {
       Id = "Player_GodDispleased_AphroditeUpgrade"
-      DisplayName = "Roxy Grew Displeased!"
+      DisplayName = "Jake Grew Displeased!"
     }
     222 = {
       Id = "Player_GodDispleased_ArtemisUpgrade"
@@ -71,7 +71,7 @@
     }
     226 = {
       Id = "Player_GodDispleased_DionysusUpgrade"
-      DisplayName = "Jake Grew Displeased!"
+      DisplayName = "Roxy Grew Displeased!"
     }
     227 = {
       Id = "Player_GodDispleased_HermesUpgrade"

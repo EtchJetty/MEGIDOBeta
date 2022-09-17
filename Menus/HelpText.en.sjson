@@ -50,13 +50,13 @@
     }
     370 = {
       Id = "DionysusUpgrade"
-      DisplayName = "Jake"
-      Description = "Page of Hope"
+      DisplayName = "Roxy"
+      Description = "Rogue of Void"
     }
     306 = {
       Id = "AphroditeUpgrade"
-      DisplayName = "Roxy"
-      Description = "Rogue of Void"
+      DisplayName = "Jake"
+      Description = "Page of Hope"
     }
     338 = {
       Id = "ArtemisUpgrade"
@@ -90,7 +90,7 @@
     }
     1787 = {
       Id = "DionysusFirstPickUp"
-      DisplayName = "Met Jake Harley"
+      DisplayName = "Met Roxy Harley"
     }
     1788 = {
       Id = "AresFirstPickUp"
@@ -102,7 +102,7 @@
     }
     1790 = {
       Id = "AphroditeFirstPickUp"
-      DisplayName = "Met Roxy Lalonde"
+      DisplayName = "Met Jake Lalonde"
     }
     1791 = {
       Id = "HermesFirstPickUp"
@@ -131,8 +131,8 @@
     }
     1814 = {
       Id = "AphroditeUpgrades"
-      DisplayName = "Rogue of Void"
-      Description = "The son of the god of the dead shall someday earn various Boons of Roxy."
+      DisplayName = "Page of Hope"
+      Description = "The son of the god of the dead shall someday earn various Boons of Jake."
     }
     1815 = {
       Id = "AresUpgrades"
@@ -146,8 +146,8 @@
     }
     1817 = {
       Id = "DionysusUpgrades"
-      DisplayName = "Page of Hope"
-      Description = "The son of the god of the dead shall someday earn various Boons of Jake."
+      DisplayName = "Rogue of Void"
+      Description = "The son of the god of the dead shall someday earn various Boons of Roxy."
     }
     1818 = {
       Id = "HermesUpgrades"
@@ -175,7 +175,7 @@
     }
     1902 = {
       Id = "AphroditeAboutOlympianReunionQuest01"
-      DisplayName = "Invited Roxy"
+      DisplayName = "Invited Jake"
     }
     1903 = {
       Id = "AresAboutOlympianReunionQuest01"
@@ -187,7 +187,7 @@
     }
     1905 = {
       Id = "DionysusAboutOlympianReunionQuest01"
-      DisplayName = "Invited Jake"
+      DisplayName = "Invited Roxy"
     }
     1906 = {
       Id = "DemeterAboutOlympianReunionQuest01"
@@ -248,13 +248,13 @@
     }
     2203 = {
       Id = "NPC_Dionysus_01"
-      DisplayName = "Jake"
-      Description = "Page of Hope"
+      DisplayName = "Roxy"
+      Description = "Rogue of Void"
     }
     2204 = {
       Id = "NPC_Aphrodite_01"
-      DisplayName = "Roxy"
-      Description = "Rogue of Void"
+      DisplayName = "Jake"
+      Description = "Page of Hope"
     }
     2205 = {
       Id = "NPC_Artemis_01"
@@ -390,11 +390,11 @@
     }
     3020 = {
       Id = "ClearRequiredTraitsAphrodite"
-      DisplayName = "{!Icons.RunClearStar}Disciple of Roxy{!Icons.RunClearStar}"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Jake{!Icons.RunClearStar}"
     }
     3021 = {
       Id = "ClearRequiredTraitsDionysus"
-      DisplayName = "{!Icons.RunClearStar}Disciple of Jake{!Icons.RunClearStar}"
+      DisplayName = "{!Icons.RunClearStar}Disciple of Roxy{!Icons.RunClearStar}"
     }
     3022 = {
       Id = "ClearRequiredTraitsHermes"

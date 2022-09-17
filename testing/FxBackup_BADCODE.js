@@ -35,7 +35,7 @@ let head = "{\n  Animations = {\n    \"_sequence\" = true\n    \/* if a table ha
 let tail = "\n  }\n}"
 
 let hsLookup = {
-  Aphrodite: [ // Roxy
+  Dionysus: [ // Roxy
     [241, 65, 239], // Text
     [0, 19, 75], // Symbol
     [3, 52, 118], // BG
@@ -65,7 +65,7 @@ let hsLookup = {
     [255, 35, 6], // Symbol
     [183, 13, 14], // BG
   ],
-  Dionysus: [ // Jake
+  Aphrodite: [ // Jake
     [31, 148, 0], // Text
     [255, 224, 148], // BG
     [253, 253, 253], // Symbol

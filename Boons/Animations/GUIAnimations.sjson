@@ -12,7 +12,7 @@
     708 = {
       Name = "BoonInfoSymbolAphroditeIcon"
       InheritFrom = "BoonInfoSymbolBase"
-      FilePath = "GUI\Screens\BoonSelectSymbols\Void3D"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Hope3D"
       Scale = 0.1
     }
     709 = { 
@@ -42,7 +42,7 @@
     713 = {
       Name = "BoonInfoSymbolDionysusIcon"
       InheritFrom = "BoonInfoSymbolBase"
-      FilePath = "GUI\Screens\BoonSelectSymbols\Hope3D"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Void3D"
       Scale = 0.1
     }
     714 = {
@@ -68,7 +68,7 @@
     728 = {
       Name = "BoonSymbolAphroditeIcon"
       InheritFrom = "BoonSymbolBase"
-      FilePath = "GUI\Screens\BoonSelectSymbols\Void3D"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Hope3D"
       Scale = 0.1
     }
     734 = {
@@ -98,7 +98,7 @@
     758 = {
       Name = "BoonSymbolDionysusIcon"
       InheritFrom = "BoonSymbolBase"
-      FilePath = "GUI\Screens\BoonSelectSymbols\Hope3D"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Void3D"
       Scale = 0.1
     }
     764 = {
@@ -156,7 +156,7 @@
     787 = {
       Name = "BoonSymbolAphroditeIsometric"
       InheritFrom = "BoonSymbolBaseIsometric"
-      FilePath = "GUI\Icons\RoomReward\VoidIso"
+      FilePath = "GUI\Icons\RoomReward\HopeIso"
       EndFrame = 1
       StartFrame = 1
       Scale = 0.1
@@ -236,7 +236,7 @@
     798 = {
       Name = "BoonSymbolDionysusIsometric"
       InheritFrom = "BoonSymbolBaseIsometric"
-      FilePath = "GUI\Icons\RoomReward\HopeIso"
+      FilePath = "GUI\Icons\RoomReward\VoidIso"
       EndFrame = 1
       StartFrame = 1
       Scale = 0.085

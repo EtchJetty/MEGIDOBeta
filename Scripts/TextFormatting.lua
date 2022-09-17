@@ -13,13 +13,13 @@ findAndReplace = {
 }
 
 homestuckLookup = {
-  Aphrodite = "Roxy",
+  Aphrodite = "Jake",
   Ares = "Dirk",
   Artemis = "Jane",
   Athena = "Rose",
   Chaos = "Eridan",
   Demeter = "Dave",
-  Dionysus = "Jake",
+  Dionysus = "Roxy",
   Hermes = "June",
   Poseidon = "Vriska",
   Zeus = "Jade",
