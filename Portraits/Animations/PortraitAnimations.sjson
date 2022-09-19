@@ -84,7 +84,7 @@
       EndFrame = 1
       StartFrame = 1
       OffsetX = -90.0
-      OffsetY = -90.0
+      OffsetY = 90.0
     }
     205 = {
       Name = "Portrait_Thanatos_Pleased_01_Exit"
@@ -93,7 +93,7 @@
       EndFrame = 1
       StartFrame = 1
       OffsetX = -90.0
-      OffsetY = -90.0
+      OffsetY = 90.0
     }
 
     /* Rose */

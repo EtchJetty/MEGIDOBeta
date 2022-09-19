@@ -65,11 +65,17 @@
     }
 
     /* Status Effects */
+    105 = {
+      Name = "Poison_Small"
+      FilePath = "GUI\Screens\BoonSelectSymbols\Void3D"
+      Scale = 0.05
+    }
     109 = {
       Name = "Freeze_Small"
       FilePath = "GUI\Screens\BoonSelectSymbols\Time3D"
       Scale = 0.05
     }
+
 
   }
 }
