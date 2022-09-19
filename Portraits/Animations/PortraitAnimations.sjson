@@ -116,7 +116,7 @@
       OffsetY = -276.0
       NumFrames = 6
       StartFrame = 1
-      Scale = 0.45
+      Scale = 0.46
       Slides = [
         {
           DurationFrames = 6
@@ -151,7 +151,7 @@
       Name = "Portrait_Athena_Default_01_Exit"
       InheritFrom = "Portrait_Base_01_Exit"
       FilePath = "Portraits\Portraits_Rose_01"
-      Scale = 0.45
+      Scale = 0.46
       EndFrame = 1
       StartFrame = 1
     }
@@ -163,7 +163,7 @@
       FilePath = "Portraits\Portraits_Jade_01"
       EndFrame = 1
       StartFrame = 1
-      Scale = 0.45
+      Scale = 0.46
     }
     218 = {
       Name = "Portrait_Zeus_Default_01_Exit"
@@ -171,7 +171,28 @@
       FilePath = "Portraits\Portraits_Jade_01"
       EndFrame = 1
       StartFrame = 1
+      Scale = 0.46
+    }
+
+    /* Dave */
+    192 = {
+      Name = "Portrait_Demeter_Default_01"
+      InheritFrom = "Portrait_God_01"
+      FilePath = "Portraits\Portraits_Dave_01"
+      ChildAnimation = "PortraitGodRayEmitter_Demeter"
+      EndFrame = 1
+      StartFrame = 1
+      Scale = 0.46
+      OffsetX = -30.0
+    }
+    193 = {
+      Name = "Portrait_Demeter_Default_01_Exit"
+      InheritFrom = "Portrait_Base_01_Exit"
+      FilePath = "Portraits\Portraits_Dave_01"
+      EndFrame = 1
+      StartFrame = 1
       Scale = 0.45
+      OffsetX = -30.0
     }
 
     /* Scratch */
@@ -241,6 +262,13 @@
       EndFrame = 1
       StartFrame = 1
       Scale = 0.99
+    }
+    266 = {
+      Name = "Codex_Portrait_Demeter"
+      InheritFrom = "Codex_Portrait_Base_01"
+      FilePath = "Portraits\Codex\CodexPortrait_Dave"
+      EndFrame = 1
+      StartFrame = 1
     }
   }
 }
