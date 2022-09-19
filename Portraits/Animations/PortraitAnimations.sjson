@@ -112,8 +112,8 @@
       Type = "Slide"
       EndFrame = 6
       Loop = true
-      OffsetX = -8.0
-      OffsetY = -276.0
+      OffsetX = -2
+      OffsetY = -314.0
       NumFrames = 6
       StartFrame = 1
       Scale = 0.46
