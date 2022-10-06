@@ -7,7 +7,6 @@ ModUtil.Path.Context.Env("ChillApplyPresentation", function()
     local newChillStacks = args.Color[1] / ( 8/10 )
 
     -- This is the same as homestuckColors.TimeAp
-    -- Refrencing it directly seems to cause an error
     args.Color = {
       255 * newChillStacks / 10, 
       36 * newChillStacks / 10, 
@@ -20,13 +19,24 @@ ModUtil.Path.Context.Env("ChillApplyPresentation", function()
 end)
 
 -- Dave slow effect text color
--- Again, refencing homestuckColors.TimeAp directly doesn't seem to work
-local timeColor = { 255, 35, 6, 255 }
+ModUtil.Path.Context.Env( "UpdateChillEffectStacks", function()
 
-ModUtil.Path.Context.Env( "UpdateChillEffectStacks", function( )
+  Color = setmetatable({},{__index = Color})
 
-  ModUtil.Path.Override( "Color.Lerp", function( )
-      return timeColor
-  end, MEGIDOBeta )
+  ModUtil.Path.Override( "Color.Lerp", function(args)
+      return homestuckColors.Dave
+  end, "MEGIDOBeta")
+
+end )
+
+
+-- Roxy hangover effect text color
+ModUtil.Path.Context.Env( "UpdatePoisonEffectStacks", function()
+
+  Color = setmetatable({},{__index = Color})
+
+  ModUtil.Path.Override( "Color.Lerp", function(args)
+      return homestuckColors.Roxy
+  end, "MEGIDOBeta")
 
 end )
