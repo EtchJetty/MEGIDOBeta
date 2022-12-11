@@ -27,6 +27,8 @@ local homestuckLookup = {
   Dusa = "Callie",
 }
 
+doTranslations = false
+
 -- Set Character Title and Name positions for custom textbox
 
 LocalizationData.Narrative.SpeakerDisplayName = MergeTables({ 
@@ -101,7 +103,7 @@ function DisplayTextLine( screen, source, line, parentLine )
 
     -- Custom Dialogue
 		local text = line.Text
-		if GetLanguage({}) == "en" then
+		if GetLanguage({}) == "en" and doTranslations then
 			-- If the cue is defined, look up the translation without the '/VO/' prefix
 			if line.Cue then
 				local helpTextId = string.sub( line.Cue, 5 )
