@@ -27,8 +27,6 @@ local homestuckLookup = {
   Dusa = "Callie",
 }
 
-doTranslations = false
-
 -- Set Character Title and Name positions for custom textbox
 
 LocalizationData.Narrative.SpeakerDisplayName = MergeTables({ 
@@ -51,12 +49,9 @@ if createCustomTextFormats == true then
 		FontSize = 27,
 		Color = Color.Black,
 
-		ShadowColor = Color.Black, 
+		ShadowColor = Color.DarkSlateGray, 
 		ShadowOffset = {-2, -2}, 
 		ShadowBlur = 0,
-
-		--OutlineColor = Color.Black,
-		--OutlineThickness = 3.0, 
 	}
 
 	-- Extra formats
@@ -89,6 +84,8 @@ if createCustomTextFormats == true then
 		generatedFormatList[homestuckKid] = newFormat
 	end
 
+	generatedFormatList["baseHomestuck"] = baseFormatTable
+
 	ModUtil.Table.Merge( TextFormats, generatedFormatList )
 
 end
@@ -103,13 +100,13 @@ function DisplayTextLine( screen, source, line, parentLine )
 
     -- Custom Dialogue
 		local text = line.Text
-		if GetLanguage({}) == "en" and doTranslations then
+		if GetLanguage({}) == "en" then
 			-- If the cue is defined, look up the translation without the '/VO/' prefix
 			if line.Cue then
 				local helpTextId = string.sub( line.Cue, 5 )
 				text = helpTextId
 
-				if HasDisplayName({ Text = helpTextId }) and enableCustomDialogue then
+				if HasDisplayName({ Text = helpTextId }) and doTranslations then
 					text = GetDisplayName({ Text = text })
 				else 
 					text = line.Text -- Revert to default text
@@ -124,7 +121,8 @@ function DisplayTextLine( screen, source, line, parentLine )
 			text = "{#" .. homestuckLookup[godName] .. "}" .. text
 			text = string.gsub(text, "{#PreviousFormat}", "{#PreviousFormat}{#" .. homestuckLookup[godName] .. "}")
 		else
-			print(godName)
+			text = "{#baseHomestuck}" .. text
+			text = string.gsub(text, "{#PreviousFormat}", "{#PreviousFormat}{#baseHomestuck}")
 		end
 
 		-- Replace God Names

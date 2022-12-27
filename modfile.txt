@@ -10,7 +10,7 @@
 :-
 
 
-Import "Scripts/CustomDialogue.lua"
+::Import "Scripts/CustomDialogue.lua"
 
 Import "Scripts/Load.lua"
 Import "Scripts/HomestuckColors.lua"

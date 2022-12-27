@@ -208,6 +208,11 @@
       DisplayName = "Scratch"
       Description = "Excellent Host"
     }
+    2158 = {
+      Id = "NPC_Achilles_01"
+      DisplayName = "Wayward Vagabond"
+      Description = "Warweary Villein"
+    }
     2167 = {
       Id = "NPC_Dusa_01"
       DisplayName = "Callie"
@@ -224,8 +229,6 @@
       Description = "Thorough Psychopomp, pretty bad at board games."
     }
     
-
-
     2199 = {
       Id = "NPC_Zeus_01"
       DisplayName = "Jade"

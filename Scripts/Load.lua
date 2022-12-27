@@ -2,8 +2,8 @@ ModUtil.Mod.Register( "MEGIDOBeta" )
 
 --!! Settings
 
-enableCustomDialogue = true
 createCustomTextFormats = true
+doTranslations = false
 
 --!! Load Packages
 
