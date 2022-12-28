@@ -25,7 +25,25 @@ local homestuckLookup = {
   Zeus = "Jade",
   
   Dusa = "Callie",
+	Hades = "Scratch",
+	Hypnos = "Megido",
+	Zagreus = "Megido",
+	Minotaur = "Gamzee",
+	Theseus = "Karkat",
 }
+
+local usesNarratorTextbox = [
+	"Achilles",
+	"Eurydice",
+	"Orpheus",
+	"Patroclus",
+	"Nyx",
+	"Skelly",
+	"MegaeraHome",
+	"MegaeraField",
+	"Alecto",
+	"Tisiphone"
+]
 
 -- Set Character Title and Name positions for custom textbox
 
@@ -61,6 +79,15 @@ if createCustomTextFormats == true then
 			FontSize = 26,
 			Color = Color.CodexText,
 		},
+		Scratch = {
+			Font = "CourierNewBold",
+			FontSize = 27,
+			Color = Color.White,
+	
+			ShadowColor = homestuckColors.Jade, 
+			ShadowOffset = {-2, -2}, 
+			ShadowBlur = 0,
+		}
 	}
 
 	-- Generate formats and merge to TextFormats table

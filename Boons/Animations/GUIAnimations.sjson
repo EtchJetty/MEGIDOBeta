@@ -250,5 +250,42 @@
       StartFrame = 1
       Scale = 0.085
     }
+
+    /* ZillyHoo */
+    295 = {
+      Name = "WeaponUpgrade"
+      ChildAnimation = "BoonOrbFrontFlareHammer"
+      FilePath = "GUI\Tilesets\Gameplay\Gameplay_Zillyhoo_01"
+      Type = "Constant"
+      VisualFx = "WeaponUpgradeSparkleOutward"
+      Duration = 1.333
+      EaseOut = 1.0
+      EndFrame = 1
+      Loop = true
+      NumFrames = 1
+      StartFrame = 1
+      EndOffsetY = -8.0
+      Scale = 0.75
+      Material = "Unlit"
+      VisualFxIntervalMax = 0.1
+      VisualFxIntervalMin = 0.2
+      OwnerImmobile = true
+      PingPongShiftOverDuration = true
+    }
+    787 = {
+      Name = "WeaponUpgradeSymbol"
+      InheritFrom = "StackUpgradeSymbol"
+      FilePath = "GUI\Tilesets\Gameplay\Gameplay_Zillyhoo_01"
+      EndFrame = 1
+      StartFrame = 1
+    }
+    819 = {
+      Name = "WeaponUpgradePreview"
+      InheritFrom = "BoonSymbolBaseIsometric"
+      FilePath = "GUI\Icons\RoomReward\Zillyhoo_01"
+      EndFrame = 1
+      StartFrame = 1
+    }
+
   }
 }
