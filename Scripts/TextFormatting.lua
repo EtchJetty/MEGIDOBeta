@@ -26,8 +26,10 @@ local homestuckLookup = {
   
   Dusa = "Callie",
 	Hades = "Scratch",
+	HadesField = "Scratch",
 	Hypnos = "Megido",
-	Zagreus = "Megido",
+	ZagreusField = "Megido",
+	ZagreusHome = "Megido",
 	Minotaur = "Gamzee",
 	Theseus = "Karkat",
 }
