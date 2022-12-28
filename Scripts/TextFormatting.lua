@@ -32,7 +32,7 @@ local homestuckLookup = {
 	Theseus = "Karkat",
 }
 
-local usesNarratorTextbox = [
+local usesNarratorTextbox = {
 	"Achilles",
 	"Eurydice",
 	"Orpheus",
@@ -42,8 +42,8 @@ local usesNarratorTextbox = [
 	"MegaeraHome",
 	"MegaeraField",
 	"Alecto",
-	"Tisiphone"
-]
+	"Tisiphone",
+}
 
 -- Set Character Title and Name positions for custom textbox
 
