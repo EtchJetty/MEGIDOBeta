@@ -1,0 +1,25 @@
+{
+  Texts = [
+        "_append"
+    {
+      Id = "megidoCredits"
+      Speaker = "Achilles"
+      DisplayName = "{#CodexTitleFormat}MEGIDO CREDITS{#PreviousFormat} \n\n{#CodexBoldFormat}PROJECT LEAD{#PreviousFormat} - EtchJetty \n{#CodexBoldFormat}CHARACTER ARTIST{#PreviousFormat} - toasttiiee \n{#CodexBoldFormat}CHARACTER ARTIST{#PreviousFormat} - Zack the Nerd \n{#CodexBoldFormat}3D ARTIST{#PreviousFormat} - RoseRoxy \n{#CodexBoldFormat}3D ARTIST{#PreviousFormat} - UberTheMeh \n{#CodexBoldFormat}3D ARTIST{#PreviousFormat} - Floober \n{#CodexBoldFormat}3D ARTIST{#PreviousFormat} - Jerome \n{#CodexBoldFormat}CODING{#PreviousFormat} - FlaringK \n{#CodexBoldFormat}ADDTL. TECH SUPPORT{#PreviousFormat} - erumi321 \n{#CodexBoldFormat}ADDTL. TECH SUPPORT{#PreviousFormat} - nbusseneau \n{#CodexBoldFormat}CODEX TEMPLATE{#PreviousFormat} - bessyboo \n{#CodexBoldFormat}OlympusExtra{#PreviousFormat} - AlexKage & physiX \n{#CodexBoldFormat}CONCEPT & DESIGN{#PreviousFormat} - Nihilistic Janitor"
+    }
+    {
+      Id = "CodexData_HS001"
+      Speaker = "Achilles"
+      DisplayName = "'...The WARHAMMER OF ZILLYHOO, one of the legendary Zillyweapons, finds its way into unexpected places, though its utility is always undeniable...'"
+    }
+    {
+      Id = "CodexData_HS002"
+      Speaker = "Achilles"
+      DisplayName = "'...The WARHAMMER OF ZILLYHOO, one of the legendary Zillyweapons, finds its way into unexpected places, though its utility is always undeniable. {#CodexBoldFormat}Questants and vagabonds alike fear and covet the power of ZILLIUM, a substance known only for how downright silly it can be when it comes to making things more powerful...{#PreviousFormat}'"
+    }
+    {
+      Id = "CodexData_HS003"
+      Speaker = "Achilles"
+      DisplayName = "'...The WARHAMMER OF ZILLYHOO, one of the legendary Zillyweapons, finds its way into unexpected places, though its utility is always undeniable. Questants and vagabonds alike fear and covet the power of ZILLIUM, a substance known only for how downright silly it can be when it comes to making things more powerful. {#CodexBoldFormat}I was blessed enough in my time to watch a stuffed compatriot deliver the WARHAMMER to the Hero of Wind, which was then employed in heroics across the universe. You hold in your hands a weapon very dear to me. Use its gifts well.{#PreviousFormat}'"
+    }
+  ]
+}

@@ -288,5 +288,19 @@
       EndFrame = 1
       StartFrame = 1
     }
+    267 = {
+      Name = "Codex_Portrait_Hades"
+      InheritFrom = "Codex_Portrait_Base_01"
+      FilePath = "Portraits\Codex\CodexPortrait_Scratch"
+      EndFrame = 1
+      StartFrame = 1
+    }
+    348 = {
+      Name = "Codex_Portrait_Hammer"
+      InheritFrom = "Codex_Portrait_Base_01"
+      FilePath = "Portraits\Codex\CodexPortrait_Zillyhoo"
+      EndFrame = 1
+      StartFrame = 1
+    }
   }
 }

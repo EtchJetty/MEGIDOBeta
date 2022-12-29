@@ -47,6 +47,7 @@ local usesNarratorTextbox = {
 	"Tisiphone",
 }
 
+
 -- Set Character Title and Name positions for custom textbox
 
 LocalizationData.Narrative.SpeakerDisplayName = MergeTables({ 
@@ -167,8 +168,12 @@ function DisplayTextLine( screen, source, line, parentLine )
 		line.Text = text
 
 		-- Set text position
-		line.TextOffsetX = -275
-		line.TextOffsetY = 40
+		local isDialogue = (portrait ~= nil or source.Portrait ~= nil) and not (line.IsNarration or parentLine.IsNarration)
+		if isDialogue and (not line.BoxAnimation or line.BoxAnimation != "DialogueSpeechBubble") then
+			line.TextOffsetX = -275
+			line.TextOffsetY = 40
+		end
+
 	end
 	
 	baseDisplayTextLine( screen, source, line, parentLine )

@@ -2,6 +2,17 @@
   Texts = {
     "_sequence" = true
 
+    /* Item names */
+    75 = {
+      Id = "WeaponUpgradeChoiceMenu_Title"
+      DisplayName = "Warhammer of Zillyhoo"
+    }
+    1952 = {
+      Id = "WeaponUpgrade"
+      DisplayName = "Warhammer of Zillyhoo"
+    }
+
+    /* Flavour text */
     79 = {
       Id = "AthenaUpgrade_FlavorText01"
       DisplayName = "behold, the peerless defenses of the rose-eyed goddess."
@@ -26,6 +37,8 @@
       Id = "ZeusUpgrade_FlavorText03"
       DisplayName = "wielder the power of the green sun and uniter of her friends."
     }
+
+
     /* Boon God Names and Titles */
     
     174 = {

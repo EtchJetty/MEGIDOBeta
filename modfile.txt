@@ -27,7 +27,7 @@ SJSON "Menus/MacroText.sjson"
 
 :: Add credits
 To "Game/Text/en/CodexText.en.sjson"
-SJSON "Menus/CodexCredits.sjson"
+SJSON "Menus/CodexCustomText.sjson"
 
 :: Modify God Colours
 To "Game/Animations/Fx.sjson"
