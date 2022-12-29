@@ -47,6 +47,45 @@ local usesNarratorTextbox = {
 	"Tisiphone",
 }
 
+--!! Quirks
+
+quirks = {}
+
+quirks.June = function(text)
+	text = string.lower(text)
+	return text
+end
+quirks.Dave = function(text)
+	text = string.lower(text)
+	text = string.gsub(text, "[.,!?']", "")
+	return text
+end
+quirks.Jade = function(text)
+	text = string.lower(text)
+	text = string.gsub(text, "[.,']", "")
+	text = string.gsub(text, "!", "!!!")
+	text = string.gsub(text, "?", "???")
+	return text
+end
+quirks.Roxy = function(text)
+	text = string.lower(text)
+	text = string.gsub(text, "[.,!?']", "")
+	return text
+end
+quirks.Vriska = function (text)
+	text = string.gsub(text, "[Bb]", "8")
+	text = string.gsub(text, "ate", "8")
+	text = string.gsub(text, "ait", "8")
+	return text
+end
+quirks.Eridan = function (text)
+	text = string.lower(text)
+	text = string.gsub(text, "ing", "in")
+	text = string.gsub(text, "w", "ww")
+	text = string.gsub(text, "v", "vv")
+	text = string.gsub(text, " and ", " an ")
+	return text
+end
 
 -- Set Character Title and Name positions for custom textbox
 
@@ -147,7 +186,9 @@ function DisplayTextLine( screen, source, line, parentLine )
 
 		-- Apply Custom Formatting based on god
 		godName = string.sub(line.Cue, 5, -6)
-		if homestuckLookup[godName] ~= nil then
+		godHomestuck = homestuckLookup[godName]
+
+		if godHomestuck ~= nil then
 			text = "{#" .. homestuckLookup[godName] .. "}" .. text
 			text = string.gsub(text, "{#PreviousFormat}", "{#PreviousFormat}{#" .. homestuckLookup[godName] .. "}")
 		else
@@ -165,14 +206,18 @@ function DisplayTextLine( screen, source, line, parentLine )
 			text = string.gsub(text, "([^%a])" .. find .. "([^%a])", "%1" .. replace .. "%2")
 		end
 
+		-- Apply quirk
+		-- if godHomestuck ~= nil then
+		-- 	if quriks[godHomestuck] ~= nil then
+		-- 		text = quriks[godHomestuck](text)
+		-- 	end
+		-- end
+
 		line.Text = text
 
 		-- Set text position
-		local isDialogue = (portrait ~= nil or source.Portrait ~= nil) and not (line.IsNarration or parentLine.IsNarration)
-		if isDialogue and (not line.BoxAnimation or line.BoxAnimation != "DialogueSpeechBubble") then
-			line.TextOffsetX = -275
-			line.TextOffsetY = 40
-		end
+		line.TextOffsetX = -275
+		line.TextOffsetY = 40
 
 	end
 	
