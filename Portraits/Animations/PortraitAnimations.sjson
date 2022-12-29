@@ -1,8 +1,26 @@
 {
   Animations = {
-     "_sequence" = true
+    "_sequence" = true
 
-     /* Callie */
+    /* WV */
+    171 = {
+      Name = "Portrait_MaleGhost_Default_01"
+      InheritFrom = "Portrait_Base_01"
+      FilePath = "Portraits\Portraits_WV_01"
+      EndFrame = 1
+      StartFrame = 1
+      OffsetY = -70.0
+    }
+    172 = {
+      Name = "Portrait_MaleGhost_Default_01_Exit"
+      InheritFrom = "Portrait_Base_01_Exit"
+      FilePath = "Portraits\Portraits_WV_01"
+      EndFrame = 1
+      StartFrame = 1
+      OffsetY = -70.0
+    }
+
+    /* Callie */
     194 = {
       Name = "Portrait_Dusa_Default_01"
       InheritFrom = "Portrait_Base_01"

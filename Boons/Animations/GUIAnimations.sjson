@@ -252,7 +252,7 @@
     }
 
     /* ZillyHoo */
-    295 = {
+    293 = {
       Name = "WeaponUpgrade"
       ChildAnimation = "BoonOrbFrontFlareHammer"
       FilePath = "GUI\Tilesets\Gameplay\Gameplay_Zillyhoo_01"
@@ -272,14 +272,14 @@
       OwnerImmobile = true
       PingPongShiftOverDuration = true
     }
-    787 = {
+    785 = {
       Name = "WeaponUpgradeSymbol"
       InheritFrom = "StackUpgradeSymbol"
       FilePath = "GUI\Tilesets\Gameplay\Gameplay_Zillyhoo_01"
       EndFrame = 1
       StartFrame = 1
     }
-    819 = {
+    817 = {
       Name = "WeaponUpgradePreview"
       InheritFrom = "BoonSymbolBaseIsometric"
       FilePath = "GUI\Icons\RoomReward\Zillyhoo_01"
