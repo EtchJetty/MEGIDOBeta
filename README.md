@@ -11,11 +11,11 @@ Just [download this repo as a zip file](https://github.com/EtchJetty/MEGIDOBeta/
 
 (Screenshot thread below.)
 
-![June](docs/screenshot/june.png?raw=true "MEGIDO")
-![Dave](docs/screenshot/dave.png?raw=true "MEGIDO")
-![Scratch](docs/screenshot/scratch.png?raw=true "MEGIDO")
-![Wv](docs/screenshot/wv.png?raw=true "MEGIDO")
-![Callie](docs/screenshot/zilly.png?raw=true "MEGIDO")
+![June](docs/june.png?raw=true "MEGIDO")
+![Dave](docs/dave.png?raw=true "MEGIDO")
+![Scratch](docs/scratch.png?raw=true "MEGIDO")
+![Wv](docs/wv.png?raw=true "MEGIDO")
+![Callie](docs/zilly.png?raw=true "MEGIDO")
 
 <!-- 
 > basically yall know the game HADES?
