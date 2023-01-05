@@ -47,46 +47,6 @@ local usesNarratorTextbox = {
 	"Tisiphone",
 }
 
---!! Quirks
-
-quirks = {}
-
-quirks.June = function(text)
-	text = string.lower(text)
-	return text
-end
-quirks.Dave = function(text)
-	text = string.lower(text)
-	text = string.gsub(text, "[.,!?']", "")
-	return text
-end
-quirks.Jade = function(text)
-	text = string.lower(text)
-	text = string.gsub(text, "[.,']", "")
-	text = string.gsub(text, "!", "!!!")
-	text = string.gsub(text, "?", "???")
-	return text
-end
-quirks.Roxy = function(text)
-	text = string.lower(text)
-	text = string.gsub(text, "[.,!?']", "")
-	return text
-end
-quirks.Vriska = function (text)
-	text = string.gsub(text, "[Bb]", "8")
-	text = string.gsub(text, "ate", "8")
-	text = string.gsub(text, "ait", "8")
-	return text
-end
-quirks.Eridan = function (text)
-	text = string.lower(text)
-	text = string.gsub(text, "ing", "in")
-	text = string.gsub(text, "w", "ww")
-	text = string.gsub(text, "v", "vv")
-	text = string.gsub(text, " and ", " an ")
-	return text
-end
-
 -- Set Character Title and Name positions for custom textbox
 
 LocalizationData.Narrative.SpeakerDisplayName = MergeTables({ 
@@ -205,13 +165,6 @@ function DisplayTextLine( screen, source, line, parentLine )
 		for find,replace in pairs(findAndReplace) do
 			text = string.gsub(text, "([^%a])" .. find .. "([^%a])", "%1" .. replace .. "%2")
 		end
-
-		-- Apply quirk
-		-- if godHomestuck ~= nil then
-		-- 	if quriks[godHomestuck] ~= nil then
-		-- 		text = quriks[godHomestuck](text)
-		-- 	end
-		-- end
 
 		line.Text = text
 

@@ -209,7 +209,28 @@
       FilePath = "Portraits\Portraits_Dave_01"
       EndFrame = 1
       StartFrame = 1
-      Scale = 0.45
+      Scale = 0.46
+      OffsetX = -30.0
+    }
+
+    /* June */
+    232 = {
+      Name = "Portrait_Hermes_Default_01"
+      InheritFrom = "Portrait_God_01"
+      ChildAnimation = "PortraitGodRayEmitter_Hermes"
+      FilePath = "Portraits\Portraits_June_01"
+      EndFrame = 1
+      StartFrame = 1
+      Scale = 0.46
+      OffsetX = -30.0
+    }
+    233 = {
+      Name = "Portrait_Hermes_Default_01_Exit"
+      InheritFrom = "Portrait_Base_01_Exit"
+      FilePath = "Portraits\Portraits_June_01"
+      EndFrame = 1
+      StartFrame = 1
+      Scale = 0.46
       OffsetX = -30.0
     }
 
