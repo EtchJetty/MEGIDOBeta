@@ -1,5 +1,5 @@
 # MEGIDO Beta
-A Homestuck-themed characterswap mod for HADES, featuring original art by [@toastie](https://twitter.com/toasttiiee). In extremely early alpha. 
+A Homestuck-themed characterswap mod for HADES, in extremely early alpha. 
 
 ![A screenshot of Zagreus from Hades, staring at a door with the Space Aspect from Homestuck on it, implying he can walk through and collect the reward.](docs/zagreus_space.png?raw=true "Foreshadowing dot png")
 
@@ -11,14 +11,14 @@ Just [download this repo as a zip file](https://github.com/EtchJetty/MEGIDOBeta/
 
 ## Credits
 
-- **PROJECT LEAD** - EtchJetty 
-- **CHARACTER ARTIST** - toasttiiee 
-- **CHARACTER ARTIST** - Zack the Nerd 
-- **3D ARTIST** - RoseRoxy 
-- **3D ARTIST** - UberTheMeh 
-- **3D ARTIST** - Floober 
-- **3D ARTIST** - Jerome 
-- **CODING** - FlaringK 
+- **PROJECT LEAD** - [EtchJetty](https://twitter.com/EtchJetty) 
+- **CHARACTER ARTIST** - [toasttiiee](https://twitter.com/toasttiiee)
+- **CHARACTER ARTIST** - [Zara Nerd](https://twitter.com/Nerd_Zara) 
+- **3D ARTIST** - [RoseRoxy](https://twitter.com/RoseRoxy_) 
+- **3D ARTIST** - [UberTheMeh](https://twitter.com/rudfkr0316) 
+- **3D ARTIST** - [Floober](https://twitter.com/Floober364) 
+- **3D ARTIST** - [Jerome](https://twitter.com/JeromeHaldemann) 
+- **CODING** - [FlaringK](https://flaringk.github.io/) 
 - **ADDTL. TECH SUPPORT** - erumi321 
 - **ADDTL. TECH SUPPORT** - nbusseneau 
 - **CODEX TEMPLATE** - bessyboo 
