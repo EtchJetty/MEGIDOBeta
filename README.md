@@ -9,7 +9,23 @@ Just [download this repo as a zip file](https://github.com/EtchJetty/MEGIDOBeta/
 
 (If you're getting errors, or I messed up significantly somehow, check out the [Hades Modding Discord](https://discordapp.com/invite/KuMbyrN) for info/troubleshooting. I'll put up documentation on how this early version works at a later date.)
 
-(Screenshot thread below.)
+## Credits
+
+- **PROJECT LEAD** - EtchJetty 
+- **CHARACTER ARTIST** - toasttiiee 
+- **CHARACTER ARTIST** - Zack the Nerd 
+- **3D ARTIST** - RoseRoxy 
+- **3D ARTIST** - UberTheMeh 
+- **3D ARTIST** - Floober 
+- **3D ARTIST** - Jerome 
+- **CODING** - FlaringK 
+- **ADDTL. TECH SUPPORT** - erumi321 
+- **ADDTL. TECH SUPPORT** - nbusseneau 
+- **CODEX TEMPLATE** - bessyboo 
+- **OlympusExtra** - AlexKage & physiX 
+- **CONCEPT & DESIGN** - Nihilistic Janitor
+
+## Screenshots
 
 ![June](docs/june.png?raw=true "MEGIDO")
 ![Dave](docs/dave.png?raw=true "MEGIDO")
