@@ -9,8 +9,15 @@ Just [download this repo as a zip file](https://github.com/EtchJetty/MEGIDOBeta/
 
 (If you're getting errors, or I messed up significantly somehow, check out the [Hades Modding Discord](https://discordapp.com/invite/KuMbyrN) for info/troubleshooting. I'll put up documentation on how this early version works at a later date.)
 
-(Concept art thread below.)
+(Screenshot thread below.)
 
+![June](docs/screenshot/june.png?raw=true "MEGIDO")
+![Dave](docs/screenshot/dave.png?raw=true "MEGIDO")
+![Scratch](docs/screenshot/scratch.png?raw=true "MEGIDO")
+![Wv](docs/screenshot/wv.png?raw=true "MEGIDO")
+![Callie](docs/screenshot/zilly.png?raw=true "MEGIDO")
+
+<!-- 
 > basically yall know the game HADES?
 > ![Pop Scratch and Damara Megido.](docs/m1.png?raw=true "MEGIDO")
 > 
@@ -44,4 +51,4 @@ Just [download this repo as a zip file](https://github.com/EtchJetty/MEGIDOBeta/
 > that if you are wanting for a setting similar to hell.............
 > 
 > infinite scratch manor escape roguelike
-
+ -->
