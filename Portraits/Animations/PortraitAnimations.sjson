@@ -120,8 +120,8 @@
       InheritFrom = "Portrait_God_01"
       FilePath = "Portraits\Portraits_Rose_01"
       EndFrame = 1
-      Scale = 0.45
       StartFrame = 1
+      Scale = 1
     }
     215 = {
       Name = "AthenaBlink"
@@ -169,9 +169,9 @@
       Name = "Portrait_Athena_Default_01_Exit"
       InheritFrom = "Portrait_Base_01_Exit"
       FilePath = "Portraits\Portraits_Rose_01"
-      Scale = 0.46
       EndFrame = 1
       StartFrame = 1
+      Scale = 1
     }
 
     /* Jade */
@@ -181,7 +181,7 @@
       FilePath = "Portraits\Portraits_Jade_01"
       EndFrame = 1
       StartFrame = 1
-      Scale = 0.46
+      Scale = 1
     }
     218 = {
       Name = "Portrait_Zeus_Default_01_Exit"
@@ -189,7 +189,7 @@
       FilePath = "Portraits\Portraits_Jade_01"
       EndFrame = 1
       StartFrame = 1
-      Scale = 0.46
+      Scale = 1
     }
 
     /* Dave */
@@ -200,7 +200,7 @@
       ChildAnimation = "PortraitGodRayEmitter_Demeter"
       EndFrame = 1
       StartFrame = 1
-      Scale = 0.46
+      Scale = 1
       OffsetX = -30.0
     }
     193 = {
@@ -209,7 +209,7 @@
       FilePath = "Portraits\Portraits_Dave_01"
       EndFrame = 1
       StartFrame = 1
-      Scale = 0.46
+      Scale = 1
       OffsetX = -30.0
     }
 
