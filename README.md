@@ -25,14 +25,16 @@ Just [download this repo as a zip file](https://github.com/EtchJetty/MEGIDOBeta/
 - **OlympusExtra** - AlexKage & physiX 
 - **CONCEPT & DESIGN** - Nihilistic Janitor
 
-## Screenshots
+## Screenshots (SPOILERS)
 
+![Damara](docs/damara.png?raw=true "MEGIDO")
 ![June](docs/june.png?raw=true "MEGIDO")
 ![Rose](docs/rose.png?raw=true "MEGIDO")
 ![Dave](docs/dave.png?raw=true "MEGIDO")
 ![Jade](docs/jade.png?raw=true "MEGIDO")
+![Roxy](docs/roxy.png?raw=true "MEGIDO")
 ![Scratch](docs/scratch.png?raw=true "MEGIDO")
-![Wv](docs/wv.png?raw=true "MEGIDO")
+![WV](docs/wv.png?raw=true "MEGIDO")
 ![Callie](docs/callie.png?raw=true "MEGIDO")
 ![Zilly](docs/zilly.png?raw=true "MEGIDO")
 
