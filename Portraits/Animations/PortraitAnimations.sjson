@@ -156,6 +156,7 @@
       Name = "Portrait_Athena_Default_01"
       InheritFrom = "Portrait_God_01"
       FilePath = "Portraits\Portraits_Rose_01"
+      ChildAnimation = "PortraitGodRayEmitter_Athena"
       EndFrame = 1
       StartFrame = 1
       Scale = 1
@@ -237,6 +238,7 @@
       Name = "Portrait_Zeus_Default_01"
       InheritFrom = "Portrait_God_01"
       FilePath = "Portraits\Portraits_Jade_01"
+      ChildAnimation = "PortraitGodRayEmitter_Zeus"
       EndFrame = 1
       StartFrame = 1
       Scale = 1
@@ -255,6 +257,7 @@
       Name = "Portrait_Dionysus_Default_01"
       InheritFrom = "Portrait_God_01"
       FilePath = "Portraits\Portraits_Roxy_01"
+      ChildAnimation = "PortraitGodRayEmitter_Dionysus"
     }
 
     299 = {
