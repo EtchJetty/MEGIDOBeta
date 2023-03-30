@@ -2,6 +2,22 @@
   Animations = {
     "_sequence" = true
 
+    /* Damara */
+    133 = {
+      Name = "Portrait_Zag_Default_01"
+      InheritFrom = "Portrait_Base_01"
+      FilePath = "Portraits\Portraits_Damara_01"
+      EndFrame = 1
+      StartFrame = 1
+    }
+    134 = {
+      Name = "Portrait_Zag_Default_01_Exit"
+      InheritFrom = "Portrait_Base_01_Exit"
+      FilePath = "Portraits\Portraits_Damara_01"
+      EndFrame = 1
+      StartFrame = 1
+    }
+
     /* WV */
     171 = {
       Name = "Portrait_MaleGhost_Default_01"
@@ -114,6 +130,27 @@
       OffsetY = 90.0
     }
 
+    /* June */
+    232 = {
+      Name = "Portrait_Hermes_Default_01"
+      InheritFrom = "Portrait_God_01"
+      ChildAnimation = "PortraitGodRayEmitter_Hermes"
+      FilePath = "Portraits\Portraits_June_01"
+      EndFrame = 1
+      StartFrame = 1
+      Scale = 0.46
+      OffsetX = -30.0
+    }
+    233 = {
+      Name = "Portrait_Hermes_Default_01_Exit"
+      InheritFrom = "Portrait_Base_01_Exit"
+      FilePath = "Portraits\Portraits_June_01"
+      EndFrame = 1
+      StartFrame = 1
+      Scale = 0.46
+      OffsetX = -30.0
+    }
+
     /* Rose */
     214 = {
       Name = "Portrait_Athena_Default_01"
@@ -174,24 +211,6 @@
       Scale = 1
     }
 
-    /* Jade */
-    217 = {
-      Name = "Portrait_Zeus_Default_01"
-      InheritFrom = "Portrait_God_01"
-      FilePath = "Portraits\Portraits_Jade_01"
-      EndFrame = 1
-      StartFrame = 1
-      Scale = 1
-    }
-    218 = {
-      Name = "Portrait_Zeus_Default_01_Exit"
-      InheritFrom = "Portrait_Base_01_Exit"
-      FilePath = "Portraits\Portraits_Jade_01"
-      EndFrame = 1
-      StartFrame = 1
-      Scale = 1
-    }
-
     /* Dave */
     192 = {
       Name = "Portrait_Demeter_Default_01"
@@ -213,25 +232,79 @@
       OffsetX = -30.0
     }
 
-    /* June */
-    232 = {
-      Name = "Portrait_Hermes_Default_01"
+    /* Jade */
+    217 = {
+      Name = "Portrait_Zeus_Default_01"
       InheritFrom = "Portrait_God_01"
-      ChildAnimation = "PortraitGodRayEmitter_Hermes"
-      FilePath = "Portraits\Portraits_June_01"
+      FilePath = "Portraits\Portraits_Jade_01"
       EndFrame = 1
       StartFrame = 1
-      Scale = 0.46
-      OffsetX = -30.0
+      Scale = 1
     }
-    233 = {
-      Name = "Portrait_Hermes_Default_01_Exit"
+    218 = {
+      Name = "Portrait_Zeus_Default_01_Exit"
       InheritFrom = "Portrait_Base_01_Exit"
-      FilePath = "Portraits\Portraits_June_01"
+      FilePath = "Portraits\Portraits_Jade_01"
       EndFrame = 1
       StartFrame = 1
-      Scale = 0.46
-      OffsetX = -30.0
+      Scale = 1
+    }
+
+    /* Roxy */
+    298 = {
+      Name = "Portrait_Dionysus_Default_01"
+      InheritFrom = "Portrait_God_01"
+      FilePath = "Portraits\Portraits_Roxy_01"
+    }
+
+    299 = {
+      Name = "Portrait_Dionysus_Blink"
+      ChildAnimation = "Portrait_Dionysus_Goblet"
+      FilePath = "Portraits\Animation\Dionysus\Portrait_Dionysus_Blink01"
+      Type = "Slide"
+      Loop = true
+      AddColor = false
+      OffsetX = 0
+      OffsetY = 0
+      Scale = 0
+      Slides = [
+        { DurationFrames = 4 FilePath = "Portraits\Animation\Dionysus\Portrait_Dionysus_Blink01" }
+        { DurationFrames = 1 FilePath = "Portraits\Animation\Dionysus\Portrait_Dionysus_Blink02" RandomDurationFramesMin = 4 RandomDurationFramesMax = 8 }
+        { DurationFrames = 4 FilePath = "Portraits\Animation\Dionysus\Portrait_Dionysus_Blink03" }
+        { DurationFrames = 1 FilePath = "Dev\blank_invisible" RandomDurationFramesMin = 45 RandomDurationFramesMax = 200 }
+      ]
+    }
+
+    300 = {
+      Name = "Portrait_Dionysus_Goblet"
+      ChildAnimation = "PortraitGodRayEmitter_Dionysus"
+      FilePath = "Portraits\Portrait_Dionysus_Goblet01"
+      Type = "Constant"
+      EndAngle = 1.00
+      PingPongAngle = true
+      StartAngle = -1.00
+      Duration = 4.0
+      EaseOut = 1.0
+      EndFrame = 1
+      Loop = true
+      NumFrames = 1
+      StartFrame = 1
+      EndOffsetY = -10.0
+      OffsetX = -320.0
+      OffsetY = 280.0
+      DieWithOwner = true
+      PhaseOffsetAngle = 90
+      Scale = 0.2
+      Material = "Unlit"
+      PingPongShiftOverDuration = true
+    }
+
+    301 = {
+      Name = "Portrait_Dionysus_Default_01_Exit"
+      InheritFrom = "Portrait_Base_01_Exit"
+      FilePath = "Portraits\Portraits_Roxy_01"
+      EndFrame = 1
+      StartFrame = 1
     }
 
     /* Scratch */

@@ -216,6 +216,15 @@
       Id = "Hades_Full"
       DisplayName = "Lord English, Angel of Double Death"
     }
+    2152 = {
+      Id = "PlayerUnit"
+      DisplayName = "Damara"
+      Description = "The Handmaiden"
+    }
+    2153 = {
+      Id = "PlayerUnit_Intro"
+      DisplayName = "Damara"
+    }
     2154 = {
       Id = "NPC_Hades_01"
       DisplayName = "Scratch"
