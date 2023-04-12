@@ -112,3 +112,17 @@ Replace "Packages/MenuElements.pkg_manifest"
 
 To "Game/Animations/GUIAnimations.sjson"
 SJSON "Menus/MenuElements/GUI_MenuElements.sjson"
+
+:: Custom Calliope Mod
+To Movies/NPC_DusaIdle_Bink.bik
+Replace "Movies/NPC_DusaIdle_Bink.bik"
+To Movies/720p/NPC_DusaIdle_Bink.bik
+Replace "Movies/NPC_DusaIdle_Bink.bik"
+To Movies/NPC_DusaIdleWorking_Bink.bik
+Replace "Movies/NPC_DusaIdleWorking_Bink.bik"
+To Movies/720p/NPC_DusaIdleWorking_Bink.bik
+Replace "Movies/NPC_DusaIdleWorking_Bink.bik"
+To Movies/NPC_DusaInteractSurprise_Bink.bik
+Replace "Movies/NPC_DusaInteractSurprise_Bink.bik"
+To Movies/720p/NPC_DusaInteractSurprise_Bink.bik
+Replace "Movies/NPC_DusaInteractSurprise_Bink.bik"
