@@ -1,7 +1,7 @@
 -: Mod Name: MEGIDOBeta
     PROJECT LEAD - EtchJetty
     CHARACTER ARTIST - @toasttiiee
-    CHARACTER ARTIST - Zack The Nerd
+    CHARACTER ARTIST - Zara Nerd
     3D ARTIST - RoseRoxy
     3D ARTIST - UberTheMeh
     3D ARTIST - Floober
