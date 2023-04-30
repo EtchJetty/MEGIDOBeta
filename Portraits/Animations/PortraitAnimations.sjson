@@ -309,6 +309,28 @@
       EndFrame = 1
       StartFrame = 1
     }
+    
+    /* Dirk */
+
+    255 = {
+      Name = "Portrait_Ares_Default_01"
+      InheritFrom = "Portrait_God_01"
+      FilePath = "Portraits\Portraits_Dirk_01"
+      ChildAnimation = "PortraitGodRayEmitter_Ares"
+      EndFrame = 1
+      StartFrame = 1
+      OffsetY = -40
+      Scale = 1
+    }
+    257 = {
+      Name = "Portrait_Ares_Default_01_Exit"
+      InheritFrom = "Portrait_Base_01_Exit"
+      FilePath = "Portraits\Portraits_Dirk_01"
+      EndFrame = 1
+      StartFrame = 1
+      OffsetY = -40.0
+      Scale = 1
+    }
 
     /* Scratch */
     143 = {
