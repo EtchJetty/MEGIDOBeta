@@ -34,6 +34,7 @@ Just [download this repo as a zip file](https://github.com/EtchJetty/MEGIDOBeta/
 ![Dave](docs/dave.png?raw=true "MEGIDO")
 ![Jade](docs/jade.png?raw=true "MEGIDO")
 ![Roxy](docs/roxy.png?raw=true "MEGIDO")
+![Dirk](docs/dirk.png?raw=true "MEGIDO")
 ![Scratch](docs/scratch.png?raw=true "MEGIDO")
 ![WV](docs/wv.png?raw=true "MEGIDO")
 ![Callie](docs/callie.png?raw=true "MEGIDO")
