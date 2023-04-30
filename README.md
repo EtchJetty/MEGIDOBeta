@@ -14,6 +14,7 @@ Just [download this repo as a zip file](https://github.com/EtchJetty/MEGIDOBeta/
 - **PROJECT LEAD** - [EtchJetty](https://twitter.com/EtchJetty) 
 - **CHARACTER ARTIST** - [toasttiiee](https://twitter.com/toasttiiee)
 - **CHARACTER ARTIST** - [Zara Nerd](https://twitter.com/Nerd_Zara) 
+- **CHARACTER ARTIST** - [artisticApparition](https://twitter.com/AAppariton) 
 - **3D ARTIST** - [RoseRoxy](https://twitter.com/RoseRoxy_) 
 - **3D ARTIST** - [UberTheMeh](https://twitter.com/rudfkr0316) 
 - **3D ARTIST** - [Floober](https://twitter.com/Floober364) 
