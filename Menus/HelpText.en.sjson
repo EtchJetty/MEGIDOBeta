@@ -11761,7 +11761,7 @@
     }
     {
       Id = "ForceAresBoonTrait"
-      DisplayName = "Blood-filled Vial"
+      DisplayName = "Minihoof"
       Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Ares{#PreviousFormat}. His blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}or better."
     }
     {
@@ -11771,7 +11771,7 @@
     }
     {
       Id = "ForceAresBoonTrait_Inactive"
-      DisplayName = "Blood-filled Vial"
+      DisplayName = "Minihoof"
       Description = "Ares' blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}or better."
     }
     {
