@@ -332,6 +332,41 @@
       Scale = 1
     }
 
+    /* Eridan */
+    
+    173 = {
+      Name = "Portrait_Chaos_Default_01"
+      InheritFrom = "Portrait_Base_01"
+      ChildAnimation = "Portrait_Chaos_Default_02"
+      FilePath = "Portraits\Portraits_Eridan_01"
+      EndFrame = 1
+      StartFrame = 1
+    }
+    174 = {
+      Name = "Portrait_Chaos_Default_02"
+      FilePath = "Portraits\Portraits_Eridan_02"
+      EndAlpha = 0.5
+      PingPongColor = true
+      EndFrame = 1
+      Loop = true
+      NumFrames = 1
+      RandomDurationMax = 4.0
+      RandomDurationMin = 2.0
+      StartFrame = 1
+      EndOffsetY = 30.0
+      StartOffsetY = 20.0
+      EndScale = 0.95
+      StartScale = 0.8
+      PingPongShiftOverDuration = true
+    }
+    175 = {
+      Name = "Portrait_Chaos_Default_01_Exit"
+      InheritFrom = "Portrait_Base_01_Exit"
+      FilePath = "Portraits\Portraits_Eridan_01"
+      EndFrame = 1
+      StartFrame = 1
+    }
+
     /* Scratch */
     143 = {
       Name = "Portrait_Hades_Default_01"
