@@ -10134,8 +10134,8 @@
     }
     {
       Id = "NPC_Chaos_01"
-      DisplayName = "Chaos"
-      Description = "Primordial Originator"
+      DisplayName = "Eridan"
+      Description = "Hope Inverted"
     }
     {
       Id = "NPC_ThanatosUnnamed_01"
