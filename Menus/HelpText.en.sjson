@@ -2908,22 +2908,22 @@
     }
     {
       Id = "UnknownUpgrade"
-      DisplayName = "Aspect of   ?  ?  ?"
+      DisplayName = "Fraymotif of   ?  ?  ?"
       Description = "Currently unavailable due to {#BoldFormatGraft}Ongoing Underworld Renovations{#PreviousFormat}. \n\n\n {#ItalicFormatDark}Infernal arms reveal new aspects to their bearers when the Fates decide."
     }
     {
       Id = "UnknownLockedAspect"
-      DisplayName = "Aspect of   ?  ?  ?"
+      DisplayName = "Fraymotif of   ?  ?  ?"
       Description = "This is currently beyond your reckoning. \n\n\n {#ItalicFormatDark}Infernal arms reveal new aspects to their bearers when the Fates decide."
     }
     {
       Id = "UnknownUpgradeFistWeapon01"
-      DisplayName = "Aspect of   ?  ?  ?"
+      DisplayName = "Fraymotif of   ?  ?  ?"
       Description = "This will be revealed at a later time. \n\n\n {#ItalicFormatDark}Malphon is still getting to know its newest bearer."
     }
     {
       Id = "UnknownUpgradeFistWeapon02"
-      DisplayName = "Aspect of   ?  ?  ?"
+      DisplayName = "Fraymotif of   ?  ?  ?"
       Description = "Currently unavailable due to {#BoldFormatGraft}Ongoing Underworld Renovations{#PreviousFormat}. \n\n\n {#ItalicFormatDark}Malphon, demanding patience, is still getting to know its newest bearer."
     }
     {
@@ -2981,12 +2981,12 @@
     }
     {
       Id = "SwordWeapon_Unequipped"
-      DisplayName = "Aspect of Zagreus"
+      DisplayName = "Fraymotif of Zagreus"
       Description = "The form in which the blade of the underworld first revealed itself. \n {!Icons.Bullet}{#PropertyFormat}Bonus Attack Speed & Move Speed: \Column 380 {#OldFormat}+0% \n\n {#ItalicFormatDark}A blade such as this seeks not to remain idle for more than an aeon or two."
     }
     {
       Id = "SwordBaseUpgradeTrait"
-      DisplayName = "Aspect of Zagreus"
+      DisplayName = "Fraymotif of Zagreus"
       Description = "The form in which the blade of the underworld first revealed itself. \n {!Icons.Bullet}{#PropertyFormat}Bonus Attack Speed & Move Speed: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipSpeed:P} \n\n {#ItalicFormatDark}A blade such as this seeks not to remain idle for more than an aeon or two."
     }
     {
@@ -3001,7 +3001,7 @@
     }
     {
       Id = "SwordCriticalParryTrait"
-      DisplayName = "Aspect of Nemesis"
+      DisplayName = "Fraymotif of Nemesis"
       Description = "For {#BoldFormat}{$TooltipData.TooltipDuration} {#PreviousFormat}Sec. after your {$Keywords.Special}, your {$Keywords.Attack} may deal {$Keywords.Crit} damage. \n {!Icons.Bullet}{#PropertyFormat}Bonus {$Keywords.Crit} Chance: \Column 380 {#UpgradeFormat}{#AltUpgradeFormat}{$TooltipData.TooltipPercentChance:P} \n\n {#ItalicFormatDark}One of Nyx's daughters once brandished the blade against the arrogant."
     }
     {
@@ -3016,7 +3016,7 @@
     }
     {
       Id = "DislodgeAmmoTrait"
-      DisplayName = "Aspect of Poseidon"
+      DisplayName = "Fraymotif of Poseidon"
       Description = "Your {$Keywords.Special} dislodges {!Icons.Ammo} from foes. \n {!Icons.Bullet}{#PropertyFormat}Cast Damage: \Column 380 {#UpgradeFormat}{#AltUpgradeFormat}{$TooltipData.TooltipDamage:P} \n\n {#ItalicFormatDark}Even before he ruled the seas, the blade's first bearer liked making a splash."
     }
     {
@@ -3031,7 +3031,7 @@
     }
     {
       Id = "SwordConsecrationTrait"
-      DisplayName = "Aspect of Arthur"
+      DisplayName = "Fraymotif of Dave"
       Description = "You have {$Keywords.ArthurAspect}, and {#BoldFormatGraft}+{$TooltipData.TooltipHealth}{#PreviousFormat}{!Icons.HealthUp_Small} to your Life Total. \n {!Icons.Bullet}{#PropertyFormat}Aura Damage Reduction: \Column 380 {#UpgradeFormat}{#AltUpgradeFormat}{$TooltipData.TooltipDamageReduction:P} \n\n {#ItalicFormatDark}Peace and destruction await a kingdom governed by the rule of might."
     }
     {
@@ -3046,12 +3046,12 @@
     }
     {
       Id = "SpearWeapon_Unequipped"
-      DisplayName = "Aspect of Zagreus"
+      DisplayName = "Fraymotif of Zagreus"
       Description = "The form in which the eternal spear first revealed itself. \n {!Icons.Bullet}{#PropertyFormat}{$Keywords.Special} Damage, Range, & Speed: \Column 380 {#OldFormat}+0% \n\n {#ItalicFormatDark}Its shape reflects its bearer's true self, hiding its own all the while."
     }
     {
       Id = "SpearBaseUpgradeTrait"
-      DisplayName = "Aspect of Zagreus"
+      DisplayName = "Fraymotif of Zagreus"
       Description = "The form in which the eternal spear first revealed itself. \n {!Icons.Bullet}{#PropertyFormat}{$Keywords.Special} Damage, Range, & Speed: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipDamage:P} \n\n {#ItalicFormatDark}Its shape reflects its bearer's true self, hiding its own all the while."
     }
     {
@@ -3066,7 +3066,7 @@
     }
     {
       Id = "SpearTeleportTrait"
-      DisplayName = "Aspect of Achilles"
+      DisplayName = "Fraymotif of Achilles"
       Description = "After your {$Keywords.Special}, you can retrieve your Spear with {$Keywords.AchillesAspect}. \n {!Icons.Bullet}{#PropertyFormat}Post-Rush Bonus Damage: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipDamage:p} \n\n {#ItalicFormatDark}The greatest of the Greeks was peerless in battle, up close and from afar."
     }
     {
@@ -3081,7 +3081,7 @@
     }
     {
       Id = "SpearWeaveTrait"
-      DisplayName = "Aspect of Hades"
+      DisplayName = "Fraymotif of Hades"
       Description = "Your {$Keywords.Spin} becomes {$Keywords.HadesAspect}. \n {!Icons.Bullet}{#PropertyFormat}Punishing Bonus Damage: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipDamage:P} \n\n {#ItalicFormatDark}The god of the dead discarded the eternal spear for a larger counterpart."
     }
     {
@@ -3096,7 +3096,7 @@
     }
     {
       Id = "SpearSpinTravel"
-      DisplayName = "Aspect of Guan Yu"
+      DisplayName = "Fraymotif of Guan Yu"
       Description = "You have the {$Keywords.GuanYuAspect}, but your {!Icons.HealthDown_Small} and {!Icons.HealthRestoreHome} are reduced. \n {!Icons.Bullet}{#PropertyFormat}Max Life & Healing: \Column 380 {#PenaltyFormat}{$TooltipData.TooltipHealthCurse}% \n\n {#ItalicFormatDark}A mighty general shall battle with unmatched ferocity to unite his people."
     }
     {
@@ -3111,12 +3111,12 @@
     }
     {
       Id = "ShieldWeapon_Unequipped"
-      DisplayName = "Aspect of Zagreus"
+      DisplayName = "Fraymotif of Zagreus"
       Description = "The form in which the shield of chaos first revealed itself. \n {!Icons.Bullet}{#PropertyFormat}{$Keywords.Attack} & {$Keywords.BlinkStrike} Damage: \Column 380 {#OldFormat}+0 \n\n {#ItalicFormatDark}Sometimes the bone-etched visage shudders as though it means to speak."
     }
     {
       Id = "ShieldBaseUpgradeTrait"
-      DisplayName = "Aspect of Zagreus"
+      DisplayName = "Fraymotif of Zagreus"
       Description = "The form in which the shield of chaos first revealed itself.\n {!Icons.Bullet}{#PropertyFormat}{$Keywords.Attack} & {$Keywords.BlinkStrike} Damage: \Column 380 {#UpgradeFormat}+{$TooltipData.TooltipDamage} \n\n {#ItalicFormatDark}Sometimes the bone-etched visage shudders as though it means to speak."
     }
     {
@@ -3131,7 +3131,7 @@
     }
     {
       Id = "ShieldTwoShieldTrait"
-      DisplayName = "Aspect of Zeus"
+      DisplayName = "Fraymotif of Zeus"
       Description = "Your {$Keywords.Special} becomes {$Keywords.ZeusAspect}. \n {!Icons.Bullet}{#PropertyFormat}{$Keywords.ZeusAspect} Base Damage per Hit: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipDamage} \n\n {#ItalicFormatDark}Once he became king of the Olympians, he truly had nothing left to fear."
     }
     {
@@ -3146,7 +3146,7 @@
     }
     {
       Id = "ShieldRushBonusProjectileTrait"
-      DisplayName = "Aspect of Chaos"
+      DisplayName = "Fraymotif of Chaos"
       Description = "After your {$Keywords.Tackle}, your next {$Keywords.Special} throws multiple Shields. \n {!Icons.Bullet}{#PropertyFormat}Bonus Shields Thrown: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipProjectiles} \n\n {#ItalicFormatDark}All sprang from the primordial depths; only one artifact bore witness."
     }
     {
@@ -3161,7 +3161,7 @@
     }
     {
       Id = "ShieldLoadAmmoTrait"
-      DisplayName = "Aspect of Beowulf"
+      DisplayName = "Fraymotif of Beowulf"
       Description = "You have {$Keywords.BeowulfAspect}, but take {#AltPenaltyFormat}{$TooltipData.TooltipDamageTaken:P} {#PreviousFormat}damage. \n {!Icons.Bullet}{#PropertyFormat}{$Keywords.BeowulfTackle} Bonus Damage & Area: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipDamageIncrease:P} \n\n {#ItalicFormatDark}Would that the stalwart warrior-king's sword offered similar protection."
     }
     {
@@ -3176,12 +3176,12 @@
     }
     {
       Id = "BowWeapon_Unequipped"
-      DisplayName = "Aspect of Zagreus"
+      DisplayName = "Fraymotif of Zagreus"
       Description = "The form in which the heart-seeking bow first revealed itself. \n {!Icons.Bullet}{#PropertyFormat}{$Keywords.Crit} {$Keywords.Attack} Chance: \Column 380 {#OldFormat}+0% \n\n {#ItalicFormatDark}It senses stalwart hearts, mostly to stop them but occasionally to be used."
     }
     {
       Id = "BowBaseUpgradeTrait"
-      DisplayName = "Aspect of Zagreus"
+      DisplayName = "Fraymotif of Zagreus"
       Description = "The form in which the heart-seeking bow first revealed itself.\n {!Icons.Bullet}{#PropertyFormat}{$Keywords.Crit} {$Keywords.Attack} Chance: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipCritChance:P} \n\n {#ItalicFormatDark}It senses stalwart hearts, mostly to stop them but occasionally to be used."
     }
     {
@@ -3196,7 +3196,7 @@
     }
     {
       Id = "BowLoadAmmoTrait"
-      DisplayName = "Aspect of Hera"
+      DisplayName = "Fraymotif of Hera"
       Description = "Your {$Keywords.Cast} loads {!Icons.Ammo} into your next {$Keywords.Attack}, firing on impact. \n {!Icons.Bullet}{#PropertyFormat}Bloodstone Drop Time: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipAmmo} {#UpgradeFormat}Sec. \n\n {#ItalicFormatDark}None dared approach the queen of the gods, a reputation she cultivated."
     }
     {
@@ -3219,7 +3219,7 @@
     }
     {
       Id = "BowMarkHomingTrait"
-      DisplayName = "Aspect of Chiron"
+      DisplayName = "Fraymotif of Chiron"
       Description = "Your {$Keywords.Special} automatically seeks the foe last struck by your {$Keywords.Attack}. \n {!Icons.Bullet}{#PropertyFormat}Max Shots per {$Keywords.Special}: \Column 380 {#PreviousFormat}{#OldFormat}{$TooltipData.BaseProjectiles}{!Icons.RightArrow}{#PenaltyFormat}{$TooltipData.TooltipProjectiles} \n\n {#ItalicFormatDark}When first it was fashioned, the centaur lord himself affirmed its might."
     }
     {
@@ -3239,7 +3239,7 @@
     }
     {
       Id = "BowBondTrait"
-      DisplayName = "Aspect of Rama"
+      DisplayName = "Fraymotif of Rama"
       Description = "You have {$Keywords.RamaAspect}, which can cause {$Keywords.RamaSpecial}. \n {!Icons.Bullet}{#PropertyFormat}{$Keywords.RamaSpecial} Damage: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipDamageTransfer}% {#PreviousFormat}{#ItalicFormat}of {$Keywords.Attack} \n\n {#ItalicFormatDark}The preserver's marksmanship is one of his many unequaled qualities."
     }
     {
@@ -3254,12 +3254,12 @@
     }
     {
       Id = "FistWeapon_Unequipped"
-      DisplayName = "Aspect of Zagreus"
+      DisplayName = "Fraymotif of Zagreus"
       Description = "The form in which the twin fists first revealed themselves. \n {!Icons.Bullet}{#PropertyFormat}Dodge Chance: \Column 380 {#OldFormat}+0% \n\n {#ItalicFormatDark}The twin fists are bound to their bearer, but most fiercely to each other."
     }
     {
       Id = "FistBaseUpgradeTrait"
-      DisplayName = "Aspect of Zagreus"
+      DisplayName = "Fraymotif of Zagreus"
       Description = "The form in which the twin fists first revealed themselves. \n {!Icons.Bullet}{#PropertyFormat}Dodge Chance: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipChance:P} \n\n {#ItalicFormatDark}The twin fists are bound to their bearer, but most fiercely to each other."
     }
     {
@@ -3274,7 +3274,7 @@
     }
     {
       Id = "FistVacuumTrait"
-      DisplayName = "Aspect of Talos"
+      DisplayName = "Fraymotif of Talos"
       Description = "Your {$Keywords.Special} becomes {$Keywords.TalosAspect}; its pull deals {#BoldFormatGraft}{$TooltipData.TooltipPullDamage} {#PreviousFormat}damage. \n {!Icons.Bullet}{#PropertyFormat}Magnetized {$Keywords.Attack} & {$Keywords.Cast} Bonus: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipDamage:P} \n\n {#ItalicFormatDark}Power filled the bronze giant as they conformed to its massive frame."
     }
     {
@@ -3289,7 +3289,7 @@
     }
     {
       Id = "FistWeaveTrait"
-      DisplayName = "Aspect of Demeter"
+      DisplayName = "Fraymotif of Demeter"
       Description = "After landing {#BoldFormatGraft}{$HeroData.DefaultHero.ComboThreshold} {#PreviousFormat}strikes, your next {$Keywords.Special} hits more times. \n {!Icons.Bullet}{#PropertyFormat}Bonus {$Keywords.Special} Hits: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipHits} \n\n {#ItalicFormatDark}They were a natural fit; her power to bring life, their power to take it."
     }
     {
@@ -3304,7 +3304,7 @@
     }
     {
       Id = "FistDetonateTrait"
-      DisplayName = "Aspect of Gilgamesh"
+      DisplayName = "Fraymotif of Gilgamesh"
       Description = "You have the {$Keywords.GilgameshAspect}, whose {$Keywords.BlinkSpecial} can {$Keywords.GilgameshSpecial} foes. \n {!Icons.Bullet}{#PropertyFormat}{$Keywords.GilgameshSpecial} Damage: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipDamage} \n\n {#ItalicFormatDark}The god-king inherited the beast-man's savage strength and stout heart."
     }
     {
@@ -3319,12 +3319,12 @@
     }
     {
       Id = "GunWeapon_Unequipped"
-      DisplayName = "Aspect of Zagreus"
+      DisplayName = "Fraymotif of Zagreus"
       Description = "The form in which the adamant rail first revealed itself. \n {!Icons.Bullet}{#PropertyFormat}Bonus Ammo Capacity: \Column 380 {#OldFormat}+0 \n\n {#ItalicFormatDark}The image of the noble gryphon belies its true intent but not its power."
     }
     {
       Id = "GunBaseUpgradeTrait"
-      DisplayName = "Aspect of Zagreus"
+      DisplayName = "Fraymotif of Zagreus"
       Description = "The form in which the adamant rail first revealed itself.\n {!Icons.Bullet}{#PropertyFormat}Bonus Ammo Capacity: \Column 380 {#UpgradeFormat}+{$TooltipData.TooltipAmmo} \n\n {#ItalicFormatDark}The image of the noble gryphon belies its true intent but not its power."
     }
     {
@@ -3339,7 +3339,7 @@
     }
     {
       Id = "GunManualReloadTrait"
-      DisplayName = "Aspect of Hestia"
+      DisplayName = "Fraymotif of Hestia"
       Description = "After you manually {$Keywords.ManualReload}, your next shot is empowered. \n {!Icons.Bullet}{#PropertyFormat}Empowered Shot Base Damage: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipDamage} \n\n {#ItalicFormatDark}Before she was goddess of the hearth, she specialized in another type of fire."
     }
     {
@@ -3354,7 +3354,7 @@
     }
     {
       Id = "GunGrenadeSelfEmpowerTrait"
-      DisplayName = "Aspect of Eris"
+      DisplayName = "Fraymotif of Eris"
       Description = "For {#BoldFormat}4 {#PreviousFormat}Sec. after absorbing your {$Keywords.Special}'s blast, deal more damage. \n {!Icons.Bullet}{#PropertyFormat}Bonus Damage: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipDamage:P} \n\n {#ItalicFormatDark}Strife herself once stole away with it, such was its destructive allure."
     }
     {
@@ -3369,7 +3369,7 @@
     }
     {
       Id = "GunLoadedGrenadeTrait"
-      DisplayName = "Aspect of Lucifer"
+      DisplayName = "Fraymotif of Lucifer"
       Description = "You have {$Keywords.LuciferAspect}, which launches volatile {$Keywords.LuciferSpecial}. \n {!Icons.Bullet}{#PropertyFormat}{$Keywords.LuciferSpecial} Blast Damage: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipDamage} \n\n {#ItalicFormatDark}As he fell from grace, he nonetheless fought back in all his defiant fury."
     }
     {
@@ -4273,17 +4273,17 @@
     {
       Id = "GuanYuSpin"
       DisplayName = "Serpent Slash"
-      Description = "{#ItalicFormat}Aspect of Guan Yu{#PreviousFormat}: Hold {A2} then release for a wide, spinning shot that gives {!Icons.HealthRestore_Small} on-hit."
+      Description = "{#ItalicFormat}Fraymotif of Guan Yu{#PreviousFormat}: Hold {A2} then release for a wide, spinning shot that gives {!Icons.HealthRestore_Small} on-hit."
     }
     {
       Id = "ArthurAspect"
-      DisplayName = "Holy Excalibur"
-      Description = "{#ItalicFormat}Alternate Move Set{#PreviousFormat}: Heavy {$Keywords.Attack}, {$Keywords.Special} creates a defensive aura that slows foes."
+      DisplayName = "Caledfwlch"
+      Description = "{#ItalicFormat}Alternate Move Set{#PreviousFormat}: Heavy {$Keywords.Attack}, {$Keywords.Special} creates a temporal aura that slows foes."
     }
     {
       Id = "ArthurSpecial"
-      DisplayName = "Hallowed Ground"
-      Description = "{#ItalicFormat}Aspect of Arthur{#PreviousFormat}: Press {A3} to create a defensive aura that lasts for {#BoldFormatGraft}7 Sec{#PreviousFormat}."
+      DisplayName = "Temporal Ritardando"
+      Description = "{#ItalicFormat}Fraymotif of Dave{#PreviousFormat}: Press {A3} to create a temporal aura that lasts for {#BoldFormatGraft}7 Sec{#PreviousFormat}."
     }
     {
       Id = "RamaAspect"
@@ -8710,7 +8710,7 @@
     {
       Id = "SkellyTrueDeath"
       DisplayName = "Eternal Rest"
-      Description = "A stationary animated skeleton shall someday be slain by the blade Stygius, in the fully awakened Aspect of the Prince of the Underworld."
+      Description = "A stationary animated skeleton shall someday be slain by the blade Stygius, in the fully awakened Fraymotif of the Prince of the Underworld."
     }
     {
       Id = "SkellyTrueDeath_B"
@@ -8789,7 +8789,7 @@
     }
     {
       Id = "LordHadesHasGuanYuAspect01"
-      DisplayName = "Reach the Surface With the Hidden Aspect of Varatha"
+      DisplayName = "Reach the Surface With the Hidden Fraymotif of Varatha"
     }
     {
       Id = "ArthurAspectEscape"
@@ -8798,7 +8798,7 @@
     }
     {
       Id = "LordHadesHasArthurAspect01"
-      DisplayName = "Reach the Surface With the Hidden Aspect of Stygius"
+      DisplayName = "Reach the Surface With the Hidden Fraymotif of Stygius"
     }
     {
       Id = "RamaAspectEscape"
@@ -8807,7 +8807,7 @@
     }
     {
       Id = "LordHadesHasRamaAspect01"
-      DisplayName = "Reach the Surface With the Hidden Aspect of Coronacht"
+      DisplayName = "Reach the Surface With the Hidden Fraymotif of Coronacht"
     }
     {
       Id = "BeowulfAspectEscape"
@@ -8816,7 +8816,7 @@
     }
     {
       Id = "LordHadesHasBeowulfAspect01"
-      DisplayName = "Reach the Surface With the Hidden Aspect of Aegis"
+      DisplayName = "Reach the Surface With the Hidden Fraymotif of Aegis"
     }
     {
       Id = "GilgameshAspectEscape"
@@ -8825,7 +8825,7 @@
     }
     {
       Id = "LordHadesHasGilgameshAspect01"
-      DisplayName = "Reach the Surface With the Hidden Aspect of Malphon"
+      DisplayName = "Reach the Surface With the Hidden Fraymotif of Malphon"
     }
     {
       Id = "LuciferAspectEscape"
@@ -8834,7 +8834,7 @@
     }
     {
       Id = "LordHadesHasLuciferAspect01"
-      DisplayName = "Reach the Surface With the Hidden Aspect of Exagryph"
+      DisplayName = "Reach the Surface With the Hidden Fraymotif of Exagryph"
     }
     {
       Id = "ChaosKeepsakeEscape"
