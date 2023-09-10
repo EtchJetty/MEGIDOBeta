@@ -13,7 +13,6 @@ Just [download this repo as a zip file](https://github.com/EtchJetty/MEGIDOBeta/
 
 - **PROJECT LEAD** - [EtchJetty](https://twitter.com/EtchJetty) 
 - **CHARACTER ARTIST** - [toasttiiee](https://twitter.com/toasttiiee)
-- **CHARACTER ARTIST** - [Zara Nerd](https://twitter.com/Nerd_Zara) 
 - **CHARACTER ARTIST** - [artisticApparition](https://twitter.com/AAppariton) 
 - **3D ARTIST** - [RoseRoxy](https://twitter.com/RoseRoxy_) 
 - **3D ARTIST** - [UberTheMeh](https://twitter.com/rudfkr0316) 
@@ -33,13 +32,8 @@ Just [download this repo as a zip file](https://github.com/EtchJetty/MEGIDOBeta/
 ![Rose](docs/rose.png?raw=true "MEGIDO")
 ![Dave](docs/dave.png?raw=true "MEGIDO")
 ![Jade](docs/jade.png?raw=true "MEGIDO")
-![Roxy](docs/roxy.png?raw=true "MEGIDO")
 ![Dirk](docs/dirk.png?raw=true "MEGIDO")
 ![Eridan](docs/eridan.png?raw=true "MEGIDO")
-![Scratch](docs/scratch.png?raw=true "MEGIDO")
-![WV](docs/wv.png?raw=true "MEGIDO")
-![Callie](docs/callie.png?raw=true "MEGIDO")
-![Zilly](docs/zilly.png?raw=true "MEGIDO")
 
 <!-- 
 > basically yall know the game HADES?
